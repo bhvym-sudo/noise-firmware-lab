@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="72.0dip" android:paddingStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/circle" android:background="@drawable/ic_ring_v2" android:layout_width="48.0dip" android:layout_height="48.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/ivIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" app:layout_constraintBottom_toBottomOf="@id/circle" app:layout_constraintEnd_toEndOf="@id/circle" app:layout_constraintStart_toStartOf="@id/circle" app:layout_constraintTop_toTopOf="@id/circle" />
+    <ImageView android:id="@id/ivNext" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_right_blue_arrow" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="#ff54656d" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff54656d" android:id="@id/tvTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/ivNext" app:layout_constraintStart_toEndOf="@id/circle" app:layout_constraintTop_toTopOf="parent" style="@style/ClashDisplayVariableMedium" />
+    <View android:id="@id/divider" android:background="#4d879399" android:layout_width="0.0dip" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/tvTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

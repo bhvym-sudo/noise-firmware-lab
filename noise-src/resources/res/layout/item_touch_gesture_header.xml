@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    app:cardBackgroundColor="#f5f7f8"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp">
+    <TextView
+        android:textSize="16sp"
+        android:textColor="#2e3a40"
+        android:id="@+id/textHeader"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Calls"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        style="@style/RobotoMonoRegular"/>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,6 @@
+GET /user-detail-service/prod/audio/assets/category/earbuds.png HTTP/1.1
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 10; SM-M305F Build/QP1A.190711.020)
+Host: user-detail-service-cdn.gonoise.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

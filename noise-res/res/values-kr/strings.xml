@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_sign_in">로그인 또는 회원가입</string>
+    <string name="action_sign_in_short">로그인</string>
+    <string name="active_noise_cancellation">노이즈 컨트롤</string>
+    <string name="adjust_anc_levels">ANC 레벨 조정</string>
+    <string name="all_device_settings">"모든 기기
+설정"</string>
+    <string name="all_devices">"모든
+기기"</string>
+    <string name="character_name">qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="character_number">1234567890</string>
+    <string name="continue_with_email">이메일로 계속</string>
+    <string name="customize">사용자 설정</string>
+    <string name="customizing_left_buds">"왼쪽 버드
+설정 중"</string>
+    <string name="customizing_right_buds">"오른쪽 버드
+설정 중"</string>
+    <string name="d_o_b">생년월일</string>
+    <string name="date_of_birth">생년월일</string>
+    <string name="do_not_exit_this_page">이 페이지를 종료하지 마세요</string>
+    <string name="enter_correct_dob">올바른 생년월일을 입력하세요</string>
+    <string name="enter_name">이름 입력</string>
+    <string name="enter_otp">OTP 입력</string>
+    <string name="enter_your_date_of_birth">생년월일을 입력하세요</string>
+    <string name="enter_your_mobile_number">전화번호를 입력하세요</string>
+    <string name="enter_your_name">이름을 입력하세요</string>
+    <string name="firmware_update_in_progress">"펌웨어 업데이트
+진행 중"</string>
+    <string name="hello_blank_fragment">빈 프래그먼트 안녕하세요</string>
+    <string name="hint_dd_mm_yy">일/월/연도</string>
+    <string name="in_ear_detection">착용 감지</string>
+    <string name="invalid_email_id">이메일 입력란은 비워둘 수 없습니다</string>
+    <string name="invalid_password">비밀번호는 5자 이상이어야 합니다</string>
+    <string name="invalid_username">유효하지 않은 사용자 이름</string>
+    <string name="login_failed">로그인 실패</string>
+    <string name="low_lag_gaming_mode">저지연 / 게이밍 모드</string>
+    <string name="new_software_is_updated">"새 소프트웨어
+업데이트 완료"</string>
+    <string name="one_last_thing">"마지막으로
+한 가지..."</string>
+    <string name="pairing_buds">이어버드용 – 이어버드를 케이스에 넣고 뚜껑을 연 상태에서 케이스 버튼을 길게 눌러 불빛이 깜빡일 때까지 기다리세요</string>
+    <string name="pairing_headphones">헤드폰용 – 전원 버튼을 두 번 눌러 페어링 모드를 활성화하세요</string>
+    <string name="prompt_email">이메일</string>
+    <string name="prompt_password">비밀번호</string>
+    <string name="select_an_action_for_tap_amp_hold">"탭 및 길게 누르기에
+대한 동작 선택"</string>
+    <string name="setup_msg_adaptive_anc">오른쪽 이어버드를 길게 눌러 ANC 모드를 전환하세요.</string>
+    <string name="setup_msg_dual_pairing">두 기기에 동시에 연결하고 원활하게 전환하세요.</string>
+    <string name="setup_msg_moods">깊은 저음, 선명한 중음, 또렷한 고음으로 균형 잡히고 왜곡 없는 사운드를 경험하세요.</string>
+    <string name="setup_msg_noise_ai">왼쪽 이어버드를 길게 눌러 Noise AI 어시스턴트를 활성화하세요. 앱이 전면에서 열려 있어야 합니다.</string>
+    <string name="setup_msg_noise_ai_mb_open">이어버드 중 하나를 길게 눌러 Noise AI 어시스턴트를 활성화하세요. 앱이 전면에서 열려 있어야 합니다.</string>
+    <string name="setup_msg_spatial_audio">이어버드의 어느 쪽 면이든 4번 탭하여 공간 음향을 활성화하세요.</string>
+    <string name="software_updated">"소프트웨어
+업데이트 완료"</string>
+    <string name="take_me_home">홈으로 이동</string>
+    <string name="text_00_34s">00:34초</string>
+    <string name="text_1">1</string>
+    <string name="text_2_dimensional_stereo_sound">2차원 스테레오 사운드</string>
+    <string name="text_40db_adaptive_anc">"-40dB
+적응형 ANC"</string>
+    <string name="text_40db_anc">"-40dB
+ANC"</string>
+    <string name="text_50db_nanc">"-50dB
+ANC"</string>
+    <string name="text_60hrs_playtime">"60시간
+재생"</string>
+    <string name="text__49db_anc">"49dB
+ANC"</string>
+    <string name="text_a_firmware_update_is_available">펌웨어 업데이트가 있습니다</string>
+    <string name="text_abc_1234_xxxxxx">ABC-1234-XXXXXX</string>
+    <string name="text_about_your_device">기기 정보</string>
+    <string name="text_access_needed_for_device_discovery_and_your_device_to_products_in_your_vicinity">장치 검색 및 주변 제품에 대한 장치 접근에 필요합니다</string>
+    <string name="text_access_this_feature_from_the_sound_settings_on_the_home_screen">홈 화면의 사운드 설정에서 이 기능을 이용할 수 있습니다.</string>
+    <string name="text_access_your_previous_chats">이전 채팅에 액세스</string>
+    <string name="text_account_already_exists">이미 계정이 있나요?</string>
+    <string name="text_action_sign_in">로그인 또는 회원가입</string>
+    <string name="text_action_sign_in_short">로그인</string>
+    <string name="text_activate_ai_non_device">"기기에서
+AI 활성화"</string>
+    <string name="text_activate_this_feature_by_allowing_permissions">권한을 허용하여 이 기능을 활성화하세요</string>
+    <string name="text_active_noise_cancellation_updated_success">노이즈 컨트롤이 성공적으로 업데이트되었습니다</string>
+    <string name="text_adaptive">적응형</string>
+    <string name="text_add">추가</string>
+    <string name="text_add_a_whole_new_dimension_to_your_sound_hear_it_for_yourself">사운드에 완전히 새로운 차원을 더하세요. 직접 들어보세요.</string>
+    <string name="text_add_media">추가</string>
+    <string name="text_add_screenshot_recording">스크린샷 / 녹화 추가</string>
+    <string name="text_adjust_date">날짜 조정</string>
+    <string name="text_agree_and_continue">동의하고 계속하기</string>
+    <string name="text_ai">AI</string>
+    <string name="text_ai_companion">AI 동반자</string>
+    <string name="text_ai_error_message">죄송해요 %s, 회로가 잠시 꼬인 것 같아요! 다시 한번 시도해 볼게요.</string>
+    <string name="text_ai_header_2">좋아요, 한 번 더 해볼게요</string>
+    <string name="text_ai_header_3">훌륭해요, 마지막 한 번입니다</string>
+    <string name="text_ai_help_assistant">AI 도움말 어시스턴트</string>
+    <string name="text_ai_is_thinking">AI가 생각 중입니다</string>
+    <string name="text_ai_summary">AI 요약</string>
+    <string name="text_ai_transcription">AI 전사</string>
+    <string name="text_all">전체</string>
+    <string name="text_allow">허용</string>
+    <string name="text_allow_access">접근 허용</string>
+    <string name="text_alternate_number">대체 번호:</string>
+    <string name="text_amazon">AMAZON</string>
+    <string name="text_analysing">분석 중</string>
+    <string name="text_anc">ANC</string>
+    <string name="text_answer_hangup">전화 받기/끊기</string>
+    <string name="text_answer_incoming_calls_with_a_quick_nod">빠른 두 번 끄덕임으로 수신 전화를 받으세요.</string>
+    <string name="text_api_response_failed">API 응답 실패</string>
+    <string name="text_app_battery_usage_title">"앱 배터리
+사용량"</string>
+    <string name="text_app_feedback">앱 피드백</string>
+    <string name="text_app_language">앱 언어</string>
+    <string name="text_app_language_">"앱
+언어"</string>
+    <string name="text_app_language_2">앱 언어</string>
+    <string name="text_app_name">노이즈 오디오</string>
+    <string name="text_app_section">앱</string>
+    <string name="text_app_under_maintenance">앱 점검 중</string>
+    <string name="text_app_update">"앱
+업데이트"</string>
+    <string name="text_app_update_2">앱 업데이트</string>
+    <string name="text_app_update_message">새로운 기능이 있는지 확인</string>
+    <string name="text_app_update_msg">새로운 기능이 추가되었습니다 ✨ 지금 Noise Audio 앱을 업데이트하고 최신 기능을 경험해 보세요!</string>
+    <string name="text_app_ver">앱 버전 %1$s</string>
+    <string name="text_app_version">앱 버전 %1$s</string>
+    <string name="text_are_you_sure">확실합니까?</string>
+    <string name="text_are_you_sure_to_delete_from_your_account">계정에서 삭제하시겠습니까?</string>
+    <string name="text_are_you_sure_to_logout_from_your_account">계정에서 로그아웃하시겠습니까?</string>
+    <string name="text_are_you_sure_to_sign_out_from_your_account">계정에서 로그아웃하시겠습니까?</string>
+    <string name="text_are_you_sure_you_want_to_remove_this_device">이 기기를 제거하시겠습니까?</string>
+    <string name="text_are_you_sure_you_want_to_sign_out">로그아웃하시겠습니까?</string>
+    <string name="text_ask_anything">무엇이든 물어보세요</string>
+    <string name="text_asset_download_nfailed">"에셋 다운로드
+실패"</string>
+    <string name="text_assistant_2">"어시스턴트
+"</string>
+    <string name="text_attach_hint">사진 최대 500 KB · 동영상 최대 2 MB · 최대 3개</string>
+    <string name="text_attachments">첨부 파일(선택)</string>
+    <string name="text_audio_ai_running">Audio AI 실행 중</string>
+    <string name="text_audio_boost">오디오 부스트</string>
+    <string name="text_audio_boost_desc">일반적인 인식과 달리 Lorem Ipsum은 단순한 임의의 텍스트가 아닙니다.</string>
+    <string name="text_audio_boost_disable_confirm_message">오디오 부스트는 기본 EQ에만 맞춰져 있습니다. 맞춤 설정을 계속하면 오디오 부스트가 비활성화됩니다.</string>
+    <string name="text_audio_boost_disable_confirm_title">오디오 부스트가 활성화되었습니다</string>
+    <string name="text_audio_boost_enabled_eq">오디오 부스트가 활성화되었습니다</string>
+    <string name="text_audio_boost_message">이어 내부 사운드를 증폭하여 향상된 청취 경험을 제공합니다</string>
+    <string name="text_audio_boost_tuned_compatibility">오디오 부스트는 호환성을 위해 조정되었습니다</string>
+    <string name="text_auto_answer_incoming_call_by_putting_on_your_headphones">헤드폰을 착용하면 수신 전화를 자동으로 받습니다</string>
+    <string name="text_auto_pauses_music_when_you_take_off_your_headphones">헤드폰을 벗으면 음악이 자동으로 일시정지됩니다</string>
+    <string name="text_available_rewards">사용 가능한 리워드</string>
+    <string name="text_back">뒤로</string>
+    <string name="text_back_arrow">뒤로 가기 화살표</string>
+    <string name="text_background_management_description">앱 알림, 통화, 메시지 및 기타 기능의 안정적인 연결과 성능을 위해 아래 설정을 구성해 주세요. 시스템 정리로 인해 Noise Audio 앱과의 연결이 끊기면 기기 기능에 영향을 줄 수 있습니다.</string>
+    <string name="text_background_management_title">백그라운드 관리</string>
+    <string name="text_background_protection">백그라운드 보호</string>
+    <string name="text_balanced">밸런스</string>
+    <string name="text_bass">베이스</string>
+    <string name="text_bass_boost">베이스 부스트</string>
+    <string name="text_bass_boost_message">더 깊고 강력한 베이스로 비트를 느껴보세요</string>
+    <string name="text_bat_auto_huawei_1">설정에서 Auto-start Management를 검색합니다.</string>
+    <string name="text_bat_auto_huawei_2">Noise Audio를 찾아 앱 스위치를 끕니다.</string>
+    <string name="text_bat_auto_huawei_3">Pop-up Manual Management 페이지에서 Allow Auto-Start를 활성화합니다.</string>
+    <string name="text_bat_auto_huawei_4">Pop-up Manual Management 페이지에서 Allow Associated Start를 활성화합니다.</string>
+    <string name="text_bat_auto_huawei_5">Pop-up Manual Management 페이지에서 Allow Background Activities를 활성화합니다.</string>
+    <string name="text_bat_auto_meizu_1">설정에서 Background Management를 검색합니다.</string>
+    <string name="text_bat_auto_meizu_2">Noise Audio를 찾아 Allow background running으로 설정합니다.</string>
+    <string name="text_bat_auto_miui_1">설정에서 Auto-start Management를 검색합니다.</string>
+    <string name="text_bat_auto_miui_2">Noise Audio를 찾아 애플리케이션 스위치를 활성화합니다.</string>
+    <string name="text_bat_auto_oneplus_1">설정에서 Auto-start Management를 검색합니다.</string>
+    <string name="text_bat_auto_oneplus_2">Noise Audio를 찾아 설정에 들어가 Allow full background activity를 활성화합니다.</string>
+    <string name="text_bat_auto_oneplus_3">Noise Audio를 찾아 설정에 들어가 Allow app auto-start를 활성화합니다.</string>
+    <string name="text_bat_auto_oppo_1">설정에서 Auto-start Management를 검색합니다.</string>
+    <string name="text_bat_auto_oppo_2">Noise Audio를 찾아 스위치를 켭니다.</string>
+    <string name="text_bat_auto_other_1">설정에서 Auto-start Management를 검색합니다.</string>
+    <string name="text_bat_auto_other_2">Noise Audio를 찾아 Auto-start를 활성화하거나 Allow Background Running으로 설정합니다.</string>
+    <string name="text_bat_auto_realme_1">설정에서 Auto-start Management를 검색합니다.</string>
+    <string name="text_bat_auto_realme_2">Noise Audio를 찾아 Allow Full Background Activity를 활성화합니다.</string>
+    <string name="text_bat_auto_realme_3">Noise Audio를 찾아 Allow App Auto-Start를 활성화합니다.</string>
+    <string name="text_bat_auto_redmi_1">설정에서 Auto-start Management를 검색합니다.</string>
+    <string name="text_bat_auto_redmi_2">Noise Audio 찾기 -> App Info -> Auto-start 활성화.</string>
+    <string name="text_bat_auto_samsung_1">설정에서 Auto-start Management를 검색합니다.</string>
+    <string name="text_bat_auto_samsung_2">Noise Audio를 찾아 스위치를 켭니다.</string>
+    <string name="text_bat_auto_vivo_1">설정에서 Auto-start Management를 검색합니다.</string>
+    <string name="text_bat_auto_vivo_2">Noise Audio를 찾아 스위치를 켭니다.</string>
+    <string name="text_bat_lock_huawei_1">내비게이션 버튼: 메뉴 키를 탭하여 최근 앱에 접근합니다.</string>
+    <string name="text_bat_lock_huawei_2">내비게이션 버튼: Noise Audio를 아래로 스와이프 -> 잠금 아이콘을 탭합니다.</string>
+    <string name="text_bat_lock_huawei_3">전체화면 기기: 위로 스와이프하고 잠시 유지합니다.</string>
+    <string name="text_bat_lock_huawei_4">전체화면 기기: Noise Audio를 아래로 스와이프 -> 잠금 아이콘을 탭합니다.</string>
+    <string name="text_bat_lock_huawei_5">참고: 홈 버튼이 있는 기기(예: P10)의 경우, 홈 버튼을 사용하여 최근 앱에 접근합니다.</string>
+    <string name="text_bat_lock_meizu_1">위로 스와이프하고 잠시 유지하여 백그라운드 작업을 엽니다.</string>
+    <string name="text_bat_lock_meizu_2">Noise Audio를 아래로 스와이프 -> 잠금 아이콘이 나타납니다.</string>
+    <string name="text_bat_lock_miui_1">비전체화면 / 전체화면 (내비게이션 버튼): 메뉴 키를 탭하여 최근 앱에 접근합니다.</string>
+    <string name="text_bat_lock_miui_2">비전체화면 / 전체화면 (내비게이션 버튼): Noise Audio를 길게 누르기 -> 앱 위의 잠금 아이콘을 탭합니다.</string>
+    <string name="text_bat_lock_miui_3">전체화면 기기: 하단에서 위로 스와이프하고 잠시 유지합니다.</string>
+    <string name="text_bat_lock_miui_4">전체화면 기기: Noise Audio를 길게 누르기 -> 잠금 아이콘을 탭합니다.</string>
+    <string name="text_bat_lock_oneplus_1">전체화면 모드에서 하단에서 위로 스와이프하고 약 1초 유지합니다.</string>
+    <string name="text_bat_lock_oneplus_2">Noise Audio를 찾아 더보기(오른쪽 상단)를 탭하고 Lock을 선택합니다.</string>
+    <string name="text_bat_lock_oneplus_3">앱 오른쪽 상단에 잠금 아이콘이 나타납니다.</string>
+    <string name="text_bat_lock_oppo_1">비전체화면 / 전체화면 (내비게이션 버튼): 메뉴 키를 탭하여 최근 앱을 엽니다.</string>
+    <string name="text_bat_lock_oppo_2">비전체화면 / 전체화면 (내비게이션 버튼): Noise Audio를 아래로 스와이프하여 잠금 아이콘을 표시합니다.</string>
+    <string name="text_bat_lock_oppo_3">전체화면 기기: 위로 스와이프하고 잠시 유지합니다.</string>
+    <string name="text_bat_lock_oppo_4">전체화면 기기: 더보기(오른쪽 상단) 탭 -> Lock.</string>
+    <string name="text_bat_lock_other_1">최근 앱 / 백그라운드 작업을 엽니다.</string>
+    <string name="text_bat_lock_other_2">Noise Audio를 찾아 앱을 잠가 삭제되지 않도록 합니다.</string>
+    <string name="text_bat_lock_realme_1">위로 스와이프합니다 (또는 멀티태스킹 버튼 탭).</string>
+    <string name="text_bat_lock_realme_2">Noise Audio를 찾아 더보기(오른쪽 상단) 탭 -> Lock.</string>
+    <string name="text_bat_lock_realme_3">잠금 아이콘이 나타나 성공을 나타냅니다.</string>
+    <string name="text_bat_lock_redmi_1">위로 스와이프합니다 (또는 멀티태스킹 버튼 탭).</string>
+    <string name="text_bat_lock_redmi_2">Noise Audio를 길게 누르기 -> Lock Noise Audio를 선택합니다.</string>
+    <string name="text_bat_lock_redmi_3">오른쪽 상단에 잠금 아이콘이 나타납니다.</string>
+    <string name="text_bat_lock_samsung_1">화면 하단의 메뉴 키를 탭하여 최근 앱에 접근합니다.</string>
+    <string name="text_bat_lock_samsung_2">Noise Audio 아이콘을 탭하고 팝업 메뉴에서 Lock this application을 선택합니다.</string>
+    <string name="text_bat_lock_samsung_3">참고: \"One-Hand Operation Plus\"가 활성화된 경우, 화면 하단에서 천천히 위로 스와이프하여 최근 앱에 접근합니다.</string>
+    <string name="text_bat_lock_vivo_1">비전체화면 / 전체화면 (내비게이션 버튼): 메뉴 키를 탭하여 최근 앱에 접근합니다.</string>
+    <string name="text_bat_lock_vivo_2">비전체화면 / 전체화면 (내비게이션 버튼): Noise Audio를 아래로 스와이프하여 잠금 아이콘을 표시합니다.</string>
+    <string name="text_bat_lock_vivo_3">전체화면 기기: 위로 스와이프하고 잠시 유지합니다.</string>
+    <string name="text_bat_lock_vivo_4">전체화면 기기: Noise Audio를 아래로 스와이프하여 잠금 아이콘을 표시합니다.</string>
+    <string name="text_bat_mfr_huawei">HUAWEI / HONOR</string>
+    <string name="text_bat_mfr_meizu">MEIZU (Flyme)</string>
+    <string name="text_bat_mfr_miui">MIUI</string>
+    <string name="text_bat_mfr_motorola">Motorola</string>
+    <string name="text_bat_mfr_oneplus">OnePlus</string>
+    <string name="text_bat_mfr_oppo">OPPO</string>
+    <string name="text_bat_mfr_other">기타 모델</string>
+    <string name="text_bat_mfr_pixel">Pixel</string>
+    <string name="text_bat_mfr_realme">realme</string>
+    <string name="text_bat_mfr_redmi">Redmi</string>
+    <string name="text_bat_mfr_samsung">Samsung</string>
+    <string name="text_bat_mfr_vivo">vivo / iQOO</string>
+    <string name="text_bat_usage_huawei_1">설정에서 \"Battery\"를 검색합니다.</string>
+    <string name="text_bat_usage_huawei_2">Noise Audio를 찾아 \"Auto-Manage\"를 끕니다.</string>
+    <string name="text_bat_usage_miui_1">설정에서 Power Saving and Battery > Settings > Apply Smart Power Saving을 검색합니다.</string>
+    <string name="text_bat_usage_miui_2">Noise Audio를 찾아 백그라운드 설정에서 \"Unlimited\"를 선택합니다.</string>
+    <string name="text_bat_usage_motorola_1">Settings > Battery > Battery Manager 및 Battery Saver를 엽니다.</string>
+    <string name="text_bat_usage_motorola_2">두 토글이 모두 꺼져 있는지 확인합니다.</string>
+    <string name="text_bat_usage_motorola_3">Battery > Power Saving Settings > App Power Management로 이동합니다.</string>
+    <string name="text_bat_usage_motorola_4">Noise Audio를 찾아 Auto Optimisation을 비활성화하고 No Restrictions를 선택합니다.</string>
+    <string name="text_bat_usage_oneplus_1">설정에서 \"Battery\"를 검색하고 Battery Saver Mode를 찾습니다.</string>
+    <string name="text_bat_usage_oneplus_2">Noise Audio를 찾아 Battery Saver mode 토글을 끕니다.</string>
+    <string name="text_bat_usage_oppo_1">설정에서 Battery > Application Power Management를 검색합니다.</string>
+    <string name="text_bat_usage_oppo_2">Noise Audio를 찾아 Allow wake-up foreground를 활성화합니다.</string>
+    <string name="text_bat_usage_oppo_3">Noise Audio를 찾아 Allow full background behaviour를 활성화합니다.</string>
+    <string name="text_bat_usage_other_1">설정에서 \"Battery\"를 검색합니다.</string>
+    <string name="text_bat_usage_other_2">Noise Audio를 찾아 배터리 사용과 관련된 모든 전원 관리 기능을 비활성화합니다.</string>
+    <string name="text_bat_usage_pixel_1">Settings > Battery > Battery Usage를 엽니다.</string>
+    <string name="text_bat_usage_pixel_2">앱 목록에서 Noise Audio를 찾아 Allow Background Usage를 활성화합니다.</string>
+    <string name="text_bat_usage_realme_1">Battery > Power Saving Settings > App Power Management를 검색합니다.</string>
+    <string name="text_bat_usage_realme_2">Noise Audio를 찾아 Auto Optimisation을 비활성화하고 No Restrictions를 선택합니다.</string>
+    <string name="text_bat_usage_redmi_1">설정에서 Battery Saver &amp; Battery를 검색합니다.</string>
+    <string name="text_bat_usage_redmi_2">앱 목록에서 Noise Audio를 찾기 -> App Info -> Battery Saver Policy -> No Restrictions 선택.</string>
+    <string name="text_bat_usage_samsung_1">설정에서 \"Battery\"를 검색합니다.</string>
+    <string name="text_bat_usage_samsung_2">Battery를 탭한 후 Optimise Battery Usage를 찾아 선택합니다.</string>
+    <string name="text_bat_usage_samsung_3">Noise Audio를 찾아 스위치를 끕니다.</string>
+    <string name="text_bat_usage_vivo_1">설정에서 Battery > Background power consumption management를 검색합니다.</string>
+    <string name="text_bat_usage_vivo_2">Noise Audio를 찾아 스위치를 켭니다 (오른쪽).</string>
+    <string name="text_battery_info_not_available">배터리 정보를 사용할 수 없습니다</string>
+    <string name="text_battery_low_please_charge_to_at_least_20">배터리가 부족합니다. 최소 20%까지 충전하세요</string>
+    <string name="text_bg_allow_auto_start">자동 시작 허용</string>
+    <string name="text_bg_allow_auto_start_desc">재부팅 또는 시스템 정리 후 앱 자동 시작</string>
+    <string name="text_bg_always_there_notification">상시 알림</string>
+    <string name="text_bg_always_there_notification_desc">시스템 알림 바에 Noise Audio 알림을 항상 표시합니다.</string>
+    <string name="text_bg_app_battery_usage">앱 배터리 사용량</string>
+    <string name="text_bg_app_battery_usage_desc">시스템 절전 설정으로 앱이 실수로 정리되는 것을 방지합니다.</string>
+    <string name="text_bg_lock_recent_app">최근 앱 잠금</string>
+    <string name="text_bg_lock_recent_app_desc">앱이 백그라운드에서 계속 실행되도록 유지</string>
+    <string name="text_bg_lock_recent_app_hint_toast">최근 앱에서 Noise Audio를 잠가 실행 상태를 유지하세요.</string>
+    <string name="text_bg_notifications">알림</string>
+    <string name="text_bg_notifications_desc">Noise Audio가 다른 앱 알림을 읽도록 허용합니다.</string>
+    <string name="text_bh0_2046_xxxxxxx">BH0-2046-XXXXXXX</string>
+    <string name="text_bluetooth_disabled">"블루투스
+비활성화됨"</string>
+    <string name="text_bluetooth_disabled_">"블루투스
+비활성화됨"</string>
+    <string name="text_bluetooth_required">"블루투스
+필요"</string>
+    <string name="text_bluetooth_turn_on_request">블루투스를 켜주세요</string>
+    <string name="text_boost_high_message">최대 음량. 시끄러운 환경에 권장</string>
+    <string name="text_boost_low_message">최소 증폭. 소음이 적은 환경에 권장</string>
+    <string name="text_boost_medium_message">균형 잡힌 증폭. 최적의 경험에 권장</string>
+    <string name="text_boost_message">이어 내부 사운드를 증폭하여 향상된 청취 경험을 제공합니다</string>
+    <string name="text_boost_message_2">오디오를 증폭하여 더 크고 풍부한 사운드를 즐기세요</string>
+    <string name="text_both_buds_are_critically_low">이어버드 배터리가 매우 부족합니다</string>
+    <string name="text_both_buds_battery_low">양쪽 이어버드 배터리가 부족합니다. 지금 충전하세요.</string>
+    <string name="text_bt">BT</string>
+    <string name="text_bt_disconnected">BT 연결 해제됨</string>
+    <string name="text_bt_is_disabled_on_your_device_enable_to_proceed">장치에서 BT가 비활성화되어 있습니다. 계속하려면 활성화하세요</string>
+    <string name="text_bt_message">기기를 검색 가능하게 하려면 충전 케이스 버튼을 길게 누르세요</string>
+    <string name="text_bud_not_detected_step_1">%s 이어버드가 케이스에 올바르게 놓여 있는지 확인하세요.</string>
+    <string name="text_bud_not_detected_step_2">이어버드와 케이스의 충전 핀을 청소하세요.</string>
+    <string name="text_bud_not_detected_step_3">케이스 배터리가 최소 20%% 이상인지 확인하세요.</string>
+    <string name="text_bud_not_detected_step_4">페어링 과정 중 뚜껑을 열어 두세요.</string>
+    <string name="text_bud_not_detected_step_5">문제가 지속되면 공장 초기화를 수행하세요.</string>
+    <string name="text_bud_not_detected_title">%s 이어버드가 감지되지 않음</string>
+    <string name="text_button_controls">버튼 제어</string>
+    <string name="text_call_answer">전화 받기</string>
+    <string name="text_call_control">통화 제어</string>
+    <string name="text_call_hangup">통화 종료</string>
+    <string name="text_call_mute">통화 음소거</string>
+    <string name="text_call_reject">통화 거절</string>
+    <string name="text_call_support">지원팀에 전화</string>
+    <string name="text_call_us">전화 문의</string>
+    <string name="text_camera">카메라</string>
+    <string name="text_can_t_find_your_device">기기를 찾을 수 없나요?</string>
+    <string name="text_can_t_find_your_device_nsee_here">"기기를 찾을 수 없나요?
+여기를 확인하세요"</string>
+    <string name="text_can_t_find_your_device_see_here">"기기를 찾을 수 없나요?
+여기를 확인하세요"</string>
+    <string name="text_cancel">취소</string>
+    <string name="text_cant_find_your_device">장치를 찾을 수 없나요?</string>
+    <string name="text_case_battery_critically_low">케이스 배터리가 매우 부족합니다. 지금 충전하세요.</string>
+    <string name="text_change_eq_to_default">현재 EQ는 오디오 부스트를 지원하지 않습니다. EQ를 변경하여 활성화하세요.</string>
+    <string name="text_change_song">곡 변경</string>
+    <string name="text_change_volume">볼륨 변경</string>
+    <string name="text_changer">변경</string>
+    <string name="text_charge_case">충전 케이스</string>
+    <string name="text_charge_earbuds">이어버드 충전</string>
+    <string name="text_charge_your_device">기기를 충전하세요</string>
+    <string name="text_charging_2">충전</string>
+    <string name="text_charging_your_buds_2">"이어버드
+충전"</string>
+    <string name="text_chat_history">채팅 기록</string>
+    <string name="text_chat_history_caps">채팅 기록</string>
+    <string name="text_chat_limit_reached">채팅 한도에 도달했습니다</string>
+    <string name="text_check_bt_connected_devices">현재 BT 연결된 장치 확인</string>
+    <string name="text_check_your_internet_connection">인터넷 연결을 확인해 주세요.</string>
+    <string name="text_choose_file">파일 선택</string>
+    <string name="text_choose_from">선택</string>
+    <string name="text_choose_reward">리워드 선택</string>
+    <string name="text_claim_now">지금 받기</string>
+    <string name="text_claim_reward">리워드 받기</string>
+    <string name="text_classical">클래식</string>
+    <string name="text_click_here">여기를 클릭</string>
+    <string name="text_click_on_the_play_button_to_locate_your_headphones">재생 버튼을 눌러 헤드폰을 찾으세요</string>
+    <string name="text_close">닫기</string>
+    <string name="text_close_and_reopen_case">"펌웨어 업데이트를 확인하려면 케이스를 닫았다가
+다시 열어주세요"</string>
+    <string name="text_club">클럽</string>
+    <string name="text_comfort">편안함</string>
+    <string name="text_coming_soon">출시 예정</string>
+    <string name="text_complete_profile">프로필 완료</string>
+    <string name="text_connect">연결</string>
+    <string name="text_connect_to_device">기기에 연결</string>
+    <string name="text_connect_with_2_devices_at_the_same_time">두 개의 기기에 동시에 연결</string>
+    <string name="text_connect_with_2_devices_nat_the_same_time">"두 개의 기기에
+동시에 연결"</string>
+    <string name="text_connect_with_two_devices_at_a_time">두 개의 기기에 동시에 연결</string>
+    <string name="text_connected">연결됨</string>
+    <string name="text_connected_devices_caps">연결된 기기</string>
+    <string name="text_connected_to">연결됨:</string>
+    <string name="text_connected_via_ble">BLE로 연결됨</string>
+    <string name="text_connected_via_bt">BT로 연결됨</string>
+    <string name="text_connecting_caps">연결 중</string>
+    <string name="text_connecting_dot">연결 중...</string>
+    <string name="text_connection_timed_out">연결 시간 초과</string>
+    <string name="text_contact_us">문의하기</string>
+    <string name="text_continue">계속</string>
+    <string name="text_continue_as_guest">게스트로 계속하기</string>
+    <string name="text_continue_editing_caps">편집 계속하기</string>
+    <string name="text_continue_with_email">"이메일로
+계속"</string>
+    <string name="text_continue_with_phone_no">"전화번호로
+계속"</string>
+    <string name="text_control_your_music_from_notifications">알림에서 음악 제어</string>
+    <string name="text_controls">컨트롤</string>
+    <string name="text_controls_caps">컨트롤</string>
+    <string name="text_controls_features_subtitle">기기 컨트롤을 사용자 지정하세요</string>
+    <string name="text_copied">클립보드에 복사되었습니다</string>
+    <string name="text_copy_caps">복사</string>
+    <string name="text_create_summary_hint">전사의 요약을 만들어 보세요!</string>
+    <string name="text_create_your_account_using_your_email">이메일로 계정을 생성하세요</string>
+    <string name="text_credit_reset_days">%1$d일</string>
+    <string name="text_credit_reset_in">크레딧 재설정까지 %1$s</string>
+    <string name="text_credits_consumed_body">이번 세션의 전사에 사용된 크레딧은 소비된 것으로 간주됩니다</string>
+    <string name="text_credits_exhausted_title">이번 주 크레딧을 모두 사용했습니다!</string>
+    <string name="text_credits_replenish_prefix">크레딧은 다음 날짜에 충전됩니다</string>
+    <string name="text_crop">자르기</string>
+    <string name="text_current_device">현재 기기</string>
+    <string name="text_current_version">현재 버전</string>
+    <string name="text_currently_connected">현재 연결됨</string>
+    <string name="text_custom">커스텀</string>
+    <string name="text_custom_touch_gestures">맞춤 터치 제스처</string>
+    <string name="text_customisable_product_control">"맞춤형
+제품 제어"</string>
+    <string name="text_customise_touch_controls">터치 컨트롤 사용자 설정</string>
+    <string name="text_customise_your_device_controls">기기 컨트롤을 사용자 설정하세요</string>
+    <string name="text_customize_touch_gestures_for_effortless_earphone_control">간편한 이어폰 제어를 위해 터치 제스처를 사용자화하세요.</string>
+    <string name="text_cut_out_all_the_noise">"모든
+소음을 차단"</string>
+    <string name="text_cut_out_the_disruptions">"모든
+방해를 차단"</string>
+    <string name="text_date">날짜</string>
+    <string name="text_date_of_birth">생년월일</string>
+    <string name="text_date_of_birth_2">생년월일</string>
+    <string name="text_dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="text_decline_calls">전화 거절</string>
+    <string name="text_dedicated_assistance_for_your_noise_audio_experience">Noise 오디오 경험을 위한 전용 지원.</string>
+    <string name="text_default">기본값</string>
+    <string name="text_delete">삭제</string>
+    <string name="text_delete_account">계정 삭제</string>
+    <string name="text_delete_message">계정을 삭제하면 앱에서 기기 연결이 해제되며 모든 데이터와 설정이 초기화됩니다.</string>
+    <string name="text_delete_thread">이 대화를 삭제하시겠습니까?</string>
+    <string name="text_delete_transcription">이 전사를 삭제하시겠습니까?</string>
+    <string name="text_delete_transcription_confirm">이것을 삭제하시겠습니까?</string>
+    <string name="text_delete_transcription_confirm_2">선택한 항목을 삭제하시겠습니까?</string>
+    <string name="text_delete_transcriptions_plural">%1$d개의 전사를 삭제하시겠습니까?</string>
+    <string name="text_description">설명</string>
+    <string name="text_description_hint">문제의 세부 사항을 공유해 주세요</string>
+    <string name="text_description_label">설명*</string>
+    <string name="text_device">기기</string>
+    <string name="text_device_failed_to_connect">"기기를
+연결하지 못했습니다"</string>
+    <string name="text_device_failed_to_pair">장치 페어링 실패</string>
+    <string name="text_device_found">기기 발견</string>
+    <string name="text_device_has_been_removed">기기가 제거되었습니다</string>
+    <string name="text_device_name">기기 이름</string>
+    <string name="text_device_name_here">기기 이름</string>
+    <string name="text_device_not_connected">기기가 연결되지 않았습니다</string>
+    <string name="text_device_not_found">기기를 찾을 수 없음</string>
+    <string name="text_device_nsettings">설정</string>
+    <string name="text_device_section">디바이스</string>
+    <string name="text_device_still_not_connecting">기기가 아직 연결되지 않나요?</string>
+    <string name="text_device_update">"기기
+업데이트"</string>
+    <string name="text_device_warranty">기기 보증</string>
+    <string name="text_devices_found">%d개 장치 발견</string>
+    <string name="text_didnt_find_yours">찾는 장치가 없나요?</string>
+    <string name="text_disable_all_customizations_and_custom_touch_controls">모든 사용자 설정 및 터치 컨트롤을 비활성화</string>
+    <string name="text_discard_changes_title">변경 사항을 취소하시겠습니까?</string>
+    <string name="text_disconnected">연결 해제됨</string>
+    <string name="text_disconnected_2">연결 해제됨</string>
+    <string name="text_discover_message">주변의 BT 기기에서 이 기기를 검색할 수 있습니다</string>
+    <string name="text_discoverability">검색 가능</string>
+    <string name="text_dismiss">닫기</string>
+    <string name="text_do_not_press_any_buttons_on_headphones">헤드폰의 버튼을 누르지 마십시오</string>
+    <string name="text_dob">생년월일</string>
+    <string name="text_dob_updated_caps">생년월일이 업데이트되었습니다</string>
+    <string name="text_document_pdf">document.pdf</string>
+    <string name="text_don_t_have_an_invoice">인보이스가 없으신가요?</string>
+    <string name="text_don_t_show_again">다시 표시하지 않기</string>
+    <string name="text_done">완료</string>
+    <string name="text_double_press_power_button_to_make_device_discoverable">전원 버튼을 두 번 눌러 기기를 검색 가능하게 하세요</string>
+    <string name="text_double_tap_and_hold">두 번 탭하고 길게 누르기</string>
+    <string name="text_double_tap_and_hold_2">두 번 탭하고 길게 누르기</string>
+    <string name="text_double_tap_on_anc_button_to_switch_between_anc_modes">"ANC 버튼을 두 번 탭하여
+ANC 모드를 전환하세요."</string>
+    <string name="text_double_tap_on_anc_button_toggle_spatial_audio_on_off">"ANC 버튼을 두 번 탭하여 공간 음향을
+켜기/끄기"</string>
+    <string name="text_download_user_manual">사용자 매뉴얼 다운로드</string>
+    <string name="text_downloading">다운로드 중</string>
+    <string name="text_downloading_2">다운로드 중-</string>
+    <string name="text_downloading_firmware">펌웨어 다운로드 중</string>
+    <string name="text_downloading_nassets">"에셋
+다운로드 중"</string>
+    <string name="text_dual_pairing">듀얼 페어링</string>
+    <string name="text_dual_pairing_buds_off">동시에 2개의 기기에 연결하려면 활성화하세요.</string>
+    <string name="text_dual_pairing_buds_on">이어버드는 동시에 2개의 기기에 연결할 수 있습니다.</string>
+    <string name="text_dual_pairing_cap">듀얼 페어링</string>
+    <string name="text_dual_pairing_headphones_off">동시에 2개의 기기에 연결하려면 활성화하세요.</string>
+    <string name="text_dual_pairing_headphones_on">헤드폰은 동시에 2개의 기기에 연결할 수 있습니다.</string>
+    <string name="text_dynamic">다이나믹</string>
+    <string name="text_edit">편집</string>
+    <string name="text_edit_caps">편집</string>
+    <string name="text_edit_confirm_body">편집하면 이 전사가 오디오에서 분리됩니다. 편집 후에는 텍스트와 함께 오디오를 재생할 수 없습니다.</string>
+    <string name="text_edit_confirm_title">이 전사를 편집하시겠습니까?</string>
+    <string name="text_edit_details">세부 정보 편집</string>
+    <string name="text_edit_profile">프로필 편집</string>
+    <string name="text_eg_my_buds">예: MY BUDS</string>
+    <string name="text_eg_zephyr">예: ZEPHYR</string>
+    <string name="text_electronic">일렉트로닉</string>
+    <string name="text_elevate_your_listening_experience">"청취 경험을
+한 단계 높이세요"</string>
+    <string name="text_email_address">이메일 주소</string>
+    <string name="text_email_login_label">이메일 로그인</string>
+    <string name="text_enable_bt">BT 활성화</string>
+    <string name="text_enable_location">위치 활성화</string>
+    <string name="text_enabled">활성화됨</string>
+    <string name="text_enables_music_playback_amp_calls_through_head_gestures">머리 제스처로 음악 재생 및 통화를 사용할 수 있습니다.</string>
+    <string name="text_enables_music_playback_calls_through_head_gestures">머리 제스처로 음악 재생 및 통화를 사용할 수 있습니다.</string>
+    <string name="text_enhance_sound_description">새로운 EQ 프리셋과 더 세밀한 제어로 개인화된 사운드를 제공합니다.</string>
+    <string name="text_enhanced_sound">향상된 사운드</string>
+    <string name="text_ensure_the_app_stays_open_in_nthe_background_to_activate_ai">기기에서 AI 어시스턴트를 활성화하려면 앱이 열린 상태로 유지되어야 합니다. 활성화되면 앱을 종료해도 됩니다.</string>
+    <string name="text_ensure_your_headphones_are_sufficiently_charged_powered_on_and_within_9_meters_of_your_mobile_device">헤드폰이 충분히 충전되어 있고 전원이 켜져 있으며 모바일 기기에서 9미터 이내에 있는지 확인하세요.</string>
+    <string name="text_enter_a_device_name">기기 이름을 입력하세요</string>
+    <string name="text_enter_name">이름 입력</string>
+    <string name="text_enter_your_email">이메일을 입력하세요</string>
+    <string name="text_enter_your_email_address">이메일 주소를 입력하세요</string>
+    <string name="text_eq_control">EQ 제어</string>
+    <string name="text_equaliser">이퀄라이저</string>
+    <string name="text_equalizer">이퀄라이저</string>
+    <string name="text_equalizer_caps">이퀄라이저</string>
+    <string name="text_equalizer_updated_success">이퀄라이저가 성공적으로 업데이트되었습니다</string>
+    <string name="text_error">오류</string>
+    <string name="text_exit_note_title">저장하지 않고 이 노트를 종료하시겠습니까?</string>
+    <string name="text_experience">경험</string>
+    <string name="text_experience_npure_audio_nyour_way">"순수한 사운드를
+당신만의 방식으로
+경험하세요."</string>
+    <string name="text_experience_the_immersion_with_a_demo">데모로 몰입감을 경험해 보세요</string>
+    <string name="text_expertly_tuned_sound">"전문적으로
+튜닝된
+사운드"</string>
+    <string name="text_export_pdf_caps">PDF로 내보내기</string>
+    <string name="text_extend_sound_volume">사운드 볼륨 확장</string>
+    <string name="text_failed">실패</string>
+    <string name="text_failed_1">이어버드가 충전되어 있고 전원이 켜져 있으며 이 기기에서 9m 이내에 있는지 확인하세요.</string>
+    <string name="text_failed_2">이어버드를 넣은 채로 케이스를 여세요.</string>
+    <string name="text_failed_3">케이스의 페어링 버튼을 3초간 길게 눌러 표시등이 깜박이기 시작할 때까지 기다리세요.</string>
+    <string name="text_failed_to_prepare_file">파일 준비 실패</string>
+    <string name="text_faqs">FAQs</string>
+    <string name="text_feature_request">기능 요청</string>
+    <string name="text_feedback">피드백</string>
+    <string name="text_file_size_not_more_than_5_mb">파일 크기는 5MB를 초과할 수 없습니다.</string>
+    <string name="text_find_my_buds_can_only_locate_earbuds_when_they_re_not_in_use">내 이어버드 찾기는 사용 중이 아닐 때만 이어버드를 찾을 수 있습니다.</string>
+    <string name="text_find_my_device">내 기기 찾기</string>
+    <string name="text_find_my_device_cap">"내
+기기 찾기"</string>
+    <string name="text_find_my_earbuds">"내
+이어버드 찾기"</string>
+    <string name="text_find_my_earbuds_description">"재생하면 소리가 울립니다.
+재생 전 기기가 사용 중이 아닌지 확인하세요."</string>
+    <string name="text_find_my_earbuds_sub_title">"찾고 싶은 이어버드의
+재생 버튼을 누르세요."</string>
+    <string name="text_find_my_earbuds_title">내 이어버드 찾기</string>
+    <string name="text_find_my_headphones">내 헤드폰 찾기</string>
+    <string name="text_firmware_is_up_to_date">"펌웨어가
+최신 상태입니다"</string>
+    <string name="text_firmware_message">최신 기기 업데이트 확인</string>
+    <string name="text_firmware_test">Firmware 테스트</string>
+    <string name="text_firmware_test_sub">파일을 선택하고 시작하세요</string>
+    <string name="text_firmware_update">펌웨어 업데이트</string>
+    <string name="text_firmware_update_">"펌웨어
+업데이트"</string>
+    <string name="text_firmware_update_2">펌웨어 업데이트</string>
+    <string name="text_firmware_update_complete">펌웨어 업데이트 완료</string>
+    <string name="text_firmware_update_description">펌웨어를 간편하게 업데이트하여 배터리 성능과 향후 기능을 개선하세요.</string>
+    <string name="text_firmware_update_nfailed">"펌웨어 업데이트
+실패"</string>
+    <string name="text_firmware_update_timed_out">"펌웨어 업데이트
+시간 초과"</string>
+    <string name="text_firmware_updated">"펌웨어
+업데이트됨"</string>
+    <string name="text_firmware_updated_2">펌웨어 업데이트됨</string>
+    <string name="text_fixed">고정</string>
+    <string name="text_flat">플랫</string>
+    <string name="text_flipkart">FLIPKART</string>
+    <string name="text_focus_mode">집중 모드</string>
+    <string name="text_focus_mode_is_enabled_please_disable_it_to_continue">집중 모드가 활성화되어 있습니다. 계속하려면 비활성화하세요.</string>
+    <string name="text_follow_the_steps_from_the_video_below">아래 영상의 단계를 따라 주세요</string>
+    <string name="text_for_any_other_query">기타 문의사항</string>
+    <string name="text_forget_device">기기 삭제</string>
+    <string name="text_forget_this_device">이 기기 삭제</string>
+    <string name="text_found_it">찾았습니다</string>
+    <string name="text_frequently_asked_questions">자주 묻는 질문</string>
+    <string name="text_gallery">갤러리</string>
+    <string name="text_gaming_mode">게이밍 모드</string>
+    <string name="text_gaming_mode_message">게이머를 위한 저지연 오디오</string>
+    <string name="text_gaming_mode_message_tuned">게이머를 위한 저지연 오디오. Noise Labs 튜닝</string>
+    <string name="text_generating_data">데이터 생성 중...</string>
+    <string name="text_genie">지니</string>
+    <string name="text_get_help">도움 받기</string>
+    <string name="text_get_help_for_product_issues">제품 문제에 대한 도움 받기</string>
+    <string name="text_get_your_earbuds_ready_to_pair">"이어버드를
+페어링 준비하세요"</string>
+    <string name="text_get_your_headphones_ready_to_pair">"헤드폰을
+페어링 준비하세요"</string>
+    <string name="text_ghost_mode">고스트 모드</string>
+    <string name="text_go_to_chat_history">채팅 기록으로 이동</string>
+    <string name="text_go_to_settings">설정으로 이동</string>
+    <string name="text_gonoise">GONOISE</string>
+    <string name="text_got_it">확인</string>
+    <string name="text_grant_notification_permissions">알림 권한 허용</string>
+    <string name="text_guest_logout">계속 진행하면 게스트 모드에서 로그아웃됩니다. 앱을 사용하려면 다시 로그인해야 합니다.</string>
+    <string name="text_head_tracking">헤드 트래킹</string>
+    <string name="text_headphones_on_let_s_try">헤드폰 착용하셨나요? 시작해볼까요</string>
+    <string name="text_hear_every_detail">모든 디테일을 듣다</string>
+    <string name="text_hello_ai">안녕하세요 AI</string>
+    <string name="text_help_luna_understand_your_voice">Noise AI가 사용자의 음성을 이해하도록 도와주세요</string>
+    <string name="text_help_support">도움말 &amp; 지원</string>
+    <string name="text_help_support_title">도움말 &amp; 지원</string>
+    <string name="text_helps_discover_and_pair_with_nearby_devices_and_to_stream_audio_from_your_device_to_your_product">근처 장치를 검색 및 페어링하고 장치에서 제품으로 오디오를 스트리밍하는 데 도움이 됩니다</string>
+    <string name="text_here_are_some_gestures_nto_look_for">"확인해야 할 제스처는
+다음과 같습니다."</string>
+    <string name="text_hi_i_m">안녕하세요, 저는</string>
+    <string name="text_high_cap">높음</string>
+    <string name="text_hint_eg_zephyr">예: ZEPHYR</string>
+    <string name="text_hint_start_typing">입력 시작...</string>
+    <string name="text_home">홈</string>
+    <string name="text_how_may_i_assist_you">무엇을 도와드릴까요</string>
+    <string name="text_how_to_wear">착용 방법</string>
+    <string name="text_hyphen">-</string>
+    <string name="text_i_agree">동의합니다</string>
+    <string name="text_i_agree_with_noisefit_terms">Noise Audio의 이용 약관에 동의하며 Noise Audio의 개인정보 처리방침을 확인합니다.</string>
+    <string name="text_i_have_read_and_accept_the_terms_of_service_and_privacy_policy">서비스 이용 약관 및 개인정보 처리방침을 읽고 동의합니다</string>
+    <string name="text_i_have_read_and_accept_the_terms_of_service_privacy_policy">"이용약관
+&amp; 개인정보처리방침을 읽고 동의합니다"</string>
+    <string name="text_if_the_issue_persists_enable_pairing_mode_press_the_power_button_twice_in_quick_succession">문제가 계속되면 페어링 모드를 활성화하세요: 전원 버튼을 빠르게 두 번 누르세요.</string>
+    <string name="text_improved_stability">안정성 향상</string>
+    <string name="text_improved_stability_description">더 빠르고 안정적인 Bluetooth 연결로 원활한 페어링을 지원합니다.</string>
+    <string name="text_in_ear_detection">착용 감지</string>
+    <string name="text_in_ear_detection_success">설정이 성공적으로 저장되었습니다</string>
+    <string name="text_in_review">검토 중</string>
+    <string name="text_incorrect_serial_number">잘못된 시리얼 번호</string>
+    <string name="text_info">정보</string>
+    <string name="text_installing_firmware">펌웨어 설치 중</string>
+    <string name="text_invalid_email_id">유효하지 않은 이메일 ID</string>
+    <string name="text_invalid_order_date">잘못된 주문 날짜</string>
+    <string name="text_invalid_password">비밀번호는 5자 이상이어야 합니다</string>
+    <string name="text_invalid_phone_no">유효한 전화번호를 입력하세요</string>
+    <string name="text_invalid_serial_number">유효하지 않은 일련 번호</string>
+    <string name="text_invalid_username">유효하지 않은 사용자 이름</string>
+    <string name="text_ipx5_water_resistant">"IPX5
+방수"</string>
+    <string name="text_issue_reported_success">문제가 성공적으로 신고되었습니다!</string>
+    <string name="text_issue_reported_successfully">문제가 성공적으로 보고되었습니다</string>
+    <string name="text_it_makes_the_audio_come_alive_from_ever_corner">모든 방향에서 사운드가 살아납니다</string>
+    <string name="text_it_makes_the_audio_come_nalive_from_ever_corner">"모든 방향에서
+사운드가 살아납니다"</string>
+    <string name="text_item_selected_count">%1$d개 항목 선택됨</string>
+    <string name="text_jazz">재즈</string>
+    <string name="text_join_noise_audio_n">"NOISE AUDIO
+가입"</string>
+    <string name="text_keep_battery_more_than_50_before_starting_the_update">업데이트를 시작하기 전에 배터리를 50% 이상 유지하세요</string>
+    <string name="text_keep_earbuds_in_case_with_lid_open">이어버드를 케이스에 넣고 뚜껑을 열어 두세요</string>
+    <string name="text_keep_earbuds_in_case_with_lid_open_do_not_exit_app_keep_the_buds_on_charge_do_not_exit_this_page">"• 이어버드를 케이스에 넣고 뚜껑을 열어 두세요
+• 앱을 종료하지 마세요
+• 이어버드를 충전 상태로 유지하세요
+• 이 페이지를 종료하지 마세요!"</string>
+    <string name="text_keep_listening_all_day">"하루 종일
+끊김 없이
+감상"</string>
+    <string name="text_keep_pressing_on_mode_switch_button_to_switch_between_different_anc_modes">"모드 전환 버튼을 계속 눌러
+다양한 ANC 모드로 전환"</string>
+    <string name="text_keep_tapping_on_mode_switch_button_to_switch_between_different_anc_modes">"모드 전환 버튼을 계속 탭하여
+다양한 ANC 모드로 전환"</string>
+    <string name="text_l">L</string>
+    <string name="text_language_message">앱에서 사용할 언어를 설정하세요</string>
+    <string name="text_learn_how_to_activate_ai_on_your_device">기기에서 AI를 활성화하는 방법 알아보기</string>
+    <string name="text_learn_how_to_activate_voice_ai_from_your_device">기기에서 음성 AI를 활성화하는 방법 알아보기</string>
+    <string name="text_learn_more">자세히 알아보기</string>
+    <string name="text_learn_more_about_noise_tws">"Noise TWS에 대해
+자세히 알아보기"</string>
+    <string name="text_learn_more_about_your_device">기기에 대해 더 알아보기</string>
+    <string name="text_left">왼쪽</string>
+    <string name="text_left_and_back">왼쪽 &amp; 뒤로</string>
+    <string name="text_left_bud_battery_low">왼쪽 이어버드 배터리가 부족합니다. 지금 충전하세요.</string>
+    <string name="text_left_bud_is_critically_low">왼쪽 버드 배터리가 매우 부족합니다</string>
+    <string name="text_left_bud_not_detected">왼쪽 이어버드가 감지되지 않습니다. <u>문제 해결.</u></string>
+    <string name="text_left_right">왼쪽-오른쪽</string>
+    <string name="text_limit_reached">한도에 도달했습니다</string>
+    <string name="text_listen_to_sound_at_its_finest_crystal_clear_vocals">최고의 사운드를 경험하세요. 맑고 선명한 보컬과 풍부하고 디테일한 악기 사운드가 어우러져 깊은 베이스, 깨끗한 미드, 부드러운 하이를 통해 몰입감 있는 오디오 경험을 제공합니다.</string>
+    <string name="text_listen_to_sound_at_its_finest_crystal_clear_vocals_and_rich_detailed">최고의 사운드를 경험하세요. 맑고 선명한 보컬과 풍부하고 디테일한 악기 사운드가 어우러져 깊은 베이스, 깨끗한 미드, 부드러운 하이로 몰입감 있는 오디오 경험을 제공합니다.</string>
+    <string name="text_listen_to_sound_at_its_finest_crystal_clear_vocals_and_rich_detailed_instrumentals_bring_out_every_nuance_delivering_deeper_bass_cleaner_mids_softer_highs_for_an_immersive_audio_experience_">최상의 사운드를 경험하세요. 선명한 보컬과 풍부하고 디테일한 악기 사운드가 모든 뉘앙스를 살려 깊은 베이스, 깨끗한 미드, 부드러운 하이로 몰입감 있는 오디오 경험을 제공합니다.</string>
+    <string name="text_listening">듣는 중</string>
+    <string name="text_listening_dot">듣는 중…</string>
+    <string name="text_locate_headphones">몇 초 만에 분실한 헤드폰 찾기</string>
+    <string name="text_locate_your_lost_device_in_seconds">몇 초 만에 분실한 기기 찾기</string>
+    <string name="text_locate_your_lost_earbuds">"몇 초 만에
+분실한 이어버드 찾기"</string>
+    <string name="text_locate_your_lost_headphones_in_seconds">몇 초 만에 분실한 헤드폰 찾기</string>
+    <string name="text_location">위치</string>
+    <string name="text_location_access_disabled">위치 접근이 비활성화되었습니다</string>
+    <string name="text_location_access_required">"위치 접근
+필요"</string>
+    <string name="text_location_access_required_subtitle">Noise AI가 위치 기반 쿼리에 정확하게 응답하려면 위치 액세스가 필요합니다.</string>
+    <string name="text_location_access_required_title">위치 액세스 필요</string>
+    <string name="text_location_disabled_subtitle">Noise AI는 현재 마지막으로 알려진 위치를 기반으로 응답합니다. 실시간 위치 기반 응답을 활성화하려면 기기에서 위치를 활성화하세요.</string>
+    <string name="text_location_disabled_title">위치 비활성화됨</string>
+    <string name="text_location_is_disabled_on_your_device_enable_to_proceed">장치에서 위치가 비활성화되어 있습니다. 계속하려면 활성화하세요</string>
+    <string name="text_location_permission_required">위치 권한 필요</string>
+    <string name="text_locks_controls_for_focused_listening">집중 청취를 위해 컨트롤을 잠급니다</string>
+    <string name="text_locks_controls_for_focused_uninterrupted_listening">집중되고 방해 없는 청취를 위해 컨트롤을 잠급니다</string>
+    <string name="text_login_failed">로그인 실패</string>
+    <string name="text_login_terms_n_condition">계속을 탭하면 개인정보 처리방침 및 서비스 약관에 동의하는 것으로 간주됩니다.</string>
+    <string name="text_login_to_continue">계속하려면 로그인하세요</string>
+    <string name="text_login_to_register">로그인하여 등록</string>
+    <string name="text_login_with">다음으로 로그인</string>
+    <string name="text_logout">로그아웃</string>
+    <string name="text_logs">로그</string>
+    <string name="text_long_press_charging_case_button_to_make_device_discoverable">기기를 검색 가능하게 하려면 충전 케이스 버튼을 길게 누르세요</string>
+    <string name="text_long_press_on_power_button_to_turn_device_on_off">"전원 버튼을 길게 눌러
+기기를 켜거나 끄세요"</string>
+    <string name="text_look_at_the_back_of_the_box_to_find_the_serial_number_shown_in_the_above_format">상자 뒷면에서 위 형식으로 표시된 시리얼 번호를 확인하세요</string>
+    <string name="text_low">낮음</string>
+    <string name="text_low_cap">낮음</string>
+    <string name="text_mail_support">메일 지원</string>
+    <string name="text_mail_us">메일 문의</string>
+    <string name="text_make_sure_the_headphones_are_not_connected_to_any_other_nearby_device_or_application">헤드폰이 다른 근처 기기나 앱에 연결되어 있지 않은지 확인하세요.</string>
+    <string name="text_manage_permissions">권한 관리</string>
+    <string name="text_manage_permissions_subtitle">앱을 계속 사용하려면 필요한 권한을 허용해 주세요.</string>
+    <string name="text_manage_permissions_title">"권한 
+관리"</string>
+    <string name="text_max">최대</string>
+    <string name="text_max_attachments_reached">최대 3개의 첨부 파일만 허용됩니다</string>
+    <string name="text_max_message">버튼 컨트롤을 맞춤 설정하여 손쉽게 조작하세요</string>
+    <string name="text_may_take_1_2_mins_do_not_exit">1–2분 정도 소요될 수 있습니다. 이 페이지를 종료하지 마세요</string>
+    <string name="text_mb2_noise">오른쪽 이어버드를 탭하고 길게 눌러 ANC 모드를 전환하세요</string>
+    <string name="text_mb2_welcome_message">"완벽한 사운드.
+마스터가 만들었습니다."</string>
+    <string name="text_media_control">미디어 제어</string>
+    <string name="text_medium_cap">중간</string>
+    <string name="text_meet">"%1$s
+만나보세요"</string>
+    <string name="text_meet_2">"새로운
+%1$s에 오신 것을 환영합니다"</string>
+    <string name="text_meet_device">"%1$s
+만나보기"</string>
+    <string name="text_menu">메뉴</string>
+    <string name="text_message_perm_location">근처 Noise 기기를 스캔하고 맞춤 추천을 위해 Noise AI를 활성화하는 데 필요합니다.</string>
+    <string name="text_mic_permission_message">Audio AI를 사용하려면 마이크 접근 권한이 필요합니다</string>
+    <string name="text_mic_permission_required">마이크 권한 필요</string>
+    <string name="text_microphone_ai">Noise AI 오디오 어시스턴트를 활성화하려면 마이크 접근 권한이 필요합니다</string>
+    <string name="text_microphone_disabled">마이크가 비활성화됨</string>
+    <string name="text_mid">중간</string>
+    <string name="text_mid_2">미드</string>
+    <string name="text_mobile_number">휴대폰 번호</string>
+    <string name="text_mode">모드</string>
+    <string name="text_modify_your_device_controls">기기 컨트롤을 수정하세요</string>
+    <string name="text_motion_control">모션 제어</string>
+    <string name="text_motion_control_tips">모션 제어 팁</string>
+    <string name="text_motion_ges_message">머리를 움직이기만 해 미디어와 통화 컨트롤을 실행하세요</string>
+    <string name="text_motion_gesture">모션 제스처</string>
+    <string name="text_motion_gesture_message">손을 사용하지 않고 기기를 제어하세요</string>
+    <string name="text_motion_ncontrol">"모션
+제어"</string>
+    <string name="text_motion_ngestures">"모션
+제스처"</string>
+    <string name="text_move_your_head_to_the_right_and_back_twice_to_skip_to_the_next_track">머리를 오른쪽으로 돌렸다가 다시 두 번 움직여 다음 트랙으로 이동하세요</string>
+    <string name="text_music_control_2">"음악
+제어"</string>
+    <string name="text_music_control_header">음악 제어</string>
+    <string name="text_music_controls_3">음악 제어</string>
+    <string name="text_music_that_lasts_all_your_moods_and_lets_you_tailor_your_experience_extended_play_and_custom_touch_controls_to_make_every_action_seamless">모든 순간에 어울리는 음악. 긴 재생 시간과 맞춤형 터치 컨트롤로 경험을 개인화하여 모든 동작을 매끄럽게 만듭니다.</string>
+    <string name="text_music_that_outlasts_all_your_moods_extended_play_and_custom_touch_controls_elevate_the_experience_making_every_action_seamless_">모든 순간을 함께하는 음악. 긴 재생 시간과 맞춤형 터치 컨트롤이 경험을 한층 끌어올려 모든 동작을 매끄럽게 만듭니다.</string>
+    <string name="text_my_devices">내 기기</string>
+    <string name="text_my_profile">"내
+프로필"</string>
+    <string name="text_my_profile_">내 프로필</string>
+    <string name="text_my_title">내 제목</string>
+    <string name="text_my_title_bottom">내 제목 하단</string>
+    <string name="text_my_title_middle">내 제목 중간</string>
+    <string name="text_my_title_top">내 제목 상단</string>
+    <string name="text_name">이름</string>
+    <string name="text_name_updated_caps">이름이 업데이트되었습니다</string>
+    <string name="text_need_help">도움이 필요하신가요?</string>
+    <string name="text_need_more_help">더 많은 도움이 필요하신가요?</string>
+    <string name="text_need_more_help_caps"><u>더 많은 도움이 필요하신가요?</u></string>
+    <string name="text_new">새로 만들기</string>
+    <string name="text_new_device_detected">새 장치 감지됨</string>
+    <string name="text_new_version">새 버전</string>
+    <string name="text_next">다음</string>
+    <string name="text_next_music">다음 음악</string>
+    <string name="text_no">아니요</string>
+    <string name="text_no_chat_thread_found">채팅 기록을 찾을 수 없습니다</string>
+    <string name="text_no_data_available">사용 가능한 데이터가 없습니다.</string>
+    <string name="text_no_device_found">기기를 찾을 수 없음</string>
+    <string name="text_no_device_message">기기가 검색 가능 상태인지 확인한 후 다시 검색해 주세요</string>
+    <string name="text_no_device_tip_1">기기를 휴대폰 가까이에 두세요.</string>
+    <string name="text_no_device_tip_2">기기가 완전히 충전되어 있는지 확인하세요.</string>
+    <string name="text_no_device_tip_3">이어버드를 케이스에 넣고 뚜껑을 열어두세요.</string>
+    <string name="text_no_device_tip_4">LED가 깜빡이기 시작할 때까지 페어링 버튼을 길게 누르세요.</string>
+    <string name="text_no_file_selected">선택된 파일 없음</string>
+    <string name="text_no_internet">인터넷 없음</string>
+    <string name="text_no_internet_connection">인터넷 연결이 없습니다!!</string>
+    <string name="text_no_internet_connection_try_again">인터넷 연결이 없습니다. 나중에 다시 시도해 주세요.</string>
+    <string name="text_no_results_found">결과를 찾을 수 없습니다</string>
+    <string name="text_no_summary">사용 가능한 요약이 없습니다</string>
+    <string name="text_no_transcription_found">전사를 찾을 수 없습니다</string>
+    <string name="text_noise_ai_consent_body">"Noise AI는 사용자의 입력을 사용하여 응답을 생성하고 채팅 기록을 저장합니다. 상호작용은 성능 향상을 위해 안전하게 분석될 수 있습니다.
+
+계속하려면 당사의 %1$s 및 %2$s에 동의해 주세요."</string>
+    <string name="text_noise_ai_is_running">Noise AI가 실행 중입니다</string>
+    <string name="text_noise_app_not_needed">"Noise Audio 앱 불필요
+BT로 연결하고 재생하세요"</string>
+    <string name="text_noise_app_not_needed_connected">"Noise Audio 앱 불필요
+장치가 연결되어 재생 준비 완료"</string>
+    <string name="text_noise_audio_app_only_supports_master_buds_nother_noise_earbuds_do_not_need_an_app">"Noise Audio 앱은 Master Buds만 지원합니다.
+다른 Noise 이어버드는 앱이 필요하지 않습니다."</string>
+    <string name="text_noise_audio_app_only_supports_master_series_nother_noise_earbuds_do_not_need_an_app">"Noise Audio 앱은 Master 시리즈만 지원합니다.
+다른 Noise 이어버드는 앱이 필요하지 않습니다."</string>
+    <string name="text_noise_audio_product_tips">Noise 오디오 제품 팁</string>
+    <string name="text_noise_cancel">ANC</string>
+    <string name="text_noise_cancellation">노이즈 캔슬링</string>
+    <string name="text_noise_control">노이즈 컨트롤</string>
+    <string name="text_noise_control_2">"노이즈
+컨트롤"</string>
+    <string name="text_noise_control_3">노이즈 컨트롤</string>
+    <string name="text_noise_essential">Noise 에센셜</string>
+    <string name="text_noisefit_is_currently_under_maintenance">Noise Audio는 현재 점검 중입니다</string>
+    <string name="text_noisefit_update">Noise Audio 업데이트</string>
+    <string name="text_noisemaker">Noisemaker</string>
+    <string name="text_none">없음</string>
+    <string name="text_not_now">나중에</string>
+    <string name="text_notification_disabled">알림 권한이 비활성화되었습니다. 알림을 받으려면 권한을 활성화하세요.</string>
+    <string name="text_off">끄기</string>
+    <string name="text_offline_store">오프라인 매장</string>
+    <string name="text_ok">확인</string>
+    <string name="text_okay">확인</string>
+    <string name="text_on">켜기</string>
+    <string name="text_on_device_ai">온디바이스 AI</string>
+    <string name="text_onboad_alt_buds_o_h1">"노력
+없이
+제어"</string>
+    <string name="text_onboad_alt_buds_o_h2">모든 디테일을 듣다</string>
+    <string name="text_onboad_alt_buds_o_h3">어떤 상황에도 준비 완료</string>
+    <string name="text_onboad_alt_buds_o_h4">하루 종일 듣기</string>
+    <string name="text_onboad_alt_buds_o_m1">당신의 경험을 맞춤화하세요. 터치 컨트롤을 사용자 정의하여 모든 동작이 매끄럽게 느껴지도록—볼륨 조절, 트랙 건너뛰기까지 모두 간단한 터치로 가능합니다.</string>
+    <string name="text_onboad_alt_buds_o_m2">최상의 사운드를 들어보세요. 선명한 보컬과 풍부하고 디테일한 악기 연주가 모든 뉘앙스를 살리며, 깊은 베이스, 선명한 중음, 부드러운 고음으로 몰입감 있는 오디오 경험을 제공합니다.</string>
+    <string name="text_onboad_alt_buds_o_m3">비, 땀, 햇빛 속에서도 이어버드는 보호됩니다. 어디든지 부담 없이 가지고 다니세요.</string>
+    <string name="text_onboad_alt_buds_o_m4">"최대 30시간 이상의 배터리 수명*으로 모든 플레이리스트를 즐기세요. 끊김 없는 청취, 긴 통화, 하루 종일 지속되는 성능 — 음악이 어디든 당신과 함께합니다.
+*충전 케이스 포함"</string>
+    <string name="text_onboad_alt_buds_o_m4_new">"최대 35+시간의 배터리 수명*으로 모든 플레이리스트를 즐기세요. 끊김 없는 청취, 긴 통화, 하루 종일 지속되는 성능 — 어디를 가든 음악이 함께합니다.
+*충전 케이스 포함"</string>
+    <string name="text_onboard_clips_m4">"최대 28+시간의 배터리 수명*으로 모든 플레이리스트를 즐기세요. 끊김 없는 청취, 긴 통화, 하루 종일 지속되는 성능 — 어디를 가든 음악이 함께합니다.
+*충전 케이스 포함"</string>
+    <string name="text_onboard_tws_buds_m4">"최대 45+시간의 배터리 수명*으로 모든 플레이리스트를 즐기세요. 끊김 없는 청취, 긴 통화, 하루 종일 지속되는 성능 — 어디를 가든 음악이 함께합니다.
+*충전 케이스 포함"</string>
+    <string name="text_one_device_found">1개 장치 발견</string>
+    <string name="text_only_left_bud_connected">왼쪽 이어버드만 연결됨</string>
+    <string name="text_only_right_bud_connected">오른쪽 이어버드만 연결됨</string>
+    <string name="text_or">또는</string>
+    <string name="text_or_login_using">또는 다음으로 로그인</string>
+    <string name="text_order_date">주문 날짜</string>
+    <string name="text_other">기타</string>
+    <string name="text_owner_s_guide">사용자 가이드</string>
+    <string name="text_pair">페어링</string>
+    <string name="text_pairing">페어링</string>
+    <string name="text_pairing_dots">페어링 중...</string>
+    <string name="text_pairing_failed_tip_1">이어버드가 충전되어 있고, 켜져 있으며, 이 장치에서 9m 이내에 있는지 확인하세요.</string>
+    <string name="text_pairing_failed_tip_2">이어버드를 넣은 채로 케이스를 여세요</string>
+    <string name="text_pairing_failed_tip_3">표시등이 깜빡이기 시작할 때까지 케이스의 페어링 버튼을 길게 누르세요</string>
+    <string name="text_pairing_mode">페어링 모드</string>
+    <string name="text_pause_caps">일시정지</string>
+    <string name="text_pdf">PDF</string>
+    <string name="text_perm_bluetooth">블루투스</string>
+    <string name="text_perm_bluetooth_desc">오디오 기기를 앱과 검색, 페어링 및 동기화하는 데 도움을 줍니다.</string>
+    <string name="text_perm_camera">카메라</string>
+    <string name="text_perm_camera_desc">실시간 프로필 사진을 설정하고 보증을 위한 청구서를 공유합니다.</string>
+    <string name="text_perm_disabled_section">비활성화됨</string>
+    <string name="text_perm_enabled_section">활성화됨</string>
+    <string name="text_perm_location">위치</string>
+    <string name="text_perm_location_desc">근처 기기 검색을 활성화합니다.</string>
+    <string name="text_perm_message_bt">오디오 기기를 앱 및 휴대폰 시스템과 검색, 페어링, 동기화하는 데 도움이 됩니다.</string>
+    <string name="text_perm_microphone">마이크</string>
+    <string name="text_perm_microphone_desc">Noise AI 음성 어시스턴트와 상호작용할 수 있습니다.</string>
+    <string name="text_perm_photos_videos">사진 및 동영상</string>
+    <string name="text_perm_photos_videos_desc">프로필 사진을 설정하고, 지원을 위한 스크린샷을 업로드하고, 송장을 공유할 수 있습니다.</string>
+    <string name="text_perm_read_notifications">알림 읽기</string>
+    <string name="text_perm_read_notifications_desc">앱에서 직접 음악 재생을 제어할 수 있습니다.</string>
+    <string name="text_perm_send_notifications">알림 보내기</string>
+    <string name="text_perm_send_notifications_desc">중요한 펌웨어 및 앱 업데이트에 대한 정보를 받아보세요.</string>
+    <string name="text_permission_denial_bluetooth">오디오 앱은 기기를 검색하고 연결하기 위해 휴대전화의 블루투스 권한이 필요합니다.</string>
+    <string name="text_permission_denial_location">기기 페어링을 위해 위치 권한이 필요합니다. 설정으로 이동하여 필요한 권한을 활성화하세요.</string>
+    <string name="text_permission_denial_location_message">기기 페어링을 위해 위치 권한이 필요합니다</string>
+    <string name="text_permission_denial_microphone">마이크 권한이 필요합니다. 설정으로 이동하여 권한을 활성화하세요.</string>
+    <string name="text_permission_denial_near_by_device_bluetooth">오디오 앱은 기기를 검색하고 연결하기 위해 휴대전화의 주변 기기 권한이 필요합니다.</string>
+    <string name="text_permission_rejected">권한이 거부됨</string>
+    <string name="text_permission_required">권한 필요</string>
+    <string name="text_permissions_required">"권한
+필요"</string>
+    <string name="text_personalize_luna">개인화</string>
+    <string name="text_personalize_nyour_buds">"이어버드
+개인화"</string>
+    <string name="text_personalize_sound_with_custom_eq_control_settings">맞춤 EQ 제어 설정으로 사운드를 개인화하세요.</string>
+    <string name="text_personalize_your_buds">이어버드 개인화</string>
+    <string name="text_personalize_your_listening_experience">청취 경험을 개인화하세요</string>
+    <string name="text_phone_call_2">"전화
+통화"</string>
+    <string name="text_phone_calls">전화 통화</string>
+    <string name="text_photo_deleted">프로필 사진이 삭제되었습니다</string>
+    <string name="text_photo_updated_caps">프로필 사진이 업데이트되었습니다</string>
+    <string name="text_place_buds_and_connect_type_c">이어버드를 케이스에 넣고 뚜껑을 닫으세요. 동봉된 Type-C 케이블로 케이스를 충전기에 연결하세요.</string>
+    <string name="text_place_clips_and_connect_type_c">클립을 케이스에 넣고 뚜껑을 닫으세요. 동봉된 Type-C 케이블을 사용해 케이스를 충전기에 연결하세요.</string>
+    <string name="text_place_earpieces_and_connect_type_c">이어피스를 케이스에 넣고 뚜껑을 닫으세요. 동봉된 Type-C 케이블을 사용해 케이스를 충전기에 연결하세요.</string>
+    <string name="text_place_the_buds_in_the_case_and_connect_type_c">이어버드를 케이스에 넣고 뚜껑을 닫으세요. 동봉된 Type-C 케이블로 케이스를 충전기에 연결하세요.</string>
+    <string name="text_place_the_clips_in_the_case_and_connect_type_c">클립을 케이스에 넣고 뚜껑을 닫으세요. 동봉된 Type-C 케이블을 사용해 케이스를 충전기에 연결하세요.</string>
+    <string name="text_place_the_earbuds_in_the_case_and_close_the_lid">이어버드를 케이스에 넣고 뚜껑을 닫으세요.</string>
+    <string name="text_place_the_earpieces_in_the_case_and_connect_type_c">이어피스를 케이스에 넣고 뚜껑을 닫으세요. 동봉된 Type-C 케이블을 사용해 케이스를 충전기에 연결하세요.</string>
+    <string name="text_place_your_buds_in_the_case_with_the_lid_open">뚜껑을 연 상태로 이어버드를 케이스에 넣어주세요</string>
+    <string name="text_place_your_earbuds_in_the_case">이어버드를 케이스에 넣고 페어링 버튼을 2초간 길게 누르세요</string>
+    <string name="text_play_caps">재생</string>
+    <string name="text_play_pause">재생/일시정지</string>
+    <string name="text_play_pause_your_fav_music_with_a_quick_nod">빠르게 끄덕여 좋아하는 음악을 재생 또는 일시정지하세요.</string>
+    <string name="text_please_accept_the_t_cs_and_privacy_notice_to_proceed">계속하려면 이용 약관 및 개인정보 처리방침에 동의하세요</string>
+    <string name="text_please_check_back_again_later">나중에 다시 확인해 주세요</string>
+    <string name="text_please_check_i_have_read_and_accept_the_terms_of_service_and_privacy_policy">서비스 이용 약관 및 개인정보 처리방침을 읽고 동의함에 체크해 주세요</string>
+    <string name="text_please_choose_file">파일을 선택하세요</string>
+    <string name="text_please_enter_the_4_digit_otp_sent_to">전송된 4자리 OTP를 입력해 주세요</string>
+    <string name="text_please_enter_your_name">이름을 입력해 주세요</string>
+    <string name="text_please_fill_otp">OTP를 입력해 주세요</string>
+    <string name="text_please_select_image_less_then_1mb">1MB 미만의 이미지를 선택해 주세요</string>
+    <string name="text_please_select_order_date">주문 날짜를 선택해 주세요</string>
+    <string name="text_please_select_purchase_channel">구매 채널을 선택해 주세요</string>
+    <string name="text_please_upload_invoice">송장을 업로드해 주세요</string>
+    <string name="text_please_upload_only_screenshots_of_your_posted_review_other_images_won_t_be_eligible_for_rewards">게시한 리뷰의 스크린샷만 업로드해 주세요 — 다른 이미지는 리워드 대상이 아닙니다.</string>
+    <string name="text_please_wait">잠시만 기다려 주세요</string>
+    <string name="text_please_wait_for_the_timer_to_reset">타이머가 초기화될 때까지 기다려 주세요</string>
+    <string name="text_pop">팝</string>
+    <string name="text_power">전원</string>
+    <string name="text_power_controls">"전원
+제어"</string>
+    <string name="text_power_on_off">전원 켜기/끄기</string>
+    <string name="text_prem_required_message">주변 제품을 검색할 수 있도록 모바일의 Bluetooth 및 위치 사용 권한이 필요합니다</string>
+    <string name="text_premium_sound">"프리미엄
+사운드"</string>
+    <string name="text_press_and_hold">길게 누르기</string>
+    <string name="text_press_and_hold_center_button">중앙 버튼을 길게 누르세요</string>
+    <string name="text_press_and_hold_the_and_button_for_5_seconds_simultaneously_to_reset_the_device">"+ 및 – 버튼을 동시에 5초간
+길게 눌러 기기를 초기화하세요"</string>
+    <string name="text_press_four_times">네 번 누르기</string>
+    <string name="text_press_once">한 번 누르기</string>
+    <string name="text_press_tap_and_hold_2">두 번 누른 후 길게 누르기</string>
+    <string name="text_press_the_button_below">아래 버튼을 누르세요</string>
+    <string name="text_press_thrice_2">세 번 누르기</string>
+    <string name="text_press_twice">두 번 누르기</string>
+    <string name="text_previous_music">이전 음악</string>
+    <string name="text_priority_support">우선 지원:</string>
+    <string name="text_privacy_policy">개인정보 처리방침</string>
+    <string name="text_proceed">계속</string>
+    <string name="text_processing_media">미디어 처리 중…</string>
+    <string name="text_product_guide">"제품
+가이드"</string>
+    <string name="text_product_guide_2">제품 가이드</string>
+    <string name="text_product_guide_new">제품 가이드</string>
+    <string name="text_product_tips">제품 팁</string>
+    <string name="text_product_tips_2">제품 팁</string>
+    <string name="text_profile_updated_caps">프로필이 업데이트되었습니다</string>
+    <string name="text_profuct_guide">제품 사용자 설명서 다운로드</string>
+    <string name="text_prompt_email">이메일</string>
+    <string name="text_prompt_password">비밀번호</string>
+    <string name="text_purchase_channel">구매 경로</string>
+    <string name="text_purchase_date_cannot_be_later_than_your_pairing_date">구매 날짜는 페어링 날짜 이후일 수 없습니다</string>
+    <string name="text_pure_audio">순수한 사운드,</string>
+    <string name="text_quick_nod">빠른 두 번 끄덕임</string>
+    <string name="text_rain_sweat_or_shine_your_earbuds_stay_protected">비, 땀, 햇빛에도 이어버드는 안전합니다. 어디든 부담 없이 함께하세요.</string>
+    <string name="text_rate_and_earn">리뷰 &amp; 적립</string>
+    <string name="text_rate_message">경험을 평가하고 보상을 받으세요</string>
+    <string name="text_rate_nand_earn">"리뷰 &amp;
+적립"</string>
+    <string name="text_rate_us_on_your_purchase_marketplace_share_the_screenshot_in_noisefit_app_and_get_a_chance_to_win_exclusive_vouchers">구매한 마켓플레이스에서 평점을 남기고, NoiseFit 앱에 스크린샷을 공유하면 특별한 바우처를 받을 기회가 제공됩니다!</string>
+    <string name="text_read_resume_your_previous_chats">이전 대화를 읽거나 이어서 진행하세요</string>
+    <string name="text_ready_for_anything">어떤 상황에도 준비 완료</string>
+    <string name="text_recent_app_logs_note">*최근 앱 로그가 개발자와 공유됩니다</string>
+    <string name="text_reconnect">다시 연결</string>
+    <string name="text_reconnecting">다시 연결 중...</string>
+    <string name="text_record_caps">녹음</string>
+    <string name="text_record_your_thoughts_with_a_single_tap">한 번의 탭으로 생각 기록하기</string>
+    <string name="text_redeem_offer">혜택 사용</string>
+    <string name="text_refresh">새로고침</string>
+    <string name="text_register_warranty">보증 등록</string>
+    <string name="text_registered_e_mail">등록된 이메일</string>
+    <string name="text_registered_name">등록된 이름</string>
+    <string name="text_registration_date">등록 날짜</string>
+    <string name="text_reject_calls">통화 거절</string>
+    <string name="text_reject_incoming_calls_with_a_quick_left_right_head_movement">빠르게 머리를 좌우로 움직여 수신 전화를 거절하세요.</string>
+    <string name="text_remind_later">나중에 알림</string>
+    <string name="text_remind_me_later">나중에 알림</string>
+    <string name="text_remove_device">이 기기를 제거하시겠습니까?</string>
+    <string name="text_report_a_bug">버그 신고</string>
+    <string name="text_report_an_issue">문제 신고</string>
+    <string name="text_request_a_feature">기능 요청</string>
+    <string name="text_request_failed">요청 실패</string>
+    <string name="text_resend_code">코드 재전송</string>
+    <string name="text_resend_code_in">코드 재전송까지</string>
+    <string name="text_resend_code_in_00_34s">00:34초 후 코드 재전송</string>
+    <string name="text_reset">리셋</string>
+    <string name="text_reset_all">모두 초기화</string>
+    <string name="text_reset_device">기기 초기화</string>
+    <string name="text_restart_caps">다시 시작</string>
+    <string name="text_restart_note_title">이 노트를 다시 시작하시겠습니까?</string>
+    <string name="text_resume_caps">재개</string>
+    <string name="text_retry">다시 시도</string>
+    <string name="text_retry_connecting">다시 연결 시도</string>
+    <string name="text_retry_pairing">페어링 재시도</string>
+    <string name="text_retrying">재시도 중</string>
+    <string name="text_review_nuploaded">"리뷰
+업로드됨"</string>
+    <string name="text_review_typically_takes_24_48_hours">검토에는 보통 24~48시간이 소요됩니다</string>
+    <string name="text_reward_generated">리워드 생성됨</string>
+    <string name="text_rewards_nadded">"리워드
+추가됨"</string>
+    <string name="text_rewards_nunlocked">"리워드
+해제됨"</string>
+    <string name="text_right">오른쪽</string>
+    <string name="text_right_and_back">오른쪽 &amp; 뒤로</string>
+    <string name="text_right_bud_battery_low">오른쪽 이어버드 배터리가 부족합니다. 지금 충전하세요.</string>
+    <string name="text_right_bud_is_critically_low">오른쪽 버드 배터리가 매우 부족합니다</string>
+    <string name="text_right_bud_not_detected">오른쪽 이어버드가 감지되지 않습니다. <u>문제 해결.</u></string>
+    <string name="text_rock">록</string>
+    <string name="text_save">저장</string>
+    <string name="text_save_adjustments">조정 내용 저장</string>
+    <string name="text_save_changes">변경 사항 저장</string>
+    <string name="text_saved_successfully">성공적으로 저장되었습니다</string>
+    <string name="text_scan_again">다시 스캔</string>
+    <string name="text_scanning">스캔 중...</string>
+    <string name="text_scanning_uppercase">스캔 중</string>
+    <string name="text_seamlessly_connect_with_two_devices_at_a_time">두 개의 기기에 동시에 원활하게 연결</string>
+    <string name="text_search">검색</string>
+    <string name="text_search_again">다시 검색</string>
+    <string name="text_search_caps">검색</string>
+    <string name="text_search_transcriptions">전사 검색</string>
+    <string name="text_select">선택</string>
+    <string name="text_select_an_action">동작 선택</string>
+    <string name="text_select_an_action_for_double_tap">"두 번 탭에 대한
+동작 선택"</string>
+    <string name="text_select_an_action_for_single_tap">"한 번 탭에 대한
+동작 선택"</string>
+    <string name="text_select_an_action_for_triple_tap">"세 번 탭에 대한
+동작 선택"</string>
+    <string name="text_select_an_option">옵션 선택</string>
+    <string name="text_select_channel">채널 선택</string>
+    <string name="text_select_device">기기 선택</string>
+    <string name="text_select_device_category">기기 카테고리 선택</string>
+    <string name="text_select_media">미디어 선택</string>
+    <string name="text_select_your_device">장치를 선택하세요</string>
+    <string name="text_selected_count">%1$d개 선택됨</string>
+    <string name="text_selected_file">선택됨: %1$s</string>
+    <string name="text_serial_number">시리얼 번호</string>
+    <string name="text_serial_number_is_not_valid">일련 번호가 유효하지 않습니다</string>
+    <string name="text_set_up_a_new_device">다른 장치 설정</string>
+    <string name="text_set_up_your_device">장치 설정</string>
+    <string name="text_setting_up">설정 중</string>
+    <string name="text_settings">설정</string>
+    <string name="text_setup_this_device">이 기기 설정</string>
+    <string name="text_shake_your_head_to_the_left_and_back_twice_to_return_to_the_previous_track">머리를 왼쪽으로 흔들었다가 다시 두 번 움직여 이전 트랙으로 돌아가세요.</string>
+    <string name="text_shake_your_head_to_the_right_and_back_twice_to_skip_to_the_next_track">머리를 오른쪽으로 흔들었다가 다시 두 번 움직여 다음 트랙으로 이동하세요.</string>
+    <string name="text_shall_we_switch_the_app_to_french_too">앱 언어도 프랑스어로 변경할까요?</string>
+    <string name="text_share_caps">공유</string>
+    <string name="text_shop_now">지금 쇼핑</string>
+    <string name="text_sidetone">사이드톤</string>
+    <string name="text_sidetone_message">통화 중 자신의 목소리를 들으며 자연스러운 볼륨으로 말할 수 있습니다</string>
+    <string name="text_sign_in_create_account">로그인 / 계정 생성</string>
+    <string name="text_sign_out">로그아웃</string>
+    <string name="text_signal_strength">신호 강도</string>
+    <string name="text_signing_out_will_log_you_in_as_a_guest">로그아웃하면 게스트로 로그인됩니다</string>
+    <string name="text_silence_perfected">완성된 고요함</string>
+    <string name="text_single_bud_anc_disable_message">한쪽 이어버드로 ANC를 사용하려면 In-ear detection을 꺼주세요</string>
+    <string name="text_single_press_power_button_to_pause_and_play_music">"전원 버튼을 한 번 눌러
+음악을 재생하거나 일시정지"</string>
+    <string name="text_single_press_the_power_button_of_the_headphone_to_play_pause">"헤드폰의 전원 버튼을 한 번 눌러
+재생/일시정지"</string>
+    <string name="text_skip">건너뛰기</string>
+    <string name="text_some_ideas_to_get_you_started">시작을 위한 몇 가지 아이디어</string>
+    <string name="text_something_went_wrong">문제가 발생했습니다!!</string>
+    <string name="text_sound">사운드</string>
+    <string name="text_sound_caps">사운드</string>
+    <string name="text_sound_features_subtitle">청취 경험을 개인화하세요</string>
+    <string name="text_spatial_audio">공간 음향</string>
+    <string name="text_spatial_audio_2">"공간
+음향"</string>
+    <string name="text_spatial_audio_3">공간 음향</string>
+    <string name="text_spatial_audio_cannot_be_used_with_anc_on">ANC가 켜져 있을 때는 공간 음향을 사용할 수 없습니다</string>
+    <string name="text_spatial_disable_anc">Spatial Audio를 경험하려면 ANC를 꺼주세요</string>
+    <string name="text_spatial_fixed">오디오가 고정되어 유지됩니다. 앉아 있을 때 가장 적합합니다</string>
+    <string name="text_spatial_head_tracking">머리 움직임을 따라 오디오가 이동해 최적의 청취 위치를 유지합니다</string>
+    <string name="text_spatial_message">움직임에 따라 변하는 사운드로 역동적이고 현실적인 오디오</string>
+    <string name="text_spatial_message_2">공간 음향으로 콘텐츠를 더욱 풍부하고 입체적으로 즐기세요.</string>
+    <string name="text_spatial_message_3">사운드에 완전히 새로운 차원을 더하세요. 직접 경험해 보세요.</string>
+    <string name="text_spatial_message_tuned">역동적이고 현실적인 오디오. Noise Labs 튜닝</string>
+    <string name="text_speak">말하기</string>
+    <string name="text_speak_anytime">언제든지 말하세요</string>
+    <string name="text_speak_now">지금 말씀하세요</string>
+    <string name="text_start">시작</string>
+    <string name="text_start_a_new_chat">새 채팅 시작</string>
+    <string name="text_start_a_new_transcription">새 전사 시작</string>
+    <string name="text_start_audio_ai">시작</string>
+    <string name="text_start_caps">시작</string>
+    <string name="text_start_recording_hint">녹음을 시작하여 전사와 요약을 만들어 보세요</string>
+    <string name="text_start_typing">입력 시작...</string>
+    <string name="text_step_into_any_environment_whether_it_s_a_bustling_street">번화한 거리든 붐비는 카페든 어떤 환경에서도 몰입하세요. 적응형 ANC가 소음을 차단해 중요한 것에 집중할 수 있습니다.</string>
+    <string name="text_step_into_any_environment_whether_it_s_a_bustling_street_or_a_crowded_caf_and_let_the_world_fade_away_adaptive_anc_does_the_work_so_you_can_focus_on_what_matters">번화한 거리든 붐비는 카페든 어떤 환경에서도 몰입하세요. 적응형 ANC가 소음을 차단해 중요한 것에 집중할 수 있습니다.</string>
+    <string name="text_stereo">스테레오</string>
+    <string name="text_stop_caps">중지</string>
+    <string name="text_stop_transcription_subtitle">전사 내용이 저장되며 이번 세션에서 전사에 사용된 크레딧은 소비된 것으로 간주됩니다</string>
+    <string name="text_stop_transcription_title">정말 종료하시겠습니까?</string>
+    <string name="text_subject">제목</string>
+    <string name="text_subject_hint">문제를 간단히 설명해 주세요</string>
+    <string name="text_subject_label">제목*</string>
+    <string name="text_submit">제출</string>
+    <string name="text_submit_your_ideas_for_new_features">새로운 기능에 대한 아이디어 제출</string>
+    <string name="text_success">성공</string>
+    <string name="text_summarize_caps">요약하기</string>
+    <string name="text_summarizing_caps">요약 중</string>
+    <string name="text_support">지원</string>
+    <string name="text_support_email_subject">Noise Audio 앱 지원</string>
+    <string name="text_support_number_1">02268056280</string>
+    <string name="text_support_number_2">02268056040</string>
+    <string name="text_supported_file_types_npdf_jpg_png_up_to_5mb">"지원되는 파일 형식:
+PDF, JPG, PNG. 최대 5MB"</string>
+    <string name="text_swift_call_mode">스위프트 통화 모드</string>
+    <string name="text_swift_call_mode_message">기기를 착용하면 수신 전화를 자동으로 받습니다</string>
+    <string name="text_switch_anc_modes">ANC 모드 전환</string>
+    <string name="text_switch_modes">모드 전환</string>
+    <string name="text_tab_summarise">요약</string>
+    <string name="text_tab_transcription">전사</string>
+    <string name="text_tailor_your_experience_customise_touch_controls">경험을 맞춤 설정하세요. 터치 제어를 사용자화하여 볼륨 조절, 트랙 변경 등 모든 동작을 간편한 터치로 자연스럽게 수행할 수 있습니다.</string>
+    <string name="text_tailor_your_experience_customise_touch_controls_to_make_every">경험을 맞춤 설정하세요. 터치 컨트롤을 개인화해 볼륨 조절, 트랙 변경 등 모든 동작을 간편한 터치로 자연스럽게 수행할 수 있습니다.</string>
+    <string name="text_take_a_photo">사진 촬영</string>
+    <string name="text_take_me_back">돌아가기</string>
+    <string name="text_take_me_to_appstore">Play 스토어로 이동</string>
+    <string name="text_tap_and_hold">탭 &amp; 길게 누르기</string>
+    <string name="text_tap_and_hold_2">탭 &amp; 길게 누르기</string>
+    <string name="text_tap_and_hold_the_and_button_for_5_seconds_simultaneously_to_reset_the_device">"+ 및 – 버튼을 동시에 5초간
+탭하고 길게 눌러 기기를 초기화하세요"</string>
+    <string name="text_tap_and_hold_to_increase_or_decrease_volume_l_vol_down_r_vol_up">"길게 누르면 볼륨이 커지거나 작아집니다.
+L: 볼륨 다운 | R: 볼륨 업"</string>
+    <string name="text_tap_four">네 번 탭</string>
+    <string name="text_tap_four_times">네 번 탭</string>
+    <string name="text_tap_four_times_to_enable_or_disable_audio_boost">이어피스 어느 쪽이든 네 번 탭하여 오디오 부스트를 켜기/끄기</string>
+    <string name="text_tap_four_times_to_enable_or_disable_spatial_audio">네 번 탭하여 공간 음향을 활성화 또는 비활성화</string>
+    <string name="text_tap_four_times_to_toggle_spatial_audio_on_or_off">네 번 탭하여 공간 음향을 켜거나 끄세요</string>
+    <string name="text_tap_four_times_to_wake_voice_assistant">한쪽 이어버드를 네 번 탭하여 스마트폰의 음성 비서를 깨우기</string>
+    <string name="text_tap_hold">탭 길게 누르기</string>
+    <string name="text_tap_hold_2">탭 길게 누르기</string>
+    <string name="text_tap_hold_for_3s_to_play_next_or_previous_track">"3초간 탭하고 길게 눌러 다음 또는 이전 트랙 재생
+L: 이전 트랙 | R: 다음 트랙"</string>
+    <string name="text_tap_hold_on_either_clip_to_reject_incoming_calls">클립 중 하나를 길게 눌러 수신 전화를 거절합니다</string>
+    <string name="text_tap_hold_on_the_earbud_to_switch_between_anc_modes">"이어버드를 탭하고 길게 눌러
+ANC 모드를 전환하세요."</string>
+    <string name="text_tap_hold_to_enable_or_disable_gaming_mode">한쪽 이어버드를 길게 눌러 게이밍 모드 활성화/비활성화</string>
+    <string name="text_tap_hold_to_reject_incoming_calls">탭하고 길게 눌러 수신 전화를 거절</string>
+    <string name="text_tap_once">한 번 탭</string>
+    <string name="text_tap_once_to_answer_hangup_calls">한 번 탭하여 수신 전화 받기/통화 종료</string>
+    <string name="text_tap_once_to_increase_or_decrease_volume_l_vol_down_r_vol_up">"한 번 탭하여 볼륨 조절
+L: 볼륨 감소 | R: 볼륨 증가"</string>
+    <string name="text_tap_one">한 번 탭</string>
+    <string name="text_tap_thrice">세 번 탭</string>
+    <string name="text_tap_thrice_2">세 번 탭</string>
+    <string name="text_tap_thrice_to_change_tracks_l_prev_r_next">"세 번 탭하여 트랙을 변경하세요.
+L: 이전 트랙 | R: 다음 트랙"</string>
+    <string name="text_tap_thrice_to_play_next_or_previous_song_l_vol_up_r_vol_down">세 번 탭하여 다음 또는 이전 곡 재생</string>
+    <string name="text_tap_thrice_to_play_or_pause_the_music">세 번 탭하여 음악 재생 또는 일시정지</string>
+    <string name="text_tap_thrice_to_reject_incoming_calls">세 번 탭하여 수신 전화 거절</string>
+    <string name="text_tap_to_grant_mic_permission">탭하여 마이크 접근 권한 허용</string>
+    <string name="text_tap_to_speak">탭하여 말하기</string>
+    <string name="text_tap_to_start_audio_ai">탭하여 Audio AI 시작</string>
+    <string name="text_tap_twice">두 번 탭</string>
+    <string name="text_tap_twice_2">두 번 탭</string>
+    <string name="text_tap_twice_on_mode_switch_button_to_toggle_between_spatial_audio_music_mode">"모드 전환 버튼을 두 번 탭하여
+공간 음향과 음악 모드를 전환"</string>
+    <string name="text_tap_twice_to_answer_calls_or_end_ongoing_calls">두 번 탭하여 전화 받기 또는 통화 종료</string>
+    <string name="text_tap_twice_to_answer_hangup_calls">두 번 탭하여 전화 받기/끊기</string>
+    <string name="text_tap_twice_to_answer_incoming_or_hangup_ongoing_calls">두 번 탭하여 수신 전화를 받거나 통화 중인 전화를 종료합니다</string>
+    <string name="text_tap_twice_to_increase_or_decrease_volume">"두 번 탭하여 볼륨을 높이거나 낮추세요
+L: 볼륨 업 | R: 볼륨 다운"</string>
+    <string name="text_tap_twice_to_play_or_pause_the_music">두 번 탭하여 음악을 재생하거나 일시정지합니다</string>
+    <string name="text_tap_twice_to_play_or_pause_the_song">두 번 탭하여 노래 재생 또는 일시정지</string>
+    <string name="text_tap_twice_to_reject_incoming_calls">두 번 탭하여 수신 전화 거절</string>
+    <string name="text_tap_volume_and_on_the_earbud_to_switch_between_anc_modes">"이어버드의 볼륨 + 및 - 를 탭하여
+ANC 모드를 전환하세요."</string>
+    <string name="text_tap_volume_or_on_the_headphone_to_increase_or_decrease_the_volume">"헤드폰의 볼륨 + 또는 - 를 탭하여
+볼륨을 높이거나 낮추세요"</string>
+    <string name="text_terms_and_condition">이용 약관 및 개인정보 처리방침</string>
+    <string name="text_terms_and_conditions">이용 약관</string>
+    <string name="text_terms_and_policies">약관 및 정책</string>
+    <string name="text_terms_of_service">서비스 이용 약관</string>
+    <string name="text_terms_of_services">이용약관</string>
+    <string name="text_terms_policies">"약관 &amp;
+정책"</string>
+    <string name="text_terms_privacy_policy">이용 약관 및 개인정보 처리방침을 읽고 동의합니다</string>
+    <string name="text_the_app_is_upto_date">앱이 최신 상태입니다</string>
+    <string name="text_the_case_light_turns_orange_when_charging_and_turns_to_white_when_fully_charged">충전 중에는 케이스 표시등이 주황색으로 켜지고 완전히 충전되면 흰색으로 바뀝니다</string>
+    <string name="text_this_action_can_not_be_modified">이 작업은 수정할 수 없습니다</string>
+    <string name="text_this_is">이것은</string>
+    <string name="text_time_left_format">%1$s 남음</string>
+    <string name="text_title_activity_login">로그인 액티비티</string>
+    <string name="text_title_activity_login2">로그인액티비티2</string>
+    <string name="text_title_nosie_control">노이즈 컨트롤</string>
+    <string name="text_today">오늘</string>
+    <string name="text_toggle_anc_modes">ANC 모드 전환</string>
+    <string name="text_toggle_spatial_audio">공간 음향 전환</string>
+    <string name="text_touch_control_2">버튼 컨트롤</string>
+    <string name="text_touch_controls">터치 컨트롤</string>
+    <string name="text_touch_gesture_message">간편한 제어를 위해 터치 제스처를 사용자화하세요</string>
+    <string name="text_touch_gesture_message_2">개인화된 경험을 위해 기기의 터치 제스처 컨트롤을 설정하세요. 현재 터치 컨트롤이 꺼져 있습니다.</string>
+    <string name="text_touch_gesture_message_3">간편한 제어를 위해 제스처를 사용자화하세요.</string>
+    <string name="text_touch_gesture_message_4">손쉬운 조작을 위해 버튼 컨트롤을 맞춤 설정하세요</string>
+    <string name="text_touch_gestures">터치 제스처</string>
+    <string name="text_touch_gestures_camelcase">터치 제스처</string>
+    <string name="text_transcribe_your_meetings_discussions_at_single_tap">한 번의 탭으로 회의/대화를 텍스트로 변환</string>
+    <string name="text_transcription_history_caps">전사 기록</string>
+    <string name="text_transcriptions_caps">전사</string>
+    <string name="text_transferring_firmware">펌웨어 전송 중</string>
+    <string name="text_transparency">투명 모드</string>
+    <string name="text_treble">트레블</string>
+    <string name="text_try_again">다시 시도</string>
+    <string name="text_try_the_demo_again">데모 다시 시도</string>
+    <string name="text_try_the_different_settings_below">아래의 다양한 설정을 사용해 보세요</string>
+    <string name="text_turn_it_back_on_from_the_bluetooth_section_in_your_device_settings">기기 설정의 블루투스 메뉴에서 다시 켜주세요</string>
+    <string name="text_tws_earphones">TWS 이어폰</string>
+    <string name="text_uh_oh_looks_like_we_have_an_api_response_failure">이런! API 응답 오류가 발생한 것 같습니다.</string>
+    <string name="text_unable_to_connect_to_device">기기에 연결할 수 없습니다</string>
+    <string name="text_unable_to_find_device">"기기를 찾을 수
+없습니다"</string>
+    <string name="text_unable_to_find_device2">기기를 찾을 수 없나요?</string>
+    <string name="text_unable_to_open_settings">설정을 열 수 없습니다.</string>
+    <string name="text_understood">이해했습니다</string>
+    <string name="text_unsupported_device_info">"BLE로 연결됨
+재생 준비 완료 -
+Noise Audio 앱 불필요"</string>
+    <string name="text_unsupported_device_info_not_connected">"연결하고 재생 -
+Noise Audio 앱 불필요"</string>
+    <string name="text_update_app">앱 업데이트</string>
+    <string name="text_update_available">"소프트웨어
+업데이트"</string>
+    <string name="text_update_available_2">소프트웨어 업데이트</string>
+    <string name="text_update_available_label">업데이트 가능</string>
+    <string name="text_update_complete">업데이트 완료</string>
+    <string name="text_update_device">기기 업데이트</string>
+    <string name="text_update_firmware">펌웨어 업데이트</string>
+    <string name="text_update_now">지금 업데이트</string>
+    <string name="text_update_now_to_enhance_your_experience">지금 업데이트하여 경험을 향상하세요</string>
+    <string name="text_update_profile">프로필 업데이트</string>
+    <string name="text_upgrade_your_experience">경험을 업그레이드하세요</string>
+    <string name="text_upload">업로드</string>
+    <string name="text_upload_confirmation">업로드 확인</string>
+    <string name="text_upload_from_file">파일에서 업로드</string>
+    <string name="text_upload_from_gallery">갤러리에서 업로드</string>
+    <string name="text_upload_hint">JPEG/JPG/PNG/HEIC/MP4 형식의 20 MB 이하 미디어 파일을 최대 3개 업로드할 수 있습니다</string>
+    <string name="text_upload_invoice">인보이스 업로드</string>
+    <string name="text_upload_invoice_instead">대신 인보이스 업로드</string>
+    <string name="text_upload_screenshot">스크린샷 업로드</string>
+    <string name="text_upload_your_review">리뷰 업로드</string>
+    <string name="text_upto_date">최신 상태</string>
+    <string name="text_use_noise_ai">NOISE AI 사용</string>
+    <string name="text_use_the_code_below_to_redeem_the_offer_value">아래 코드를 사용하여 혜택을 사용하세요</string>
+    <string name="text_user_details">사용자 정보</string>
+    <string name="text_valid_for">유효 기간 :</string>
+    <string name="text_verification_failed">"확인
+실패"</string>
+    <string name="text_verify_with_otp_n">"OTP로
+인증"</string>
+    <string name="text_verify_your_identity">"본인 인증
+확인"</string>
+    <string name="text_verifying_nreview">"리뷰
+확인 중"</string>
+    <string name="text_version">버전 %1$s</string>
+    <string name="text_view_coupon">쿠폰 보기</string>
+    <string name="text_view_now">지금 보기</string>
+    <string name="text_vocal">보컬</string>
+    <string name="text_voice_assistant">음성 비서</string>
+    <string name="text_volume_control">볼륨 제어</string>
+    <string name="text_volume_down">볼륨 내리기</string>
+    <string name="text_volume_up">볼륨 올리기</string>
+    <string name="text_warranty">보증</string>
+    <string name="text_warranty_message">보증 서비스를 받기 위해 기기를 등록하세요</string>
+    <string name="text_warranty_status">보증 상태</string>
+    <string name="text_we_ve_sent_a_code_to_jatin_grappus_com">JATIN@GRAPPUS.COM 으로 코드를 전송했습니다</string>
+    <string name="text_wear_buds_to_unlock_full_controls">이어버드를 착용하여 모든 컨트롤을 사용하세요</string>
+    <string name="text_wear_detection">착용 감지</string>
+    <string name="text_wear_detection_message">기기를 벗으면 음악이 자동으로 일시정지됩니다</string>
+    <string name="text_website">웹사이트</string>
+    <string name="text_welcome">환영합니다!</string>
+    <string name="text_what_s_new">새로운 기능</string>
+    <string name="text_when_charging_the_case_light_glows_orange_turns_white_when_fully_charged">충전 중에는 케이스 표시등이 주황색으로 켜지고 완전히 충전되면 흰색으로 바뀝니다</string>
+    <string name="text_wrong_client_time">잘못된 클라이언트 시간</string>
+    <string name="text_wrong_date_desc">"휴대폰 날짜가 정확하지 않습니다! 시계를 조정한 후 다시 시도하세요 
+
+휴대폰 날짜 및 시간: %1$s"</string>
+    <string name="text_wrong_time">잘못된 시간</string>
+    <string name="text_yes">예</string>
+    <string name="text_yes_caps">예</string>
+    <string name="text_yes_forget_device">예, 기기 삭제</string>
+    <string name="text_yesterday">어제</string>
+    <string name="text_you_already_have_a_noisefit_account_with_do_you_want_to_login_to_your_existing_account">%1$s로 이미 Noise 계정이 있습니다. 기존 계정으로 로그인하시겠습니까?</string>
+    <string name="text_you_re_all_set">모두 준비되었습니다</string>
+    <string name="text_you_re_now_using_ver_value">현재 버전 %1$s 사용 중</string>
+    <string name="text_your_app_is_upto_date">앱이 최신 상태입니다</string>
+    <string name="text_your_coupon_has_been_added_under_my_vouchers">*쿠폰이 “내 바우처”에 추가되었습니다</string>
+    <string name="text_your_device_is_in_french">기기 언어가 프랑스어로 설정되어 있습니다</string>
+    <string name="text_your_device_is_low_on_charge">기기 배터리가 부족합니다</string>
+    <string name="text_your_e_mail">이메일</string>
+    <string name="text_your_feedback_unlocks_perks">피드백으로 혜택이 열립니다!</string>
+    <string name="text_your_name">이름</string>
+    <string name="text_your_number">전화번호</string>
+    <string name="text_your_own_ai_buddy_to_answer_your_questions">질문에 답해주는 나만의 AI 친구</string>
+    <string name="text_your_reward_has_been_added_to_noise_coins">*리워드가 Noise 코인으로 적립되었습니다</string>
+    <string name="text_your_way">당신만의 방식</string>
+    <string name="text_zero_effort_control">간편한 제어</string>
+    <string name="title_activity_login2">로그인액티비티2</string>
+    <string name="title_adaptive_anc">적응형 ANC</string>
+    <string name="title_ai_assistant">AI 어시스턴트</string>
+    <string name="title_dual_pairing">듀얼 페어링</string>
+    <string name="title_premium_sound">프리미엄 사운드</string>
+    <string name="title_spatial_audio">공간 음향</string>
+    <string name="touch_gestures_customization">터치 제스처 사용자 설정</string>
+    <string name="update_firmware">펌웨어 업데이트</string>
+    <string name="updating_firmware">펌웨어 업데이트 중</string>
+    <string name="voice_assistant">음성 비서</string>
+    <string name="we_ve_sent_a_code_to">코드를 전송했습니다</string>
+    <string name="welcome">환영합니다!</string>
+    <string name="whats_new">새로운 기능</string>
+    <string name="your_email">이메일 주소</string>
+    <string name="your_name">이름</string>
+</resources>

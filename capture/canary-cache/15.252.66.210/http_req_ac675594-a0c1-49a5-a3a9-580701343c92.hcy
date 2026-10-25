@@ -1,0 +1,20 @@
+GET /user_detail/audio/devices/list h2
+Host: app.gonoise.com
+content-type: application/json
+version: 228
+version-name: 2.2.8
+user-agent: Android 10(samsung;SM-M305F;2.2.8)
+device-model: SM-M305F
+device-manufacturer: samsung
+os-version: 10
+platform: android
+epoch-time: 1792928131430
+guest-id: 6601d20bda14d918
+wearable-type: audio
+timezone: Asia/Kolkata
+offset: 330
+accept-language: en
+country: IN
+user-agent: Android 10(samsung;SM-M305F;2.2.8)
+accept-encoding: gzip
+

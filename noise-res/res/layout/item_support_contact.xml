@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_support_contact_0" android:paddingTop="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="34.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/iconContainer" android:background="@drawable/dark_circle_bg" android:layout_width="36.0dip" android:layout_height="36.0dip" app:layout_constraintBottom_toBottomOf="@id/tvValue" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/ivIcon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:contentDescription="icon" />
+    </FrameLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#ff879399" android:id="@id/tvTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iconContainer" app:layout_constraintTop_toTopOf="parent" style="@style/RobotoMonoRegular" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff54656d" android:id="@id/tvValue" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/tvTitle" app:layout_constraintTop_toBottomOf="@id/tvTitle" style="@style/ClashDisplayVariableMedium" />
+    <View android:id="@id/divider" android:background="#1a000000" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginTop="22.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/tvValue" app:layout_constraintTop_toBottomOf="@id/tvValue" />
+</androidx.constraintlayout.widget.ConstraintLayout>

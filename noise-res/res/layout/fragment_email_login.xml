@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_content" android:layout_width="0.0dip" android:layout_height="0.0dip" android:fillViewport="true" android:overScrollMode="never" app:layout_constraintBottom_toTopOf="@id/btn_continue" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.noise.audio.customviews.NoiseLoginTitleBar android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" />
+            <com.noise.audio.customviews.NoiseInputBox android:textSize="20.0sp" android:textColor="#ff3a434e" android:textColorHint="@color/hint_color_default" android:id="@id/input_email" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:hint="@string/text_enter_your_email" android:maxLength="64" android:inputType="textEmailAddress" app:hide_clear="false" app:title="@string/text_email_address" style="@style/ClashDisplayVariableRegular" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.noise.audio.customviews.NoiseContinueButton android:id="@id/btn_continue" android:layout_width="0.0dip" android:layout_height="wrap_content" app:enabled="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <include android:id="@id/progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/default_loader" />
+</androidx.constraintlayout.widget.ConstraintLayout>

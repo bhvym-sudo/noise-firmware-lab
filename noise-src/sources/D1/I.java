@@ -1,0 +1,22 @@
+package D1;
+
+import com.yalantis.ucrop.view.CropImageView;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class I {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final float[] f3263a = new float[20];
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final long[] f3264b = new long[20];
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public float f3265c = CropImageView.DEFAULT_ASPECT_RATIO;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    public int f3266d = 0;
+
+    /* JADX INFO: renamed from: e, reason: collision with root package name */
+    public int f3267e = 0;
+}

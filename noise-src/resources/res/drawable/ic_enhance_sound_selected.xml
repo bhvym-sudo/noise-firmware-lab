@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/circle_app_update_selected"/>
+    <item
+        android:top="3dp"
+        android:bottom="3dp"
+        android:start="3dp"
+        android:end="3dp">
+        <bitmap
+            android:gravity="center"
+            android:src="0x7f0801b3"/>
+    </item>
+</layer-list>

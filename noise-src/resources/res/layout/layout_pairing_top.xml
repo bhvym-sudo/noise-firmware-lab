@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="33sp"
+        android:textStyle="normal"
+        android:textColor="@color/title_color"
+        android:gravity="center_horizontal"
+        android:id="@+id/noiseTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:lineSpacingExtra="3sp"
+        android:textAllCaps="true"
+        android:layout_marginStart="@dimen/side_margin"
+        android:layout_marginEnd="@dimen/side_margin"
+        android:letterSpacing="-0.01"
+        android:autoSizeTextType="uniform"
+        android:autoSizeStepGranularity="1sp"
+        android:autoSizeMinTextSize="14sp"
+        android:autoSizeMaxTextSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ClashDisplayVariableSemiBold"/>
+    <ImageView
+        android:id="@+id/ivBack"
+        android:visibility="gone"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="0x7f080244"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/noiseTextView2"/>
+    <include
+        android:id="@+id/lytConnectFailed"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noiseTextView2"
+        layout="@layout/layout_message_display"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollViewMain" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="112.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/lytHeader" layout="@layout/layout_settings_header" />
+            <com.google.android.material.card.MaterialCardView android:id="@id/cardProfile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" app:cardBackgroundColor="#fff7f7f7" app:cardCornerRadius="18.0dip" app:cardElevation="0.0dip" app:strokeColor="@color/transparent" app:strokeWidth="0.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="16.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" android:paddingVertical="14.0dip">
+                    <FrameLayout android:id="@id/flProfileAvatar" android:background="@drawable/ic_ring_v2" android:layout_width="40.0dip" android:layout_height="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                        <ImageView android:id="@id/ivProfileImage" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_sign_in_card_icon" android:scaleType="centerCrop" />
+                        <TextView android:textSize="18.0sp" android:textColor="#ff43555e" android:layout_gravity="center" android:id="@id/tvProfileInitial" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A" style="@style/ClashDisplayVariableSemiBold" />
+                    </FrameLayout>
+                    <TextView android:textSize="16.0sp" android:textColor="#ff43555e" android:ellipsize="end" android:id="@id/tvProfileName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="locale" android:layout_marginStart="12.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/ivProfileArrow" app:layout_constraintStart_toEndOf="@id/flProfileAvatar" app:layout_constraintTop_toTopOf="parent" style="@style/ClashDisplayVariableMedium" />
+                    <ImageView android:id="@id/ivProfileArrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_right_blue_arrow" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="#ff54656d" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <TextView android:textSize="14.0sp" android:textColor="#ff42454a" android:id="@id/tvDeviceSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/text_device_section" android:textAllCaps="true" android:layout_marginStart="34.0dip" style="@style/RobotoMonoRegular" />
+            <com.google.android.material.card.MaterialCardView android:id="@id/cardDevice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" app:cardBackgroundColor="#fff7f7f7" app:cardCornerRadius="18.0dip" app:cardElevation="0.0dip" app:strokeColor="@color/transparent" app:strokeWidth="0.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/itemHelpSupport" layout="@layout/item_settings_list_row" />
+                    <include android:id="@id/itemFirmwareUpdate" layout="@layout/item_settings_list_row" />
+                    <include android:id="@id/itemReviewAndEarn" layout="@layout/item_settings_list_row" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <TextView android:textSize="14.0sp" android:textColor="#ff42454a" android:id="@id/tvAppSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/text_app_section" android:textAllCaps="true" android:layout_marginStart="34.0dip" style="@style/RobotoMonoRegular" />
+            <com.google.android.material.card.MaterialCardView android:id="@id/cardApp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" app:cardBackgroundColor="#fff7f7f7" app:cardCornerRadius="18.0dip" app:cardElevation="0.0dip" app:strokeColor="@color/transparent" app:strokeWidth="0.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/itemAppLanguage" layout="@layout/item_settings_list_row" />
+                    <include android:id="@id/itemBackgroundProtection" layout="@layout/item_settings_list_row" />
+                    <include android:id="@id/itemManagePermissions" layout="@layout/item_settings_list_row" />
+                    <include android:id="@id/itemAppUpdate" layout="@layout/item_settings_list_row" />
+                    <include android:id="@id/itemRequestFeature" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="72.0dip" layout="@layout/item_settings_list_row" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <TextView android:textSize="@dimen/text_14sp" android:textStyle="bold" android:textColor="#ffbb1515" android:gravity="center" android:id="@id/tvForgetDevice" android:background="@drawable/back_forgot_device" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:text="@string/text_forget_this_device" android:textAllCaps="true" android:layout_marginHorizontal="16.0dip" style="@style/RobotoMonoMedium" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="#ff232726" android:id="@id/tvPrivacyPolicy" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_privacy_policy" android:textAllCaps="true" style="@style/RobotoMonoMedium" />
+                <View android:layout_width="24.0dip" android:layout_height="0.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff232726" android:id="@id/tvTermsCondition" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_terms_and_conditions" android:textAllCaps="true" style="@style/RobotoMonoMedium" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#ff9ca0a6" android:gravity="center" android:id="@id/tvAppVersion" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" style="@style/RobotoMonoRegular" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include android:id="@id/progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/default_loader" />
+</androidx.constraintlayout.widget.ConstraintLayout>

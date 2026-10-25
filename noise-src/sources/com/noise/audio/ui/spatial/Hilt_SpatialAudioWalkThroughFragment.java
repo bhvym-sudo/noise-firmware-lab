@@ -1,0 +1,105 @@
+package com.noise.audio.ui.spatial;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import androidx.lifecycle.ViewModelProvider;
+import com.noise.audio.ui.base.BaseFragment;
+import p039cb.g;
+import p097i4.a;
+import p264vb.d;
+import wb.h;
+import wb.n;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class Hilt_SpatialAudioWalkThroughFragment<VB extends p097i4.a> extends BaseFragment<VB> implements p291yb.b {
+
+    /* JADX INFO: renamed from: F, reason: collision with root package name */
+    public n f23352F;
+
+    /* JADX INFO: renamed from: G, reason: collision with root package name */
+    public boolean f23353G;
+
+    /* JADX INFO: renamed from: H, reason: collision with root package name */
+    public volatile h f23354H;
+
+    /* JADX INFO: renamed from: I, reason: collision with root package name */
+    public final Object f23355I;
+
+    /* JADX INFO: renamed from: J, reason: collision with root package name */
+    public boolean f23356J;
+
+    public Hilt_SpatialAudioWalkThroughFragment() {
+        super(p039cb.c.f18958a);
+        this.f23355I = new Object();
+        this.f23356J = false;
+    }
+
+    @Override // p291yb.b
+    public final Object b() {
+        if (this.f23354H == null) {
+            synchronized (this.f23355I) {
+                try {
+                    if (this.f23354H == null) {
+                        this.f23354H = new h(this);
+                    }
+                } catch (Throwable th) {
+                    throw th;
+                }
+            }
+        }
+        return this.f23354H.b();
+    }
+
+    @Override // androidx.fragment.app.I
+    public final Context getContext() {
+        if (super.getContext() == null && !this.f23353G) {
+            return null;
+        }
+        s();
+        return this.f23352F;
+    }
+
+    @Override // androidx.fragment.app.I, androidx.lifecycle.HasDefaultViewModelProviderFactory
+    public final ViewModelProvider.Factory getDefaultViewModelProviderFactory() {
+        return d.b(this, super.getDefaultViewModelProviderFactory());
+    }
+
+    @Override // androidx.fragment.app.I
+    public final void onAttach(Context context) {
+        super.onAttach(context);
+        s();
+        if (this.f23356J) {
+            return;
+        }
+        this.f23356J = true;
+        ((g) b()).getClass();
+    }
+
+    @Override // androidx.fragment.app.I
+    public final LayoutInflater onGetLayoutInflater(Bundle bundle) {
+        LayoutInflater layoutInflaterOnGetLayoutInflater = super.onGetLayoutInflater(bundle);
+        return layoutInflaterOnGetLayoutInflater.cloneInContext(new n(layoutInflaterOnGetLayoutInflater, this));
+    }
+
+    public final void s() {
+        if (this.f23352F == null) {
+            this.f23352F = new n(super.getContext(), this);
+            this.f23353G = w7.b.r(super.getContext());
+        }
+    }
+
+    @Override // androidx.fragment.app.I
+    public final void onAttach(Activity activity) {
+        super.onAttach(activity);
+        n nVar = this.f23352F;
+        p253uc.b.d(nVar == null || h.c(nVar) == activity, "onAttach called multiple times with different Context! Hilt Fragments should not be retained.", new Object[0]);
+        s();
+        if (this.f23356J) {
+            return;
+        }
+        this.f23356J = true;
+        ((g) b()).getClass();
+    }
+}

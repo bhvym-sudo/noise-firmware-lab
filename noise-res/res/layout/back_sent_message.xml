@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:background="#ff232726" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginEnd="4.0dip" app:shapeAppearance="@style/ShapeAppearanceOverlay.App.CornerSize20dp" />
+    <com.google.android.material.imageview.ShapeableImageView android:background="#ff232726" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="4.0dip" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:shapeAppearance="@style/ShapeAppearance.App.CircleImageView" />
+    <com.google.android.material.imageview.ShapeableImageView android:background="#ff232726" android:layout_width="6.0dip" android:layout_height="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:shapeAppearance="@style/ShapeAppearance.App.CircleImageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

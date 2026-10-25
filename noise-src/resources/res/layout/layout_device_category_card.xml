@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back_card_v2"
+    android:paddingTop="@dimen/dimen_12dp"
+    android:paddingBottom="@dimen/dimen_16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp">
+    <ImageView
+        android:id="@+id/rvCategoryImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="18sp"
+        android:textColor="#43555e"
+        android:id="@+id/tvCategoryName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="HEADPHONE"
+        android:textAllCaps="true"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ivCategoryArrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rvCategoryImages"
+        style="@style/ClashDisplayVariableSemiBold"/>
+    <ImageView
+        android:id="@+id/ivCategoryArrow"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_right_black_icon"
+        android:layout_marginEnd="6dp"
+        android:paddingVertical="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvCategoryName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvCategoryName"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/layout_toolbar_with_title_trail_text_0" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/backBtn" android:layout_margin="@dimen/side_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ToolbarBlackBackButton" />
+    <TextView android:ellipsize="end" android:gravity="center" android:id="@id/tvTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/_48sdp" android:layout_marginEnd="@dimen/_48sdp" app:layout_constraintBottom_toBottomOf="@id/backBtn" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/backBtn" style="@style/H4" />
+    <TextView android:textColor="@color/guide_title_color" android:id="@id/tvTrailText" android:padding="@dimen/dimen_8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_next" android:layout_marginEnd="@dimen/side_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ClashDisplayVariableMedium" />
+</androidx.constraintlayout.widget.ConstraintLayout>

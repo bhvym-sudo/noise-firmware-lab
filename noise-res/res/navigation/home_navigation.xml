@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/home_navigation" app:startDestination="@id/homeFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.noise.audio.ui.home.fragment.HomeFragment" android:id="@id/homeFragment">
+        <action android:id="@id/action_home_to_equalizer" app:destination="@id/equalizerFragment" app:enterAnim="@anim/enter_from_down" />
+        <action android:id="@id/action_home_to_anc" app:destination="@id/ancFragment" app:enterAnim="@anim/enter_from_down" />
+        <action android:id="@id/action_my_profile" app:destination="@id/profileFragment" app:enterAnim="@anim/anim_slide_in_right" app:exitAnim="@anim/anim_stay" app:popEnterAnim="@anim/anim_stay" app:popExitAnim="@anim/anim_slide_out_right" />
+        <action android:id="@id/action_home_to_touch_gesture" app:destination="@id/touchGesture" app:enterAnim="@anim/enter_from_down" />
+        <action android:id="@id/action_home_to_settings" app:destination="@id/settingFragment" app:enterAnim="@anim/slide_in_left" app:exitAnim="@anim/anim_stay" app:popEnterAnim="@anim/anim_stay" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_home_to_forgotDeviceFragment" app:destination="@id/forgotDeviceFragment" />
+    </fragment>
+    <dialog android:label="BottomSheetDeviceFailedToConnect" android:name="com.noise.audio.ui.home.fragment.BottomSheetDeviceFailedToConnect" android:id="@id/bottomSheetDeviceFailedToConnect" />
+    <dialog android:name="com.noise.audio.ui.home.fragment.equalizer.EqualizerFragment" android:id="@id/equalizerFragment" />
+    <dialog android:label="AppUpdateBottomSheet" android:name="com.noise.audio.ui.appupdate.AppUpdateBottomSheet" android:id="@id/appUpdateBottomSheet">
+        <argument android:name="versonResponse" app:argType="com.noise.audio.data.model.response.VersionCheckResponse" />
+    </dialog>
+    <dialog android:name="com.noise.audio.ui.home.fragment.anc.ActiveNoiseCancellationFragment" android:id="@id/ancFragment" />
+    <dialog android:name="com.noise.audio.ui.home.fragment.touch.CustomizingBudsFragment" android:id="@id/customBudsFragment">
+        <argument android:name="earbud_side" android:defaultValue="0" app:argType="integer" />
+    </dialog>
+    <dialog android:name="com.noise.audio.ui.home.fragment.touch.TouchGesturesFragment" android:id="@id/touchGesture">
+        <action android:id="@id/action_customizing_bud" app:destination="@id/customBudsFragment" />
+    </dialog>
+    <fragment android:name="com.noise.audio.ui.home.fragment.touch.TouchGestureFragmentV2" android:id="@id/touchGestureV2">
+        <action android:id="@id/action_customizing_bud" app:destination="@id/customBudsFragment" />
+    </fragment>
+    <dialog android:label="TouchGestureActionBottomSheet" android:name="com.noise.audio.ui.home.fragment.touch.TouchGestureActionBottomSheet" android:id="@id/touchGestureActionBottomSheet">
+        <argument android:name="earbud_side" app:argType="integer" />
+        <argument android:name="button_action" app:argType="com.noise.audio.common.model.ButtonAction" />
+    </dialog>
+    <fragment android:name="com.noise.audio.ui.settings.SettingsFragment" android:id="@id/settingFragment">
+        <action android:id="@id/action_find_my_earbuds" app:destination="@id/findMyEarBudsFragment" />
+        <action android:id="@id/action_product_guide" app:destination="@id/productGuideFragment" />
+        <action android:id="@id/action_app_update" app:destination="@id/appUpdateFragment" />
+        <action android:id="@id/action_my_profile" app:destination="@id/findMyEarBudsFragment" />
+        <action android:id="@id/action_device_update" app:destination="@id/firmwareUpdateFragment" />
+        <action android:id="@id/action_term_n_policy" app:destination="@id/findMyEarBudsFragment" />
+        <action android:id="@id/action_settingFragment_to_homeFragment" app:destination="@id/homeFragment" app:enterAnim="@anim/anim_stay" app:exitAnim="@anim/anim_slide_down" app:launchSingleTop="true" app:popEnterAnim="@anim/anim_stay" app:popExitAnim="@anim/anim_slide_down" app:popUpTo="@id/settingFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_setting_to_profile" app:destination="@id/profileFragment" app:enterAnim="@anim/anim_slide_in_right" app:exitAnim="@anim/anim_stay" app:popEnterAnim="@anim/anim_stay" app:popExitAnim="@anim/anim_slide_out_right" />
+    </fragment>
+    <fragment android:label="AIHomeFragment" android:name="com.noise.audio.ui.ai.AIHomeFragment" android:id="@id/aiHomeFragment">
+        <action android:id="@id/action_aiHome_to_aiTextChat" app:destination="@id/aiTextChatFragment" />
+        <action android:id="@id/action_AI_to_profile" app:destination="@id/profileFragment" app:enterAnim="@anim/anim_slide_in_right" app:exitAnim="@anim/anim_stay" app:popEnterAnim="@anim/anim_stay" app:popExitAnim="@anim/anim_slide_out_right" />
+        <action android:id="@id/action_aiHome_to_noiseAiConsent" app:destination="@id/noiseAiConsentBottomSheet" />
+        <action android:id="@id/action_aiHome_to_aiTranscription" app:destination="@id/aiTranscriptionFragment" />
+        <action android:id="@id/action_aiHome_to_wsTranscribe" app:destination="@id/wsTranscribeFragment" />
+        <action android:id="@id/action_aiHome_to_transcriptionHistory" app:destination="@id/transcriptionHistoryFragment" />
+    </fragment>
+    <fragment android:label="TranscriptionHistoryFragment" android:name="com.noise.audio.ui.ai.transcriptionhistory.TranscriptionHistoryFragment" android:id="@id/transcriptionHistoryFragment">
+        <action android:id="@id/action_transcriptionHistory_to_wsTranscribe" app:destination="@id/wsTranscribeFragment" />
+        <action android:id="@id/action_transcriptionHistory_to_details" app:destination="@id/transcriptionDetailsFragment" />
+    </fragment>
+    <fragment android:label="TranscriptionDetailsFragment" android:name="com.noise.audio.ui.ai.transcriptiondetails.TranscriptionDetailsFragment" android:id="@id/transcriptionDetailsFragment">
+        <argument android:name="transcription_id" android:defaultValue="" app:argType="string" />
+        <argument android:name="local_audio_path" android:defaultValue="" app:argType="string" />
+    </fragment>
+    <dialog android:label="TranscriptionShareBottomSheet" android:name="com.noise.audio.ui.ai.transcriptiondetails.TranscriptionShareBottomSheet" android:id="@id/transcriptionShareBottomSheet" />
+    <dialog android:label="EditTranscriptionConfirmBottomSheet" android:name="com.noise.audio.ui.ai.transcriptiondetails.EditTranscriptionConfirmBottomSheet" android:id="@id/editTranscriptionConfirmBottomSheet" />
+    <dialog android:label="DiscardChangesBottomSheet" android:name="com.noise.audio.ui.ai.transcriptiondetails.DiscardChangesBottomSheet" android:id="@id/discardChangesBottomSheet" />
+    <dialog android:label="DeleteTranscriptionBottomSheet" android:name="com.noise.audio.ui.ai.transcriptionhistory.DeleteTranscriptionBottomSheet" android:id="@id/deleteTranscriptionBottomSheet">
+        <argument android:name="ids" android:defaultValue="@null" app:argType="string[]" app:nullable="true" />
+        <argument android:name="result_key" android:defaultValue="" app:argType="string" />
+    </dialog>
+    <dialog android:label="TranscriptionLimitExhaustBottomSheet" android:name="com.noise.audio.ui.ai.transcriptionhistory.TranscriptionLimitExhaustBottomSheet" android:id="@id/transcriptionLimitExhaustBottomSheet">
+        <argument android:name="replenish_date" android:defaultValue="" app:argType="string" />
+        <argument android:name="result_key" android:defaultValue="" app:argType="string" />
+        <argument android:name="cancelable" android:defaultValue="true" app:argType="boolean" />
+    </dialog>
+    <fragment android:label="TranscriptionFragment" android:name="com.noise.audio.ui.ai.transcription.TranscriptionFragment" android:id="@id/aiTranscriptionFragment">
+        <action android:id="@id/action_aiTranscription_to_details" app:destination="@id/transcriptionDetailsFragment" app:popUpTo="@id/aiTranscriptionFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="WsTranscribeFragment" android:name="com.noise.audio.ui.ai.transcribews.WsTranscribeFragment" android:id="@id/wsTranscribeFragment">
+        <action android:id="@id/action_wsTranscribe_to_details" app:destination="@id/transcriptionDetailsFragment" app:popUpTo="@id/wsTranscribeFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_wsTranscribe_self" app:destination="@id/wsTranscribeFragment" app:popUpTo="@id/wsTranscribeFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <dialog android:label="ExitTranscriptionConfirmBottomSheet" android:name="com.noise.audio.ui.ai.transcribews.ExitTranscriptionConfirmBottomSheet" android:id="@id/exitTranscriptionConfirmBottomSheet" />
+    <dialog android:label="RestartTranscriptionConfirmBottomSheet" android:name="com.noise.audio.ui.ai.transcribews.RestartTranscriptionConfirmBottomSheet" android:id="@id/restartTranscriptionConfirmBottomSheet" />
+    <dialog android:label="StopTranscriptionConfirmBottomSheet" android:name="com.noise.audio.ui.ai.transcribews.StopTranscriptionConfirmBottomSheet" android:id="@id/stopTranscriptionConfirmBottomSheet">
+        <argument android:name="replenish_date" android:defaultValue="" app:argType="string" />
+    </dialog>
+    <dialog android:label="NoiseAiConsentBottomSheet" android:name="com.noise.audio.ui.ai.NoiseAiConsentBottomSheet" android:id="@id/noiseAiConsentBottomSheet" />
+    <fragment android:label="AiTextChatFragment" android:name="com.noise.audio.ui.ai.AiTextChatFragment" android:id="@id/aiTextChatFragment">
+        <argument android:name="threadId" app:argType="string" />
+        <argument android:name="isLimitReached" android:defaultValue="false" app:argType="boolean" />
+        <action android:id="@id/action_aiTextChatFragment_to_chatHistoryFragment" app:destination="@id/chatHistoryFragment" app:popUpTo="@id/aiTextChatFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="AudioAiFragment" android:name="com.noise.audio.ui.ai.audio.AudioAiFragment" android:id="@id/audioAiFragment">
+        <action android:id="@id/action_audioAiFragment_to_audioAiCalibrationFragment" app:destination="@id/audioAiCalibrationFragment" app:popUpTo="@id/audioAiFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="AudioAiCalibrationFragment" android:name="com.noise.audio.ui.ai.audio.AudioAiCalibrationFragment" android:id="@id/audioAiCalibrationFragment">
+        <action android:id="@id/action_audioAiCalibrationFragment_to_audioAiFragment" app:destination="@id/audioAiFragment" app:popUpTo="@id/audioAiCalibrationFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <dialog android:name="com.noise.audio.ui.settings.FindMyEarBudsFragment" android:id="@id/findMyEarBudsFragment" />
+    <dialog android:name="com.noise.audio.ui.settings.firmwareupdate.FirmwareUpdateFragment" android:id="@id/firmwareUpdateFragment">
+        <argument android:name="otaData" android:defaultValue="@null" app:argType="com.noise.audio.data.model.response.FirmwareUpdateData" app:nullable="true" />
+    </dialog>
+    <dialog android:name="com.noise.audio.ui.settings.firmwareupdate.FirmwareTestFragment" android:id="@id/firmwareTestFragment" />
+    <dialog android:name="com.noise.audio.ui.settings.FindMyEarBudsFragment" android:id="@id/action_product_guide" />
+    <fragment android:name="com.noise.audio.ui.settings.AppUpdateFragment" android:id="@id/appUpdateFragment">
+        <argument android:name="versionResponse" android:defaultValue="@null" app:argType="com.noise.audio.data.model.response.VersionCheckResponse" app:nullable="true" />
+    </fragment>
+    <dialog android:label="AppUpdateBottomSheetV2" android:name="com.noise.audio.ui.settings.AppUpdateBottomSheetV2" android:id="@id/appUpdateBottomSheetV2">
+        <argument android:name="versionResponse" android:defaultValue="@null" app:argType="com.noise.audio.data.model.response.VersionCheckResponse" app:nullable="true" />
+    </dialog>
+    <dialog android:label="AppUpdateSuccessBottomSheet" android:name="com.noise.audio.ui.settings.AppUpdateSuccessBottomSheet" android:id="@id/appUpdateSuccessBottomSheet">
+        <argument android:name="versionResponse" android:defaultValue="@null" app:argType="com.noise.audio.data.model.response.VersionCheckResponse" app:nullable="true" />
+    </dialog>
+    <fragment android:name="com.noise.audio.ui.settings.ProductGuideFragment" android:id="@id/productGuideFragment" />
+    <fragment android:label="HelpAndSupportFragment" android:name="com.noise.audio.ui.settings.HelpAndSupportFragment" android:id="@id/helpAndSupportFragment">
+        <argument android:name="fromPairing" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="pairingAudioDevice" android:defaultValue="@null" app:argType="com.noise.audio.common.model.AudioDevice" app:nullable="true" />
+        <action android:id="@id/action_helpAndSupportFragment_to_deviceWarrantyFragment" app:destination="@id/deviceWarrantyFragment" />
+        <action android:id="@id/action_helpAndSupportFragment_to_faqFragment" app:destination="@id/faqFragment" app:exitAnim="@anim/anim_stay" app:popEnterAnim="@anim/anim_stay" />
+        <action android:id="@id/action_helpAndSupportFragment_to_ownerGuideWebViewFragment" app:destination="@id/ownerGuideWebViewFragment" />
+        <action android:id="@id/action_helpAndSupportFragment_to_reportIssueFragment" app:destination="@id/reportIssueFragment" />
+    </fragment>
+    <fragment android:label="OwnerGuideWebViewFragment" android:name="com.noise.audio.ui.settings.OwnerGuideWebViewFragment" android:id="@id/ownerGuideWebViewFragment">
+        <argument android:name="pdfUrl" app:argType="string" />
+    </fragment>
+    <fragment android:label="FaqFragment" android:name="com.noise.audio.ui.settings.FaqFragment" android:id="@id/faqFragment">
+        <argument android:name="fromPairing" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="pairingDeviceId" android:defaultValue="0" app:argType="integer" />
+        <action android:id="@id/action_faqFragment_to_reportIssueFragment" app:destination="@id/reportIssueFragment" app:exitAnim="@anim/anim_stay" app:popEnterAnim="@anim/anim_stay" />
+    </fragment>
+    <fragment android:label="ReportIssueFragment" android:name="com.noise.audio.ui.settings.ReportIssueFragment" android:id="@id/reportIssueFragment" />
+    <dialog android:label="CallSupportBottomSheet" android:name="com.noise.audio.ui.settings.CallSupportBottomSheet" android:id="@id/callSupportBottomSheet">
+        <argument android:name="contactItems" app:argType="com.noise.audio.data.model.SupportContactItem[]" />
+        <argument android:name="type" app:argType="string" />
+    </dialog>
+    <fragment android:name="com.noise.audio.ui.settings.profile.UserInfoFragment" android:id="@id/profileFragment">
+        <action android:id="@id/action_profile_edit" app:destination="@id/profileEditFragment" app:enterAnim="@anim/slide_in_up" app:exitAnim="@anim/anim_stay" app:popEnterAnim="@anim/anim_stay" app:popExitAnim="@anim/anim_slide_down" />
+    </fragment>
+    <fragment android:name="com.noise.audio.ui.settings.profile.UserInfoFragmentV2" android:id="@id/profileFragmentV2">
+        <action android:id="@id/action_profile_v2_edit" app:destination="@id/profileEditFragmentV2" />
+    </fragment>
+    <fragment android:name="com.noise.audio.ui.settings.profile.UserEditInfoFragmentV2" android:id="@id/profileEditFragmentV2" />
+    <fragment android:name="com.noise.audio.ui.settings.profile.AvatarCropperFragmentV2" android:id="@id/avatarCropperFragmentV2">
+        <argument android:name="input_uri" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="input_url" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:name="com.noise.audio.ui.settings.profile.UserEditInfoFragment" android:id="@id/profileEditFragment">
+        <action android:id="@id/action_userProfile_to_dateBottomSheet" app:destination="@id/dateBottomSheet" />
+    </fragment>
+    <dialog android:label="DateBottomSheet" android:name="com.noise.audio.ui.common.DateBottomSheet" android:id="@id/dateBottomSheet">
+        <argument android:name="title" app:argType="string" />
+        <argument android:name="date" app:argType="integer" />
+        <argument android:name="month" app:argType="integer" />
+        <argument android:name="year" app:argType="integer" />
+        <argument android:name="dobDialog" app:argType="boolean" />
+        <argument android:name="maxOffsetDay" app:argType="string" app:nullable="true" />
+        <argument android:name="minOffsetDay" app:argType="string" app:nullable="true" />
+        <argument android:name="femaleHealth" app:argType="boolean" />
+    </dialog>
+    <dialog android:name="com.noise.audio.ui.settings.FindMyEarBudsFragment" android:id="@id/action_my_profile" />
+    <dialog android:name="com.noise.audio.ui.settings.FindMyEarBudsFragment" android:id="@id/action_term_n_policy" />
+    <dialog android:label="fragment_forgot_device" android:name="com.noise.audio.ui.settings.forgot.ForgotDeviceFragment" android:id="@id/forgotDeviceFragment" />
+    <dialog android:label="BottomSheetDeviceSettings" android:name="com.noise.audio.ui.settings.BottomSheetDeviceSettings" android:id="@id/bottomSheetDeviceSettings">
+        <action android:id="@id/action_bottomSheetDeviceSettings_to_forgotDeviceFragment" app:destination="@id/forgotDeviceFragment" app:popUpTo="@id/bottomSheetDeviceSettings" app:popUpToInclusive="true" />
+    </dialog>
+    <dialog android:label="BottomSheetDisconnectedDeviceSettings" android:name="com.noise.audio.ui.settings.BottomSheetDisconnectedDeviceSettings" android:id="@id/bottomSheetDisconnectedDeviceSettings">
+        <argument android:name="mac" app:argType="string" />
+    </dialog>
+    <dialog android:label="ProfileEditFragment" android:name="com.noise.audio.ui.settings.profile.BottomSheetImagePicker" android:id="@id/bottomSheetImagePicker" />
+    <dialog android:label="AvatarPickerBottomSheetV2" android:name="com.noise.audio.ui.settings.profile.AvatarPickerBottomSheetV2" android:id="@id/avatarPickerBottomSheetV2" />
+    <dialog android:label="AvatarActionsBottomSheetV2" android:name="com.noise.audio.ui.settings.profile.AvatarActionsBottomSheetV2" android:id="@id/avatarActionsBottomSheetV2">
+        <argument android:name="image_url" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </dialog>
+    <fragment android:label="PermissionRequestFragment" android:name="com.noise.audio.ui.dialogs.PermissionRequestFragment" android:id="@id/permissionRequestFragment">
+        <argument android:name="title" app:argType="string" />
+        <argument android:name="subTitle" app:argType="string" />
+        <argument android:name="permType" app:argType="com.noise.audio.ui.dialogs.PermissionType" />
+        <argument android:name="image" app:argType="integer" />
+    </fragment>
+    <fragment android:label="BleDisabledFragment" android:name="com.noise.audio.ui.dialogs.BleDisabledFragment" android:id="@id/bleDisabledFragment" />
+    <fragment android:label="PermissionRequiredFragment" android:name="com.noise.audio.ui.dialogs.PermissionRequiredFragment" android:id="@id/permissionRequiredFragment" />
+    <fragment android:label="TestFragment" android:name="com.noise.audio.ui.TestFragment" android:id="@id/testFragment" />
+    <dialog android:label="FindMyHeadPhoneFragment" android:name="com.noise.audio.ui.settings.find.FindMyHeadPhoneFragment" android:id="@id/findMyHeadPhoneFragment" />
+    <fragment android:label="EqualizerMaxFragment" android:name="com.noise.audio.ui.home.fragment.equalizer.max.EqualizerMaxFragment" android:id="@id/equalizerMaxFragment" />
+    <fragment android:label="DualPairingFragment" android:name="com.noise.audio.ui.dual.DualPairingFragment" android:id="@id/dualPairingFragment" />
+    <fragment android:label="AppLanguageFragment" android:name="com.noise.audio.ui.language.AppLanguageFragment" android:id="@id/appLanguageFragment" />
+    <fragment android:label="ProductHeadphoneGuideFragment" android:name="com.noise.audio.ui.settings.guide.ProductHeadphoneGuideFragment" android:id="@id/productHeadphoneGuideFragment" />
+    <fragment android:label="RateAndEarnFragment" android:name="com.noise.audio.ui.rateAndEarn.RateAndEarnFragment" android:id="@id/rateAndEarnFragment" />
+    <dialog android:label="RateEarnUserNotifyBottomSheet" android:name="com.noise.audio.ui.rateAndEarn.bottomSheet.RateEarnUserNotifyBottomSheet" android:id="@id/rateEarnUserNotifyBottomSheet" />
+    <fragment android:label="RateEarnUploadImageFragment" android:name="com.noise.audio.ui.rateAndEarn.image.RateEarnUploadImageFragment" android:id="@id/rateEarnUploadImageFragment">
+        <argument android:name="image" app:argType="string" />
+    </fragment>
+    <dialog android:label="RateEarnShopNowBottomSheet" android:name="com.noise.audio.ui.rateAndEarn.bottomSheet.RateEarnShopNowBottomSheet" android:id="@id/rateEarnShopNowBottomSheet">
+        <argument android:name="shopNow" app:argType="com.noise.audio.data.model.ChannelRewards" />
+    </dialog>
+    <fragment android:label="WalkThroughParentFragment" android:name="com.noise.audio.ui.walkthrough.WalkThroughParentFragment" android:id="@id/walkThroughParentFragment" />
+    <fragment android:label="MotionControlInfoFragment" android:name="com.noise.audio.ui.motion.MotionControlInfoFragment" android:id="@id/motionControlInfoFragment" />
+    <fragment android:label="fragment_spatial_info" android:name="com.noise.audio.ui.spatial.SpatialInfoFragment" android:id="@id/spatialInfoFragment">
+        <action android:id="@id/action_spatialInfoFragment_to_spatialAudioWalkThroughFragment" app:destination="@id/spatialAudioWalkThroughFragment" />
+    </fragment>
+    <fragment android:label="SoundControlsFragment" android:name="com.noise.audio.ui.home.fragment.sound.SoundControlsFragment" android:id="@id/soundControlsFragment">
+        <action android:id="@id/action_soundControlsFragment_to_spatialInfoFragment" app:destination="@id/spatialInfoFragment" />
+    </fragment>
+    <fragment android:label="ControlsFragment" android:name="com.noise.audio.ui.home.fragment.controls.ControlsFragment" android:id="@id/controlsFragment" />
+    <fragment android:label="AudioBoostFragment" android:name="com.noise.audio.ui.home.fragment.sound.AudioBoostFragment" android:id="@id/audioBoostFragment" />
+    <fragment android:label="AboutFragment" android:name="com.noise.audio.ui.about.AboutFragment" android:id="@id/aboutFragment">
+        <action android:id="@id/action_aboutFragment_to_ownerGuideWebViewFragment" app:destination="@id/ownerGuideWebViewFragment" />
+    </fragment>
+    <fragment android:label="HowToWearFragment" android:name="com.noise.audio.ui.about.HowToWearFragment" android:id="@id/howToWearFragment" />
+    <fragment android:label="fragment_settings_v2" android:name="com.noise.audio.ui.settings.SettingsFragmentV2" android:id="@id/settingsFragmentV2">
+        <action android:id="@id/action_settings_to_profile" app:destination="@id/profileFragmentV2" />
+        <action android:id="@id/action_settingsFragment_v2_to_forgotDeviceFragment" app:destination="@id/forgotDeviceFragment" app:popUpTo="@id/bottomSheetDeviceSettings" app:popUpToInclusive="true" />
+        <action android:id="@id/action_settingsFragmentV2_to_backgroundManagementFragment" app:destination="@id/backgroundManagementFragment" />
+        <action android:id="@id/action_settingsFragmentV2_to_managePermissionsFragment" app:destination="@id/managePermissionsFragment" />
+        <action android:id="@id/action_settingsFragmentV2_to_deviceWarrantyFragment" app:destination="@id/deviceWarrantyFragment" />
+    </fragment>
+    <fragment android:label="ManagePermissionsFragment" android:name="com.noise.audio.ui.settings.ManagePermissionsFragment" android:id="@id/managePermissionsFragment" />
+    <fragment android:label="fragment_background_management" android:name="com.noise.audio.ui.settings.BackgroundManagementFragment" android:id="@id/backgroundManagementFragment">
+        <action android:id="@id/action_backgroundManagementFragment_to_appBatteryUsageFragment" app:destination="@id/appBatteryUsageFragment" />
+    </fragment>
+    <fragment android:label="fragment_app_battery_usage" android:name="com.noise.audio.ui.settings.AppBatteryUsageFragment" android:id="@id/appBatteryUsageFragment">
+        <argument android:name="guideType" android:defaultValue="battery_usage" app:argType="string" />
+    </fragment>
+    <fragment android:label="fragment_warranty" android:name="com.noise.audio.ui.warranty.WarrantyFragment" android:id="@id/warrantyFragment">
+        <action android:id="@id/action_warrantyFragment_to_warrantyUserDetailFragment" app:destination="@id/warrantyUserDetailFragment">
+            <argument android:name="serialNo" app:argType="string" />
+        </action>
+        <action android:id="@id/action_warrantyFragment_to_deviceWarrantyFragment" app:destination="@id/deviceWarrantyFragment" app:popUpTo="@id/helpAndSupportFragment" app:popUpToInclusive="false" />
+    </fragment>
+    <fragment android:label="DeviceInfoWalkAroundFragment" android:name="com.noise.audio.ui.walkthrough.deviceInfo.DeviceInfoWalkAroundFragment" android:id="@id/deviceInfoWalkAroundFragment">
+        <argument android:name="type" app:argType="string" />
+    </fragment>
+    <fragment android:label="ChatHistoryFragment" android:name="com.noise.audio.ui.ai.history.ChatHistoryFragment" android:id="@id/chatHistoryFragment">
+        <action android:id="@id/action_chatHistory_to_aiTextChatFragment" app:destination="@id/aiTextChatFragment" app:popUpTo="@id/chatHistoryFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="WarrantyUserDetailFragment" android:name="com.noise.audio.ui.warranty.WarrantyUserDetailFragment" android:id="@id/warrantyUserDetailFragment">
+        <argument android:name="serialNo" android:defaultValue="" app:argType="string" />
+        <argument android:name="purchaseChannel" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="purchaseDate" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="invoiceUrl" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <action android:id="@id/action_warranty_user_detail_fragment_to_device_warranty_fragment" app:destination="@id/deviceWarrantyFragment" app:popUpTo="@id/helpAndSupportFragment" app:popUpToInclusive="false" />
+    </fragment>
+    <fragment android:label="DeviceWarrantyFragment" android:name="com.noise.audio.ui.warranty.DeviceWarrantyFragment" android:id="@id/deviceWarrantyFragment">
+        <argument android:name="serialNo" app:argType="string" />
+        <argument android:name="name" app:argType="string" />
+        <argument android:name="email" app:argType="string" />
+        <argument android:name="warrantyTitle" app:argType="string" />
+        <argument android:name="warrantySubtitle" app:argType="string" />
+        <argument android:name="registeredDate" app:argType="string" />
+        <argument android:name="warrantyStatus" app:argType="string" />
+        <argument android:name="purchaseChannel" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="purchaseDate" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="invoiceUrl" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <action android:id="@id/action_deviceWarrantyFragment_to_warrantyUserDetailFragment" app:destination="@id/warrantyUserDetailFragment">
+            <argument android:name="serialNo" app:argType="string" />
+            <argument android:name="purchaseChannel" android:defaultValue="" app:argType="string" app:nullable="true" />
+            <argument android:name="purchaseDate" android:defaultValue="" app:argType="string" app:nullable="true" />
+            <argument android:name="invoiceUrl" android:defaultValue="" app:argType="string" app:nullable="true" />
+        </action>
+    </fragment>
+    <dialog android:label="PurchaseChannelBottomSheet" android:name="com.noise.audio.ui.warranty.PurchaseChannelBottomSheet" android:id="@id/purchaseChannelBottomSheet" />
+    <dialog android:label="InvoicePickerBottomSheet" android:name="com.noise.audio.ui.warranty.InvoicePickerBottomSheet" android:id="@id/invoicePickerBottomSheet" />
+    <fragment android:label="ProductMB1GuideFragment" android:name="com.noise.audio.ui.settings.guide.ProductMB1GuideFragment" android:id="@id/productMB1GuideFragment" />
+    <fragment android:label="ProductMBClipGuideFragment" android:name="com.noise.audio.ui.settings.guide.ProductMBClipGuideFragment" android:id="@id/productMBClipGuideFragment" />
+    <fragment android:label="ActivateAiOnDeviceFragment" android:name="com.noise.audio.ui.ai.ActivateAiOnDeviceFragment" android:id="@id/activateAiOnDeviceFragment" />
+    <fragment android:label="SpatialAudioWalkThroughFragment" android:name="com.noise.audio.ui.spatial.SpatialAudioWalkThroughFragment" android:id="@id/spatialAudioWalkThroughFragment">
+        <action android:id="@id/action_spatialAudioWalkThroughFragment_to_soundControlsFragment" app:destination="@id/soundControlsFragment" app:popUpTo="@id/soundControlsFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <dialog android:label="fragment_forgot_device" android:name="com.noise.audio.ui.ai.history.DeleteChatDialogFragment" android:id="@id/deleteChatDialogFragment" />
+    <dialog android:label="fragment_forgot_device" android:name="com.noise.audio.ui.settings.profile.ProfileConfirmationBottomSheetFragment" android:id="@id/profileConfirmationBottomSheetFragment">
+        <argument android:name="isLogout" app:argType="boolean" />
+    </dialog>
+    <dialog android:label="fragment_forgot_device" android:name="com.noise.audio.ui.ai.AiLimitReachedDialogFragment" android:id="@id/aiLimitReachedDialogFragment">
+        <argument android:name="aiLimitModel" app:argType="com.noise.audio.data.model.ai.AiLimitModel" />
+    </dialog>
+    <dialog android:label="LocationDisabledBottomSheet" android:name="com.noise.audio.ui.ai.LocationDisabledBottomSheet" android:id="@id/locationDisabledBottomSheet" />
+</navigation>

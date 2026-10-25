@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_touch_gesture" android:id="@id/homeFragment" android:title="@string/text_device" />
+    <item android:icon="@drawable/ic_motion_control" android:id="@id/aiHomeFragment" android:title="@string/text_ai" />
+    <item android:icon="@drawable/ic_profile" android:id="@id/settingFragment" android:title="@string/text_settings" />
+</menu>

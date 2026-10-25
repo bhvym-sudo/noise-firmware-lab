@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:cardBackgroundColor="@color/white" app:cardCornerRadius="30.0dip" app:cardElevation="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/lytMain" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_bs_device_settings" />
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+    <include android:id="@id/progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/default_loader" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="APP_VERSION_RESPONSE_KEY">{&quot;ai_logo&quot;:&quot;https://images.gonoise.com/noise_audio/production/logo/FINAL+LOGO-20260223-131210.png&quot;,&quot;assetUpdateTime&quot;:1792133524948,&quot;bannerTime&quot;:&quot;1790865133133&quot;,&quot;calendarYears&quot;:2,&quot;current_version&quot;:223,&quot;current_version_name&quot;:&quot;2.2.3&quot;,&quot;cw_ui&quot;:0,&quot;description&quot;:&quot;New Feature*: Now record and transcribe your thoughts with AI Transcription •Updated support and product guides for more Noise devices •Performance: General improvements and bug fixes&quot;,&quot;feature_url&quot;:&quot;https://master-series.canny.io/feature-requests&quot;,&quot;helpUpdate&quot;:&quot;1710496051346&quot;,&quot;instructions&quot;:&quot;You’ll be redirected to the Play Store. Once updated, return here to continue.&quot;,&quot;maintenance_mode&quot;:false,&quot;moengage_banner&quot;:0,&quot;rate_earn&quot;:false,&quot;release_notes&quot;:{&quot;header&quot;:&quot;App update available&quot;,&quot;image_url&quot;:&quot;https://stage-s3.gonoise.com/kids-user-backend/stage/logo/NJA_App_Icon_256.png&quot;,&quot;long_description&quot;:[&quot;New Feature*: Now record and transcribe your thoughts with AI Transcription&quot;,&quot;Updated support and product guides for more Noise devices&quot;,&quot;Performance: General improvements and bug fixes.&quot;],&quot;short_description&quot;:&quot;You’ll be redirected to the Play Store. Once updated, return here to continue.&quot;},&quot;reset_interval&quot;:24,&quot;shop_redirection&quot;:0,&quot;shop_url&quot;:&quot;https://www.gonoise.com/?utm_source\u003dAudioApp\u0026utm_medium\u003dShop\u0026utm_campaign\u003dAppShop&quot;,&quot;summaryUpdate&quot;:&quot;1674111310372&quot;,&quot;upgrade_type&quot;:&quot;no_upgrade&quot;,&quot;workoutImageUpdate&quot;:&quot;1674562745029&quot;}</string>
+    <string name="LOGIN_SOURCE_KEY">guest</string>
+    <boolean name="HAS_VISITED_PERMISSION_SCREEN" value="true" />
+    <long name="FIRST_OPEN_TIMESTAMP" value="1792927730236" />
+    <string name="LAST_KNOWN_COUNTRY_CODE">IN</string>
+    <string name="FEATURE_REQUEST_URL_KEY">https://master-series.canny.io/feature-requests</string>
+    <boolean name="LOGIN_SKIPPED_KEY" value="true" />
+    <string name="AI_LOGO_URL_KEY">https://images.gonoise.com/noise_audio/production/logo/FINAL+LOGO-20260223-131210.png</string>
+    <string name="APP_LANGUAGE_KEY">en</string>
+    <string name="UNIQUE_GUEST">6601d20bda14d918</string>
+</map>

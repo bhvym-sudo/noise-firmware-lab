@@ -1,0 +1,78 @@
+/data/user/0/com.guoshi.httpcanary/cache/.root
+/data/user/0/com.guoshi.httpcanary/cache/WebView/font_unique_name_table.pb
+/data/user/0/com.guoshi.httpcanary/cache/HttpCanary.p12
+/data/user/0/com.guoshi.httpcanary/cache/HttpCanary.pem
+/data/user/0/com.guoshi.httpcanary/cache/HttpCanary.jks
+/data/user/0/com.guoshi.httpcanary/cache/87bc3517.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/journal
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/db7096a57ca44b256dfdf6140c3b2506354a4dba311891b6f1f334371747dd97.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/b8a859aa64cce60ea1201b6052ab389194e4f7e6405c5dc5962b3fe772f010dd.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/92667d22d73d8873fb362f57f8a21dc225e8ed1808b5e7764e397afe9713184c.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/5ea3edd0694e8cc9a77198e43093bffe16112d60610dca97ec3ba6db06e7148a.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/3c622e4515b615ceeb0357e0eb8b46504dcd587729c0c0bd707f22c67ac3c8e3.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/ff8091a0c50ff8ce731a3e388aea49069b65d87cfa83905e13e5ef695e432e20.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/b4e23261b53acc8eba0bb4feeeae9232968371983b1a87ebc0ff90633d63dd86.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/96820aa9e6cafd7cc96c2d84137abf0fb610f0af5df3d655c63ff5446831a8da.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/3e008fe2ab4c7f1d34a3be554e9a8ae17adfbb9c38984de25be1404c71fc7524.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/0fc79e811d46d26ad10246fb8f6e153c7ca4ec0c16b008f2c9d1a9c3504063c9.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/cfaf192177c8e2c8d2e86502c9f73680c2a52e3bd3beb36b2543f140294816a9.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/39867463254e9d3031e44eff5eb4d4b8beaf59883f3a3a8f81a99a7a9861f27d.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/57761b10605f452980ffa9f3ca6f1074c13022c98df0b8d9a5da879b02d38595.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/bd579b332b0b9595cf42cf78d7c8d518a7bc84073ef8d09f029344e5c1fee9e1.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/7250686404fcbb37957f2bab0be7666e302e15d0deb15ecfe0ddfd533b586f3b.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/5af8b31ed34c5fd6c07096c9141f3f33091b18a6def3ec74b30c4ff6c53dce56.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/033db99014414ac33bc9622772c053edfbb6936d673366560a87e5bf2beed0f4.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/1731d4f5f30a91305deadadba67c49aa973cf593d1e7fb409a24efface4179da.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/2813c22cd75b73839a73ba12149415f4e85880172cc7edabe67696ce145b7dcd.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/e9651d1b9d186c999f4ab937496c3ee99dc3dc67cc5839eda49ed954160fdeaa.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/5bfe0db008c65bac4816be86632e555a14689a16dd07b5e15a809b98fb8dabbf.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/9b98c0a866dfb58e9a8110b3c58218a5b43099215903dab67c1dbf54fad500de.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/6b41fdda74ad54537f3725418cab60be167f6cd3bd72b02958a834f54d5108e4.0
+/data/user/0/com.guoshi.httpcanary/cache/image_manager_disk_cache/d9e16aff2226fc4f9feb4e9089fc4894d3d21e5205a86c6556c292571137106b.0
+/data/user/0/com.guoshi.httpcanary/files/.imprint
+/data/user/0/com.guoshi.httpcanary/files/backup/HttpCanary.p12
+/data/user/0/com.guoshi.httpcanary/files/backup/HttpCanary.pem
+/data/user/0/com.guoshi.httpcanary/files/backup/HttpCanary.jks
+/data/user/0/com.guoshi.httpcanary/files/umeng_it.cache
+/data/user/0/com.guoshi.httpcanary/files/.umeng/exchangeIdentity.json
+/data/user/0/com.guoshi.httpcanary/files/exid.dat
+/data/user/0/com.guoshi.httpcanary/.jiagu/libjiagu.so
+/data/user/0/com.guoshi.httpcanary/.jiagu/libjiagu_64.so
+/data/user/0/com.guoshi.httpcanary/.jiagu/.cache_3/.log4
+/data/user/0/com.guoshi.httpcanary/shared_prefs/crashrecord.xml
+/data/user/0/com.guoshi.httpcanary/shared_prefs/umeng_common_config.xml
+/data/user/0/com.guoshi.httpcanary/shared_prefs/app.xml
+/data/user/0/com.guoshi.httpcanary/shared_prefs/WebViewChromiumPrefs.xml
+/data/user/0/com.guoshi.httpcanary/shared_prefs/umeng_general_config.xml
+/data/user/0/com.guoshi.httpcanary/databases/bugly_db_
+/data/user/0/com.guoshi.httpcanary/databases/bugly_db_-journal
+/data/user/0/com.guoshi.httpcanary/databases/app
+/data/user/0/com.guoshi.httpcanary/databases/app-journal
+/data/user/0/com.guoshi.httpcanary/databases/ua.db
+/data/user/0/com.guoshi.httpcanary/databases/ua.db-journal
+/data/user/0/com.guoshi.httpcanary/app_crashrecord/1004
+/data/user/0/com.guoshi.httpcanary/app_bugly/sys_log_1792928105942.txt
+/data/user/0/com.guoshi.httpcanary/app_bugly/jni_log_1792928105942.txt
+/data/user/0/com.guoshi.httpcanary/app_webview/variations_seed_new
+/data/user/0/com.guoshi.httpcanary/app_webview/variations_stamp
+/data/user/0/com.guoshi.httpcanary/app_webview/webview_data.lock
+/data/user/0/com.guoshi.httpcanary/app_webview/pref_store
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/Web Data
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/Web Data-journal
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/Shared Dictionary/db
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/Shared Dictionary/db-journal
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/PersistentOriginTrials/LOG
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/PersistentOriginTrials/LOCK
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/shared_proto_db/LOG
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/shared_proto_db/LOCK
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/shared_proto_db/000003.log
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/shared_proto_db/CURRENT
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/shared_proto_db/MANIFEST-000002
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/Session Storage/LOG
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/Session Storage/LOCK
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/Session Storage/000003.log
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/Session Storage/CURRENT
+/data/user/0/com.guoshi.httpcanary/app_webview/Default/Session Storage/MANIFEST-000002
+/data/user/0/com.guoshi.httpcanary/app_webview/BrowserMetrics-spare.pma
+/storage/emulated/0/Download/Magisk-30.6(30600).apk
+/storage/emulated/0/Download/Magisk-30.7(30700).zip

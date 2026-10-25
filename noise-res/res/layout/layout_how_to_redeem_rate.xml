@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/layout_how_to_redeem_rate_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:textColor="#ff3a434e" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="true" android:letterSpacing="0.03" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ClashDisplayVariableMedium" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvContent" android:background="@drawable/back_how_to_redeem" android:padding="@dimen/dimen_16dp" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/dimen_16dp" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

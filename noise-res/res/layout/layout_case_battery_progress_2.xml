@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:background="@drawable/bg_case_white_2" android:layout_width="88.0dip" android:layout_height="52.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/batteryStatus" android:saveEnabled="false" android:layout_width="40.0dip" android:layout_height="1.5dip" android:max="100" android:indeterminate="false" app:layout_constraintBottom_toTopOf="@id/tvBattery" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="?android:progressBarStyleHorizontal" />
+    <TextView android:textColor="#ff604a47" android:id="@id/tvBattery" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/batteryStatus" style="@style/H6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

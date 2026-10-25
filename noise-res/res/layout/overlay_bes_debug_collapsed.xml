@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/btnExpand" android:background="#88000000" android:padding="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="260.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="#ffffd180" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Command logs" style="S12" />
+    <LinearLayout android:orientation="vertical" android:id="@id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+</LinearLayout>

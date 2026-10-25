@@ -1,0 +1,20 @@
+package p162n7;
+
+import android.os.Bundle;
+import android.os.Parcel;
+import android.os.Parcelable;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class t extends i implements u {
+    @Override // p162n7.i
+    public final boolean a(int i, Parcel parcel, Parcel parcel2, int i10) {
+        if (i != 2) {
+            return false;
+        }
+        Parcelable.Creator creator = Bundle.CREATOR;
+        Bundle bundle = (Bundle) j.a(parcel);
+        j.b(parcel);
+        b(bundle);
+        return true;
+    }
+}

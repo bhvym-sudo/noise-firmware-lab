@@ -1,0 +1,6 @@
+package T7;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface a {
+    StackTraceElement[] f(StackTraceElement[] stackTraceElementArr);
+}

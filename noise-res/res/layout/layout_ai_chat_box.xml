@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/til" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/text_ask_anything" app:boxCornerRadiusBottomEnd="16.0dip" app:boxCornerRadiusBottomStart="16.0dip" app:boxCornerRadiusTopEnd="16.0dip" app:boxCornerRadiusTopStart="16.0dip" app:layout_constraintEnd_toStartOf="@id/btnAction" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/chatEtx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/text_ask_anything" android:maxLines="4" android:minLines="1" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionSend" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <ImageView android:id="@id/btnAction" android:background="@drawable/back_modal_new_round" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_next_arrow" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/til" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/til" app:layout_constraintTop_toTopOf="@id/til" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/lytAttachment" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/til">
+        <ImageView android:id="@id/ivAttachmentImage" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/bg_recycler_img" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:id="@id/lytAttachmentDoc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+            <TextView android:id="@id/tvDocType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_pdf" />
+            <TextView android:id="@id/tvDocName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_document_pdf" />
+        </LinearLayout>
+        <ImageView android:id="@id/ivRemoveAttachment" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_close" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

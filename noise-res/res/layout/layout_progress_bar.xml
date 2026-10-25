@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:layout_width="80.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/progress_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/root_layout" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+            <View android:background="@drawable/half_circle_top" android:layout_width="68.0dip" android:layout_height="34.0dip" />
+            <View android:id="@id/view_progress" android:background="@color/dark_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" />
+            <View android:background="@drawable/half_circle_bottom" android:layout_width="68.0dip" android:layout_height="34.0dip" />
+        </LinearLayout>
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar android:id="@id/seek_bar" android:layout_width="0.0dip" android:layout_height="0.0dip" android:max="10" android:progress="1" android:progressDrawable="@color/transparent" android:thumb="@drawable/thumb_equalizer_dark" android:paddingStart="40.0dip" android:paddingEnd="40.0dip" android:splitTrack="false" android:min="0" app:seekBarRotation="CW270" />
+        </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="#ff978c74" android:layout_gravity="center" android:id="@id/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" style="@style/ClashDisplayVariableMedium" />
+</LinearLayout>

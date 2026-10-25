@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:tag="layout/row_how_to_wear_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:cardBackgroundColor="@color/white" app:cardCornerRadius="16.0dip" app:cardElevation="2.0dip" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="true" app:strokeColor="@color/transparent" app:strokeWidth="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <androidx.media3.ui.PlayerView android:id="@id/videoPlayer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:resize_mode="fixed_width" app:shutter_background_color="@color/white" app:surface_type="texture_view" app:use_controller="false" />
+                <com.google.android.material.imageview.ShapeableImageView android:id="@id/ivThumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/RoundedThumbnailShape" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ff3e4243" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" style="@style/ClashDisplayVariableMedium" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff898e95" android:id="@id/tvSubTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" style="@style/RobotoMonoRegular" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

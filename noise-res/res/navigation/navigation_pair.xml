@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_pair" app:startDestination="@id/findDeviceListFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="FindDeviceListFragment" android:name="com.noise.audio.ui.pairing.find.FindDeviceListFragment" android:id="@id/findDeviceListFragment">
+        <action android:id="@id/action_findDeviceListFragment_to_pairingFragment" app:destination="@id/pairingFragment" />
+    </fragment>
+    <fragment android:label="PairingFragment" android:name="com.noise.audio.ui.pairing.pair.PairingFragment" android:id="@id/pairingFragment">
+        <argument android:name="audioDevice" app:argType="com.noise.audio.common.model.AudioDevice" />
+        <action android:id="@id/action_pairingFragment_to_helpAndSupportFragment" app:destination="@id/helpAndSupportFragment" />
+    </fragment>
+    <fragment android:label="HelpAndSupportFragment" android:name="com.noise.audio.ui.settings.HelpAndSupportFragment" android:id="@id/helpAndSupportFragment">
+        <argument android:name="fromPairing" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="pairingAudioDevice" android:defaultValue="@null" app:argType="com.noise.audio.common.model.AudioDevice" app:nullable="true" />
+        <action android:id="@id/action_helpAndSupportFragment_to_faqFragment" app:destination="@id/faqFragment" app:exitAnim="@anim/anim_stay" app:popEnterAnim="@anim/anim_stay" />
+        <action android:id="@id/action_helpAndSupportFragment_to_ownerGuideWebViewFragment" app:destination="@id/ownerGuideWebViewFragment" />
+        <action android:id="@id/action_helpAndSupportFragment_to_reportIssueFragment" app:destination="@id/reportIssueFragment" />
+        <action android:id="@id/action_helpAndSupportFragment_to_deviceWarrantyFragment" app:destination="@id/deviceWarrantyFragment" />
+    </fragment>
+    <fragment android:label="FaqFragment" android:name="com.noise.audio.ui.settings.FaqFragment" android:id="@id/faqFragment">
+        <argument android:name="fromPairing" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="pairingDeviceId" android:defaultValue="0" app:argType="integer" />
+        <action android:id="@id/action_faqFragment_to_reportIssueFragment" app:destination="@id/reportIssueFragment" app:exitAnim="@anim/anim_stay" app:popEnterAnim="@anim/anim_stay" />
+    </fragment>
+    <fragment android:label="ReportIssueFragment" android:name="com.noise.audio.ui.settings.ReportIssueFragment" android:id="@id/reportIssueFragment" />
+    <fragment android:label="OwnerGuideWebViewFragment" android:name="com.noise.audio.ui.settings.OwnerGuideWebViewFragment" android:id="@id/ownerGuideWebViewFragment">
+        <argument android:name="pdfUrl" app:argType="string" />
+    </fragment>
+    <fragment android:label="DeviceWarrantyFragment" android:name="com.noise.audio.ui.warranty.DeviceWarrantyFragment" android:id="@id/deviceWarrantyFragment">
+        <argument android:name="serialNo" app:argType="string" />
+        <argument android:name="name" app:argType="string" />
+        <argument android:name="email" app:argType="string" />
+        <argument android:name="warrantyTitle" app:argType="string" />
+        <argument android:name="warrantySubtitle" app:argType="string" />
+        <argument android:name="registeredDate" app:argType="string" />
+        <argument android:name="warrantyStatus" app:argType="string" />
+        <argument android:name="purchaseChannel" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="purchaseDate" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="invoiceUrl" android:defaultValue="" app:argType="string" app:nullable="true" />
+    </fragment>
+    <dialog android:label="CallSupportBottomSheet" android:name="com.noise.audio.ui.settings.CallSupportBottomSheet" android:id="@id/callSupportBottomSheet">
+        <argument android:name="contactItems" app:argType="com.noise.audio.data.model.SupportContactItem[]" />
+        <argument android:name="type" app:argType="string" />
+    </dialog>
+    <fragment android:name="com.noise.audio.ui.login.fragment.UserProfileFragment" android:id="@id/UserProfile" />
+    <fragment android:name="com.noise.audio.ui.walkthrough.WalkThroughParentFragment" android:id="@id/walkthroughOnboard" />
+    <fragment android:label="NoDeviceFoundFragment" android:name="com.noise.audio.ui.dialogs.NoDeviceFoundFragment" android:id="@id/noDeviceFoundFragment2" />
+    <fragment android:label="PermissionRequestFragment" android:name="com.noise.audio.ui.dialogs.PermissionRequestFragment" android:id="@id/permissionRequestFragment">
+        <argument android:name="title" app:argType="string" />
+        <argument android:name="subTitle" app:argType="string" />
+        <argument android:name="permType" app:argType="com.noise.audio.ui.dialogs.PermissionType" />
+        <argument android:name="image" app:argType="integer" />
+    </fragment>
+    <fragment android:label="PersonalizedFragment" android:name="com.noise.audio.ui.walkthrough.PersonalizedFragment" android:id="@id/personalizedFragment" />
+    <fragment android:label="BleDisabledFragment" android:name="com.noise.audio.ui.dialogs.BleDisabledFragment" android:id="@id/bleDisabledFragment" />
+    <fragment android:label="PermissionRequiredFragment" android:name="com.noise.audio.ui.dialogs.PermissionRequiredFragment" android:id="@id/permissionRequiredFragment" />
+    <fragment android:name="com.noise.audio.ui.pairing.pair.DeviceSetupVideoFragment" android:id="@id/deviceSetupVideoFragment">
+        <argument android:name="audioDevice" app:argType="com.noise.audio.common.model.AudioDevice" />
+    </fragment>
+    <fragment android:name="com.noise.audio.ui.pairing.pair.DeviceSetupVideoFragmentV2" android:id="@id/deviceSetupVideoFragmentV2">
+        <argument android:name="audioDevice" app:argType="com.noise.audio.common.model.AudioDevice" />
+    </fragment>
+    <fragment android:label="DeviceInfoWalkAroundFragment" android:name="com.noise.audio.ui.walkthrough.deviceInfo.DeviceInfoWalkAroundFragment" android:id="@id/deviceInfoWalkAroundFragment2">
+        <argument android:name="type" app:argType="string" />
+    </fragment>
+</navigation>

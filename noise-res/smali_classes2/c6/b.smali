@@ -1,0 +1,822 @@
+.class public final Lc6/b;
+.super Le6/a;
+.source "SourceFile"
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lc6/b;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static final f:Lc6/b;
+
+
+# instance fields
+.field public final a:I
+
+.field public final b:I
+
+.field public final c:Landroid/app/PendingIntent;
+
+.field public final d:Ljava/lang/String;
+
+.field public final e:Ljava/lang/Integer;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Lc6/b;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    const/4 v2, 0x0
+
+    .line 5
+    invoke-direct {v0, v1, v2, v2}, Lc6/b;-><init>(ILandroid/app/PendingIntent;Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    sput-object v0, Lc6/b;->f:Lc6/b;
+
+    .line 9
+    .line 10
+    new-instance v0, Lb3/a;
+
+    .line 11
+    .line 12
+    const/4 v1, 0x2
+
+    .line 13
+    invoke-direct {v0, v1}, Lb3/a;-><init>(I)V
+
+    .line 14
+    .line 15
+    .line 16
+    sput-object v0, Lc6/b;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    .line 17
+    .line 18
+    return-void
+.end method
+
+.method public constructor <init>(IILandroid/app/PendingIntent;Ljava/lang/String;Ljava/lang/Integer;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput p1, p0, Lc6/b;->a:I
+
+    iput p2, p0, Lc6/b;->b:I
+
+    iput-object p3, p0, Lc6/b;->c:Landroid/app/PendingIntent;
+
+    iput-object p4, p0, Lc6/b;->d:Ljava/lang/String;
+
+    iput-object p5, p0, Lc6/b;->e:Ljava/lang/Integer;
+
+    return-void
+.end method
+
+.method public constructor <init>(ILandroid/app/PendingIntent;Ljava/lang/String;)V
+    .locals 6
+
+    const/4 v1, 0x1
+
+    const/4 v5, 0x0
+
+    move-object v0, p0
+
+    move v2, p1
+
+    move-object v3, p2
+
+    move-object v4, p3
+
+    .line 3
+    invoke-direct/range {v0 .. v5}, Lc6/b;-><init>(IILandroid/app/PendingIntent;Ljava/lang/String;Ljava/lang/Integer;)V
+
+    return-void
+.end method
+
+.method public static C(I)Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    .line 2
+    const/16 v0, 0x63
+
+    .line 3
+    .line 4
+    if-eq p0, v0, :cond_1
+
+    .line 5
+    .line 6
+    const/16 v0, 0x5dc
+
+    .line 7
+    .line 8
+    if-eq p0, v0, :cond_0
+
+    .line 9
+    .line 10
+    .line 11
+    packed-switch p0, :pswitch_data_0
+
+    .line 12
+    .line 13
+    .line 14
+    packed-switch p0, :pswitch_data_1
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    .line 18
+    move-result-object v0
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-virtual {v0}, Ljava/lang/String;->length()I
+
+    .line 22
+    move-result v0
+
+    .line 23
+    .line 24
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 25
+    .line 26
+    add-int/lit8 v0, v0, 0x14
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(I)V
+
+    .line 30
+    .line 31
+    const-string v0, "UNKNOWN_ERROR_CODE("
+
+    .line 32
+    .line 33
+    .line 34
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 35
+    .line 36
+    .line 37
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 38
+    .line 39
+    const-string p0, ")"
+
+    .line 40
+    .line 41
+    .line 42
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 43
+    .line 44
+    .line 45
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 46
+    move-result-object p0
+
+    .line 47
+    return-object p0
+
+    .line 48
+    .line 49
+    :pswitch_0
+    const-string p0, "API_INSTALL_REQUIRED"
+
+    .line 50
+    return-object p0
+
+    .line 51
+    .line 52
+    :pswitch_1
+    const-string p0, "API_DISABLED_FOR_CONNECTION"
+
+    .line 53
+    return-object p0
+
+    .line 54
+    .line 55
+    :pswitch_2
+    const-string p0, "API_DISABLED"
+
+    .line 56
+    return-object p0
+
+    .line 57
+    .line 58
+    :pswitch_3
+    const-string p0, "RESOLUTION_ACTIVITY_NOT_FOUND"
+
+    .line 59
+    return-object p0
+
+    .line 60
+    .line 61
+    :pswitch_4
+    const-string p0, "API_VERSION_UPDATE_REQUIRED"
+
+    .line 62
+    return-object p0
+
+    .line 63
+    .line 64
+    :pswitch_5
+    const-string p0, "RESTRICTED_PROFILE"
+
+    .line 65
+    return-object p0
+
+    .line 66
+    .line 67
+    :pswitch_6
+    const-string p0, "SERVICE_MISSING_PERMISSION"
+
+    .line 68
+    return-object p0
+
+    .line 69
+    .line 70
+    :pswitch_7
+    const-string p0, "SERVICE_UPDATING"
+
+    .line 71
+    return-object p0
+
+    .line 72
+    .line 73
+    :pswitch_8
+    const-string p0, "SIGN_IN_FAILED"
+
+    .line 74
+    return-object p0
+
+    .line 75
+    .line 76
+    :pswitch_9
+    const-string p0, "API_UNAVAILABLE"
+
+    .line 77
+    return-object p0
+
+    .line 78
+    .line 79
+    :pswitch_a
+    const-string p0, "INTERRUPTED"
+
+    .line 80
+    return-object p0
+
+    .line 81
+    .line 82
+    :pswitch_b
+    const-string p0, "TIMEOUT"
+
+    .line 83
+    return-object p0
+
+    .line 84
+    .line 85
+    :pswitch_c
+    const-string p0, "CANCELED"
+
+    .line 86
+    return-object p0
+
+    .line 87
+    .line 88
+    :pswitch_d
+    const-string p0, "LICENSE_CHECK_FAILED"
+
+    .line 89
+    return-object p0
+
+    .line 90
+    .line 91
+    :pswitch_e
+    const-string p0, "DEVELOPER_ERROR"
+
+    .line 92
+    return-object p0
+
+    .line 93
+    .line 94
+    :pswitch_f
+    const-string p0, "SERVICE_INVALID"
+
+    .line 95
+    return-object p0
+
+    .line 96
+    .line 97
+    :pswitch_10
+    const-string p0, "INTERNAL_ERROR"
+
+    .line 98
+    return-object p0
+
+    .line 99
+    .line 100
+    :pswitch_11
+    const-string p0, "NETWORK_ERROR"
+
+    .line 101
+    return-object p0
+
+    .line 102
+    .line 103
+    :pswitch_12
+    const-string p0, "RESOLUTION_REQUIRED"
+
+    .line 104
+    return-object p0
+
+    .line 105
+    .line 106
+    :pswitch_13
+    const-string p0, "INVALID_ACCOUNT"
+
+    .line 107
+    return-object p0
+
+    .line 108
+    .line 109
+    :pswitch_14
+    const-string p0, "SIGN_IN_REQUIRED"
+
+    .line 110
+    return-object p0
+
+    .line 111
+    .line 112
+    :pswitch_15
+    const/4 p0, 0x0
+
+    sget-object p0, Lcom/noise/audio/ui/base/ACef/XkIDwfwgL;->kJkznpow:Ljava/lang/String;
+
+    .line 113
+    return-object p0
+
+    .line 114
+    .line 115
+    :pswitch_16
+    const-string p0, "SERVICE_VERSION_UPDATE_REQUIRED"
+
+    .line 116
+    return-object p0
+
+    .line 117
+    .line 118
+    :pswitch_17
+    const-string p0, "SERVICE_MISSING"
+
+    .line 119
+    return-object p0
+
+    .line 120
+    .line 121
+    :pswitch_18
+    const-string p0, "SUCCESS"
+
+    .line 122
+    return-object p0
+
+    .line 123
+    .line 124
+    :pswitch_19
+    const-string p0, "UNKNOWN"
+
+    .line 125
+    return-object p0
+
+    .line 126
+    .line 127
+    :cond_0
+    const-string p0, "DRIVE_EXTERNAL_STORAGE_REQUIRED"
+
+    .line 128
+    return-object p0
+
+    .line 129
+    .line 130
+    :cond_1
+    const-string p0, "UNFINISHED"
+
+    .line 131
+    return-object p0
+
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    :pswitch_data_0
+    .packed-switch -0x1
+        :pswitch_19
+        :pswitch_18
+        :pswitch_17
+        :pswitch_16
+        :pswitch_15
+        :pswitch_14
+        :pswitch_13
+        :pswitch_12
+        :pswitch_11
+        :pswitch_10
+        :pswitch_f
+        :pswitch_e
+        :pswitch_d
+    .end packed-switch
+
+    :pswitch_data_1
+    .packed-switch 0xd
+        :pswitch_c
+        :pswitch_b
+        :pswitch_a
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    if-ne p1, p0, :cond_0
+
+    .line 3
+    .line 4
+    return v0
+
+    .line 5
+    :cond_0
+    instance-of v1, p1, Lc6/b;
+
+    .line 6
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    if-nez v1, :cond_1
+
+    .line 9
+    .line 10
+    return v2
+
+    .line 11
+    :cond_1
+    check-cast p1, Lc6/b;
+
+    .line 12
+    .line 13
+    iget v1, p0, Lc6/b;->b:I
+
+    .line 14
+    .line 15
+    iget v3, p1, Lc6/b;->b:I
+
+    .line 16
+    .line 17
+    if-ne v1, v3, :cond_2
+
+    .line 18
+    .line 19
+    iget-object v1, p0, Lc6/b;->c:Landroid/app/PendingIntent;
+
+    .line 20
+    .line 21
+    iget-object v3, p1, Lc6/b;->c:Landroid/app/PendingIntent;
+
+    .line 22
+    .line 23
+    invoke-static {v1, v3}, Ld6/B;->k(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 24
+    .line 25
+    .line 26
+    move-result v1
+
+    .line 27
+    if-eqz v1, :cond_2
+
+    .line 28
+    .line 29
+    iget-object v1, p0, Lc6/b;->d:Ljava/lang/String;
+
+    .line 30
+    .line 31
+    iget-object v3, p1, Lc6/b;->d:Ljava/lang/String;
+
+    .line 32
+    .line 33
+    invoke-static {v1, v3}, Ld6/B;->k(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 34
+    .line 35
+    .line 36
+    move-result v1
+
+    .line 37
+    if-eqz v1, :cond_2
+
+    .line 38
+    .line 39
+    iget-object v1, p0, Lc6/b;->e:Ljava/lang/Integer;
+
+    .line 40
+    .line 41
+    iget-object p1, p1, Lc6/b;->e:Ljava/lang/Integer;
+
+    .line 42
+    .line 43
+    invoke-static {v1, p1}, Ld6/B;->k(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 44
+    .line 45
+    .line 46
+    move-result p1
+
+    .line 47
+    if-eqz p1, :cond_2
+
+    .line 48
+    .line 49
+    return v0
+
+    .line 50
+    :cond_2
+    return v2
+.end method
+
+.method public final hashCode()I
+    .locals 4
+
+    .line 1
+    iget v0, p0, Lc6/b;->b:I
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    iget-object v1, p0, Lc6/b;->d:Ljava/lang/String;
+
+    .line 8
+    .line 9
+    iget-object v2, p0, Lc6/b;->e:Ljava/lang/Integer;
+
+    .line 10
+    .line 11
+    iget-object v3, p0, Lc6/b;->c:Landroid/app/PendingIntent;
+
+    .line 12
+    .line 13
+    filled-new-array {v0, v3, v1, v2}, [Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v0
+
+    .line 17
+    invoke-static {v0}, Ljava/util/Arrays;->hashCode([Ljava/lang/Object;)I
+
+    .line 18
+    .line 19
+    .line 20
+    move-result v0
+
+    .line 21
+    return v0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 3
+
+    .line 1
+    new-instance v0, Lx4/v;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0}, Lx4/v;-><init>(Ljava/lang/Object;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v1, "statusCode"
+
+    .line 7
+    .line 8
+    iget v2, p0, Lc6/b;->b:I
+
+    .line 9
+    .line 10
+    invoke-static {v2}, Lc6/b;->C(I)Ljava/lang/String;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v2
+
+    .line 14
+    invoke-virtual {v0, v2, v1}, Lx4/v;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 15
+    .line 16
+    .line 17
+    const-string v1, "resolution"
+
+    .line 18
+    .line 19
+    iget-object v2, p0, Lc6/b;->c:Landroid/app/PendingIntent;
+
+    .line 20
+    .line 21
+    invoke-virtual {v0, v2, v1}, Lx4/v;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 22
+    .line 23
+    .line 24
+    const-string v1, "message"
+
+    .line 25
+    .line 26
+    iget-object v2, p0, Lc6/b;->d:Ljava/lang/String;
+
+    .line 27
+    .line 28
+    invoke-virtual {v0, v2, v1}, Lx4/v;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 29
+    .line 30
+    .line 31
+    const-string v1, "clientMethodKey"
+
+    .line 32
+    .line 33
+    iget-object v2, p0, Lc6/b;->e:Ljava/lang/Integer;
+
+    .line 34
+    .line 35
+    invoke-virtual {v0, v2, v1}, Lx4/v;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 36
+    .line 37
+    .line 38
+    invoke-virtual {v0}, Lx4/v;->toString()Ljava/lang/String;
+
+    .line 39
+    .line 40
+    .line 41
+    move-result-object v0
+
+    .line 42
+    return-object v0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 4
+
+    .line 1
+    const/16 v0, 0x4f45
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lac/a;->g0(Landroid/os/Parcel;I)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    const/4 v1, 0x1
+
+    .line 8
+    const/4 v2, 0x4
+
+    .line 9
+    invoke-static {p1, v1, v2}, Lac/a;->f0(Landroid/os/Parcel;II)V
+
+    .line 10
+    .line 11
+    .line 12
+    iget v1, p0, Lc6/b;->a:I
+
+    .line 13
+    .line 14
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 15
+    .line 16
+    .line 17
+    const/4 v1, 0x2
+
+    .line 18
+    invoke-static {p1, v1, v2}, Lac/a;->f0(Landroid/os/Parcel;II)V
+
+    .line 19
+    .line 20
+    .line 21
+    iget v1, p0, Lc6/b;->b:I
+
+    .line 22
+    .line 23
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 24
+    .line 25
+    .line 26
+    const/4 v1, 0x3
+
+    .line 27
+    iget-object v3, p0, Lc6/b;->c:Landroid/app/PendingIntent;
+
+    .line 28
+    .line 29
+    invoke-static {p1, v1, v3, p2}, Lac/a;->a0(Landroid/os/Parcel;ILandroid/os/Parcelable;I)V
+
+    .line 30
+    .line 31
+    .line 32
+    iget-object p2, p0, Lc6/b;->d:Ljava/lang/String;
+
+    .line 33
+    .line 34
+    invoke-static {p1, v2, p2}, Lac/a;->b0(Landroid/os/Parcel;ILjava/lang/String;)V
+
+    .line 35
+    .line 36
+    .line 37
+    const/4 p2, 0x5
+
+    .line 38
+    iget-object v1, p0, Lc6/b;->e:Ljava/lang/Integer;
+
+    .line 39
+    .line 40
+    invoke-static {p1, p2, v1}, Lac/a;->Y(Landroid/os/Parcel;ILjava/lang/Integer;)V
+
+    .line 41
+    .line 42
+    .line 43
+    invoke-static {p1, v0}, Lac/a;->h0(Landroid/os/Parcel;I)V
+
+    .line 44
+    .line 45
+    .line 46
+    return-void
+.end method

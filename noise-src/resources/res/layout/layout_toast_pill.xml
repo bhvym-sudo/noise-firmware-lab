@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/toastPillContainer"
+    android:background="@drawable/bg_toast_pill"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="8dp"
+    android:paddingEnd="12dp">
+    <FrameLayout
+        android:background="@drawable/bg_toast_icon_circle"
+        android:layout_width="17dp"
+        android:layout_height="17dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/ivToastIcon"
+            android:layout_width="11dp"
+            android:layout_height="11dp"
+            android:scaleType="fitCenter"/>
+    </FrameLayout>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:id="@+id/tvToastText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:letterSpacing="-0.05"
+        style="@style/RobotoMonoRegular"/>
+</LinearLayout>

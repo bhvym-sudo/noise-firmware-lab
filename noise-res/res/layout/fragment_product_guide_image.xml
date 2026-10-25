@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="0.0dip" app:cardCornerRadius="20.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.media3.ui.PlayerView android:id="@id/videoPlayer" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:resize_mode="zoom" app:show_buffering="never" app:show_subtitle_button="false" app:shutter_background_color="@android:color/transparent" app:surface_type="texture_view" app:use_controller="false" />
+    <ImageView android:id="@id/imgPlaceholder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/image_ai_audio" android:scaleType="centerInside" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,28 @@
+package Wa;
+
+import Jb.h;
+import androidx.lifecycle.HasDefaultViewModelProviderFactory;
+import androidx.lifecycle.ViewModelStoreOwner;
+import androidx.lifecycle.viewmodel.CreationExtras;
+import kotlin.jvm.internal.m;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class c extends m implements Yb.a {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final /* synthetic */ Object f14177a;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public c(h hVar) {
+        super(0);
+        this.f14177a = hVar;
+    }
+
+    /* JADX WARN: Type inference failed for: r0v0, types: [Jb.h, java.lang.Object] */
+    @Override // Yb.a
+    public final Object invoke() {
+        ViewModelStoreOwner viewModelStoreOwner = (ViewModelStoreOwner) this.f14177a.getValue();
+        HasDefaultViewModelProviderFactory hasDefaultViewModelProviderFactory = viewModelStoreOwner instanceof HasDefaultViewModelProviderFactory ? (HasDefaultViewModelProviderFactory) viewModelStoreOwner : null;
+        return hasDefaultViewModelProviderFactory != null ? hasDefaultViewModelProviderFactory.getDefaultViewModelCreationExtras() : CreationExtras.Empty.INSTANCE;
+    }
+}

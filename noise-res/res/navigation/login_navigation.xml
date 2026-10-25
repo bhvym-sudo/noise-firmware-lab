@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/login_navigation" app:startDestination="@id/loginFragmentV2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.noise.audio.ui.login.fragment.LoginFragment" android:id="@id/Login">
+        <action android:id="@id/action_to_email_login" app:destination="@id/EmailLogin" />
+        <action android:id="@id/action_Login_to_UserProfile" app:destination="@id/UserProfile" app:popUpTo="@id/Login" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="LoginFragmentV2" android:name="com.noise.audio.ui.login.fragment.LoginFragmentV2" android:id="@id/loginFragmentV2">
+        <action android:id="@id/action_to_email_login" app:destination="@id/EmailLogin" />
+        <action android:id="@id/action_Login_to_UserProfile" app:destination="@id/UserProfile" app:popUpTo="@id/Login" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:name="com.noise.audio.ui.login.fragment.EmailLoginFragment" android:id="@id/EmailLogin">
+        <action android:id="@id/action_email_to_otp" app:destination="@id/EmailOtpLogin" />
+    </fragment>
+    <fragment android:name="com.noise.audio.ui.login.fragment.EmailOtpFragment" android:id="@id/EmailOtpLogin">
+        <action android:id="@id/action_phone_login" app:destination="@id/PhoneLogin" />
+        <action android:id="@id/action_EmailOtpLogin_to_UserProfile" app:destination="@id/UserProfile" app:popUpTo="@id/EmailOtpLogin" app:popUpToInclusive="true" />
+    </fragment>
+    <dialog android:label="ExistingUserBottomsheet" android:name="com.noise.audio.ui.login.fragment.ExistingUserCnfBottomSheet" android:id="@id/existingUserBottomSheet">
+        <argument android:name="imageUrl" app:argType="string" />
+        <argument android:name="email" app:argType="string" />
+        <argument android:name="mobileNumber" app:argType="string" />
+    </dialog>
+    <fragment android:name="com.noise.audio.ui.login.fragment.PhoneLoginFragment" android:id="@id/PhoneLogin">
+        <action android:id="@id/action_phone_to_otp" app:destination="@id/PhoneOtpLogin" />
+    </fragment>
+    <fragment android:name="com.noise.audio.ui.login.fragment.PhoneOtpVerifyFragment" android:id="@id/PhoneOtpLogin">
+        <action android:id="@id/action_user_profile" app:destination="@id/UserProfile" app:popUpTo="@id/PhoneOtpLogin" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:name="com.noise.audio.ui.login.fragment.UserProfileFragment" android:id="@id/UserProfile">
+        <action android:id="@id/action_back_email_login" app:destination="@id/EmailLogin" />
+        <action android:id="@id/action_userProfile_to_dateBottomSheet" app:destination="@id/dateBottomSheet" />
+    </fragment>
+    <fragment android:label="PersonalizedFragment" android:name="com.noise.audio.ui.walkthrough.PersonalizedFragment" android:id="@id/personalizedFragment" />
+    <fragment android:name="com.noise.audio.ui.walkthrough.WalkThroughParentFragment" android:id="@id/walkthroughOnboard" />
+    <dialog android:label="DateBottomSheet" android:name="com.noise.audio.ui.common.DateBottomSheet" android:id="@id/dateBottomSheet">
+        <argument android:name="title" app:argType="string" />
+        <argument android:name="date" app:argType="integer" />
+        <argument android:name="month" app:argType="integer" />
+        <argument android:name="year" app:argType="integer" />
+        <argument android:name="dobDialog" app:argType="boolean" />
+        <argument android:name="maxOffsetDay" app:argType="string" app:nullable="true" />
+        <argument android:name="minOffsetDay" app:argType="string" app:nullable="true" />
+        <argument android:name="femaleHealth" app:argType="boolean" />
+    </dialog>
+    <fragment android:label="NoDeviceFoundFragment" android:name="com.noise.audio.ui.dialogs.NoDeviceFoundFragment" android:id="@id/noDeviceFoundFragment" />
+</navigation>

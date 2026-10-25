@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imvTryAgain"
+        android:padding="20dp"
+        android:layout_width="240dp"
+        android:layout_height="0dp"
+        android:src="0x7f080355"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/ivTryAgainIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_try_again_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/imvTryAgain"
+        app:layout_constraintEnd_toEndOf="@+id/imvTryAgain"
+        app:layout_constraintStart_toStartOf="@+id/imvTryAgain"
+        app:layout_constraintTop_toTopOf="@+id/imvTryAgain"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

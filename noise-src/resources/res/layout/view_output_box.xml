@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.noise.audio.customviews.NoiseTextView
+        android:textColor="@color/input_title_color"
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"/>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.noise.audio.customviews.NoiseTextView
+            android:textSize="20sp"
+            android:textColor="@color/text_color_default"
+            android:textColorHint="@color/hint_color_default"
+            android:gravity="center_vertical"
+            android:id="@+id/edit_text"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:maxLength="50"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

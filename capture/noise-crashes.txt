@@ -1,0 +1,270 @@
+10-25 16:01:08.921 31846 32032 E AndroidRuntime: FATAL EXCEPTION: Thread-1
+10-25 16:01:08.921 31846 32032 E AndroidRuntime: PID: 31846
+10-25 16:01:08.921 31846 32032 E AndroidRuntime: java.lang.IllegalStateException: Main thread not allowed to quit.
+10-25 16:01:08.921 31846 32032 E AndroidRuntime: 	at android.os.MessageQueue.quit(MessageQueue.java:428)
+10-25 16:01:08.921 31846 32032 E AndroidRuntime: 	at android.os.Looper.quitSafely(Looper.java:413)
+10-25 16:01:08.921 31846 32032 E AndroidRuntime: 	at BleProbe.lambda$main$0(BleProbe.java:65)
+10-25 16:01:08.921 31846 32032 E AndroidRuntime: 	at BleProbe$0.run(D8$$SyntheticClass:0)
+10-25 16:01:08.921 31846 32032 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:919)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: FATAL EXCEPTION: main
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: Process: com.noise.audio, PID: 9098
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: java.lang.UnsatisfiedLinkError: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.noise.audio-r4XJFAdBaZ9PqDrPviJcKw==/base.apk"],nativeLibraryDirectories=[/data/app/com.noise.audio-r4XJFAdBaZ9PqDrPviJcKw==/lib/arm64, /system/lib64, /vendor/lib64]]] couldn't find "libpairipcore.so"
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1067)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1007)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at java.lang.System.loadLibrary(System.java:1667)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at com.pairip.VMRunner.<clinit>(VMRunner.java:33)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at com.pairip.VMRunner.invoke(VMRunner.java:56)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at com.pairip.StartupLauncher.launch(StartupLauncher.java:14)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.<clinit>(Unknown Source:0)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at android.app.LoadedApk.createAppFactory(LoadedApk.java:273)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:898)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:993)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at android.app.LoadedApk.getResources(LoadedApk.java:1250)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:2616)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:2608)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6730)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at android.app.ActivityThread.access$1300(ActivityThread.java:268)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1982)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:237)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7807)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+10-25 16:57:13.411  9098  9098 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1047)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: FATAL EXCEPTION: main
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: Process: com.noise.audio, PID: 9168
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: java.lang.UnsatisfiedLinkError: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.noise.audio-r4XJFAdBaZ9PqDrPviJcKw==/base.apk"],nativeLibraryDirectories=[/data/app/com.noise.audio-r4XJFAdBaZ9PqDrPviJcKw==/lib/arm64, /system/lib64, /vendor/lib64]]] couldn't find "libpairipcore.so"
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1067)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1007)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at java.lang.System.loadLibrary(System.java:1667)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at com.pairip.VMRunner.<clinit>(VMRunner.java:33)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at com.pairip.VMRunner.invoke(VMRunner.java:56)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at com.pairip.StartupLauncher.launch(StartupLauncher.java:14)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.<clinit>(Unknown Source:0)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at android.app.LoadedApk.createAppFactory(LoadedApk.java:273)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:898)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:993)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at android.app.LoadedApk.getResources(LoadedApk.java:1250)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:2616)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:2608)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6730)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at android.app.ActivityThread.access$1300(ActivityThread.java:268)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1982)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:237)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7807)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+10-25 16:57:19.771  9168  9168 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1047)
+10-25 16:59:49.947 12426 12450 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x79dbf30000 in tid 12450 (Thread-6), pid 12426 (com.noise.audio)
+10-25 16:59:50.131 13164 13164 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-25 16:59:50.131 13164 13164 F DEBUG   : Build fingerprint: 'samsung/m30ltedd/m30lte:10/QP1A.190711.020/M305FDDS8CVB2:user/release-keys'
+10-25 16:59:50.131 13164 13164 F DEBUG   : Revision: '4'
+10-25 16:59:50.131 13164 13164 F DEBUG   : ABI: 'arm64'
+10-25 16:59:50.134 13164 13164 F DEBUG   : Timestamp: 2026-10-25 16:59:50+0530
+10-25 16:59:50.134 13164 13164 F DEBUG   : pid: 12426, tid: 12450, name: Thread-6  >>> com.noise.audio <<<
+10-25 16:59:50.134 13164 13164 F DEBUG   : uid: 10343
+10-25 16:59:50.134 13164 13164 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x79dbf30000
+10-25 16:59:50.134 13164 13164 F DEBUG   :     x0  00000079dbe6eb80  x1  0000007a694fe368  x2  00000000cdbf57d0  x3  00000000000094bf
+10-25 16:59:50.134 13164 13164 F DEBUG   :     x4  000000001e5f063d  x5  f0be8b4ec0c11a44  x6  00000000000015f5  x7  0000000042b358ea
+10-25 16:59:50.134 13164 13164 F DEBUG   :     x8  84c6c740495e33b7  x9  00000000fff4bd00  x10 00000079dbe7c960  x11 00000000000b36a0
+10-25 16:59:50.134 13164 13164 F DEBUG   :     x12 00000000000b36a1  x13 00000100000001b3  x14 0000000000000000  x15 00000000c433d930
+10-25 16:59:50.134 13164 13164 F DEBUG   :     x16 00000000000099d6  x17 000000000000f3a0  x18 0000007a0b1ca000  x19 0000007a694fe4a8
+10-25 16:59:50.134 13164 13164 F DEBUG   :     x20 0000007a694fe488  x21 0000007a0c59d1e8  x22 0000007a694fe580  x23 000000000ea6d0ae
+10-25 16:59:50.134 13164 13164 F DEBUG   :     x24 0000007a694ff020  x25 0000000000000000  x26 0000000087219812  x27 000000002e30def2
+10-25 16:59:50.134 13164 13164 F DEBUG   :     x28 000000000000b02d  x29 00000000000000ba
+10-25 16:59:50.134 13164 13164 F DEBUG   :     sp  0000007a694fe350  lr  0000007a6db4b738  pc  0000007a6db4c0f0
+10-25 16:59:50.137 13164 13164 F DEBUG   : 
+10-25 16:59:50.137 13164 13164 F DEBUG   : backtrace:
+10-25 16:59:50.137 13164 13164 F DEBUG   :       #00 pc 00000000000360f0  /data/app/com.noise.audio-bIEPCeGYYC625ZEDNE7atg==/split_config.arm64_v8a.apk!libpairipcore.so (offset 0x20000)
+10-25 16:59:59.871 13194 13194 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2 in tid 13194 (com.noise.audio), pid 13194 (com.noise.audio)
+10-25 16:59:59.930 13236 13236 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-25 16:59:59.930 13236 13236 F DEBUG   : Build fingerprint: 'samsung/m30ltedd/m30lte:10/QP1A.190711.020/M305FDDS8CVB2:user/release-keys'
+10-25 16:59:59.930 13236 13236 F DEBUG   : Revision: '4'
+10-25 16:59:59.930 13236 13236 F DEBUG   : ABI: 'arm64'
+10-25 16:59:59.931 13236 13236 F DEBUG   : Timestamp: 2026-10-25 16:59:59+0530
+10-25 16:59:59.931 13236 13236 F DEBUG   : pid: 13194, tid: 13194, name: com.noise.audio  >>> com.noise.audio <<<
+10-25 16:59:59.931 13236 13236 F DEBUG   : uid: 10343
+10-25 16:59:59.931 13236 13236 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2
+10-25 16:59:59.931 13236 13236 F DEBUG   :     x0  0000000000002867  x1  000000002ae500a1  x2  929b81652cfe2baa  x3  00000000000458a7
+10-25 16:59:59.931 13236 13236 F DEBUG   :     x4  000000000000417f  x5  00000000000423a8  x6  000000000472c58d  x7  00000100000001b3
+10-25 16:59:59.931 13236 13236 F DEBUG   :     x8  00000000b2055e5f  x9  0000007a7181f4c0  x10 0000000000027ce3  x11 000000000004d935
+10-25 16:59:59.931 13236 13236 F DEBUG   :     x12 000000001200040c  x13 0000000000016984  x14 0000000000027ce1  x15 0000000000027cdd
+10-25 16:59:59.931 13236 13236 F DEBUG   :     x16 0000000000027cc5  x17 0000000000001ae4  x18 0000007aff4b2000  x19 000000000004d935
+10-25 16:59:59.931 13236 13236 F DEBUG   :     x20 0000007ffc0d0f58  x21 000000007e66002c  x22 29a7e37ed827816c  x23 000000004a858585
+10-25 16:59:59.931 13236 13236 F DEBUG   :     x24 00000000b715ac5b  x25 00000000f2e94534  x26 0000000000000ab5  x27 00000000df20bcb3
+10-25 16:59:59.931 13236 13236 F DEBUG   :     x28 000000000000b02d  x29 00000000fc0d0d10
+10-25 16:59:59.931 13236 13236 F DEBUG   :     sp  0000007ffc0d05c0  lr  0000007a6e01b8a0  pc  0000007a6e01c000
+10-25 16:59:59.931 13236 13236 F DEBUG   : 
+10-25 16:59:59.931 13236 13236 F DEBUG   : backtrace:
+10-25 16:59:59.931 13236 13236 F DEBUG   :       #00 pc 000000000003f000  /data/app/com.noise.audio-bIEPCeGYYC625ZEDNE7atg==/split_config.arm64_v8a.apk!libpairipcore.so (offset 0x20000)
+10-25 17:00:25.893 15596 15596 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2 in tid 15596 (com.noise.audio), pid 15596 (com.noise.audio)
+10-25 17:00:25.954 15633 15633 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-25 17:00:25.954 15633 15633 F DEBUG   : Build fingerprint: 'samsung/m30ltedd/m30lte:10/QP1A.190711.020/M305FDDS8CVB2:user/release-keys'
+10-25 17:00:25.954 15633 15633 F DEBUG   : Revision: '4'
+10-25 17:00:25.954 15633 15633 F DEBUG   : ABI: 'arm64'
+10-25 17:00:25.954 15633 15633 F DEBUG   : Timestamp: 2026-10-25 17:00:25+0530
+10-25 17:00:25.954 15633 15633 F DEBUG   : pid: 15596, tid: 15596, name: com.noise.audio  >>> com.noise.audio <<<
+10-25 17:00:25.954 15633 15633 F DEBUG   : uid: 10343
+10-25 17:00:25.954 15633 15633 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2
+10-25 17:00:25.955 15633 15633 F DEBUG   :     x0  0000000000002867  x1  000000002ae500a1  x2  929b81652cfe2baa  x3  00000000000458a7
+10-25 17:00:25.955 15633 15633 F DEBUG   :     x4  000000000000417f  x5  00000000000423a8  x6  000000000472c58d  x7  00000100000001b3
+10-25 17:00:25.955 15633 15633 F DEBUG   :     x8  00000000b2055e5f  x9  0000007a14a3d4c0  x10 0000000000027ce3  x11 000000000004d935
+10-25 17:00:25.955 15633 15633 F DEBUG   :     x12 000000001200040c  x13 0000000000016984  x14 0000000000027ce1  x15 0000000000027cdd
+10-25 17:00:25.955 15633 15633 F DEBUG   :     x16 0000000000027cc5  x17 0000000000001ae4  x18 0000007aff4b2000  x19 000000000004d935
+10-25 17:00:25.955 15633 15633 F DEBUG   :     x20 0000007ffc0d0f58  x21 000000007e66002c  x22 29a7e37ed827816c  x23 000000004a858585
+10-25 17:00:25.955 15633 15633 F DEBUG   :     x24 00000000b715ac5b  x25 00000000f2e94534  x26 0000000000000ab5  x27 00000000df20bcb3
+10-25 17:00:25.955 15633 15633 F DEBUG   :     x28 000000000000b02d  x29 00000000fc0d0d10
+10-25 17:00:25.955 15633 15633 F DEBUG   :     sp  0000007ffc0d05c0  lr  0000007a6de7e8a0  pc  0000007a6de7f000
+10-25 17:00:25.955 15633 15633 F DEBUG   : 
+10-25 17:00:25.955 15633 15633 F DEBUG   : backtrace:
+10-25 17:00:25.955 15633 15633 F DEBUG   :       #00 pc 000000000003f000  /data/app/com.noise.audio-bIEPCeGYYC625ZEDNE7atg==/split_config.arm64_v8a.apk!libpairipcore.so (offset 0x20000)
+10-25 17:00:40.810 15728 15728 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2 in tid 15728 (com.noise.audio), pid 15728 (com.noise.audio)
+10-25 17:00:40.872 15762 15762 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-25 17:00:40.872 15762 15762 F DEBUG   : Build fingerprint: 'samsung/m30ltedd/m30lte:10/QP1A.190711.020/M305FDDS8CVB2:user/release-keys'
+10-25 17:00:40.872 15762 15762 F DEBUG   : Revision: '4'
+10-25 17:00:40.872 15762 15762 F DEBUG   : ABI: 'arm64'
+10-25 17:00:40.872 15762 15762 F DEBUG   : Timestamp: 2026-10-25 17:00:40+0530
+10-25 17:00:40.872 15762 15762 F DEBUG   : pid: 15728, tid: 15728, name: com.noise.audio  >>> com.noise.audio <<<
+10-25 17:00:40.872 15762 15762 F DEBUG   : uid: 10343
+10-25 17:00:40.872 15762 15762 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2
+10-25 17:00:40.872 15762 15762 F DEBUG   :     x0  0000000000002867  x1  000000002ae500a1  x2  929b81652cfe2baa  x3  00000000000458a7
+10-25 17:00:40.873 15762 15762 F DEBUG   :     x4  000000000000417f  x5  00000000000423a8  x6  000000000472c58d  x7  00000100000001b3
+10-25 17:00:40.873 15762 15762 F DEBUG   :     x8  00000000b2055e5f  x9  0000007a6dbc24c0  x10 0000000000027ce3  x11 000000000004d935
+10-25 17:00:40.873 15762 15762 F DEBUG   :     x12 000000001200040c  x13 0000000000016984  x14 0000000000027ce1  x15 0000000000027cdd
+10-25 17:00:40.873 15762 15762 F DEBUG   :     x16 0000000000027cc5  x17 0000000000001ae4  x18 0000007aff4b2000  x19 000000000004d935
+10-25 17:00:40.873 15762 15762 F DEBUG   :     x20 0000007ffc0d0f58  x21 000000007e66002c  x22 29a7e37ed827816c  x23 000000004a858585
+10-25 17:00:40.873 15762 15762 F DEBUG   :     x24 00000000b715ac5b  x25 00000000f2e94534  x26 0000000000000ab5  x27 00000000df20bcb3
+10-25 17:00:40.873 15762 15762 F DEBUG   :     x28 000000000000b02d  x29 00000000fc0d0d10
+10-25 17:00:40.873 15762 15762 F DEBUG   :     sp  0000007ffc0d05c0  lr  0000007a6df008a0  pc  0000007a6df01000
+10-25 17:00:40.873 15762 15762 F DEBUG   : 
+10-25 17:00:40.873 15762 15762 F DEBUG   : backtrace:
+10-25 17:00:40.873 15762 15762 F DEBUG   :       #00 pc 000000000003f000  /data/app/com.noise.audio-bIEPCeGYYC625ZEDNE7atg==/split_config.arm64_v8a.apk!libpairipcore.so (offset 0x20000)
+10-25 17:00:42.987 15776 15776 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2 in tid 15776 (com.noise.audio), pid 15776 (com.noise.audio)
+10-25 17:00:43.037 15807 15807 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-25 17:00:43.037 15807 15807 F DEBUG   : Build fingerprint: 'samsung/m30ltedd/m30lte:10/QP1A.190711.020/M305FDDS8CVB2:user/release-keys'
+10-25 17:00:43.037 15807 15807 F DEBUG   : Revision: '4'
+10-25 17:00:43.037 15807 15807 F DEBUG   : ABI: 'arm64'
+10-25 17:00:43.038 15807 15807 F DEBUG   : Timestamp: 2026-10-25 17:00:43+0530
+10-25 17:00:43.038 15807 15807 F DEBUG   : pid: 15776, tid: 15776, name: com.noise.audio  >>> com.noise.audio <<<
+10-25 17:00:43.038 15807 15807 F DEBUG   : uid: 10343
+10-25 17:00:43.038 15807 15807 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2
+10-25 17:00:43.038 15807 15807 F DEBUG   :     x0  0000000000002867  x1  000000002ae500a1  x2  929b81652cfe2baa  x3  00000000000458a7
+10-25 17:00:43.038 15807 15807 F DEBUG   :     x4  000000000000417f  x5  00000000000423a8  x6  000000000472c58d  x7  00000100000001b3
+10-25 17:00:43.038 15807 15807 F DEBUG   :     x8  00000000b2055e5f  x9  0000007a1523f4c0  x10 0000000000027ce3  x11 000000000004d935
+10-25 17:00:43.038 15807 15807 F DEBUG   :     x12 000000001200040c  x13 0000000000016984  x14 0000000000027ce1  x15 0000000000027cdd
+10-25 17:00:43.038 15807 15807 F DEBUG   :     x16 0000000000027cc5  x17 0000000000001ae4  x18 0000007aff4b2000  x19 000000000004d935
+10-25 17:00:43.038 15807 15807 F DEBUG   :     x20 0000007ffc0d0f58  x21 000000007e66002c  x22 29a7e37ed827816c  x23 000000004a858585
+10-25 17:00:43.038 15807 15807 F DEBUG   :     x24 00000000b715ac5b  x25 00000000f2e94534  x26 0000000000000ab5  x27 00000000df20bcb3
+10-25 17:00:43.038 15807 15807 F DEBUG   :     x28 000000000000b02d  x29 00000000fc0d0d10
+10-25 17:00:43.038 15807 15807 F DEBUG   :     sp  0000007ffc0d05c0  lr  0000007a6e6128a0  pc  0000007a6e613000
+10-25 17:00:43.038 15807 15807 F DEBUG   : 
+10-25 17:00:43.038 15807 15807 F DEBUG   : backtrace:
+10-25 17:00:43.038 15807 15807 F DEBUG   :       #00 pc 000000000003f000  /data/app/com.noise.audio-bIEPCeGYYC625ZEDNE7atg==/split_config.arm64_v8a.apk!libpairipcore.so (offset 0x20000)
+10-25 17:00:55.630 16129 16129 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2 in tid 16129 (com.noise.audio), pid 16129 (com.noise.audio)
+10-25 17:00:55.696 16150 16150 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-25 17:00:55.696 16150 16150 F DEBUG   : Build fingerprint: 'samsung/m30ltedd/m30lte:10/QP1A.190711.020/M305FDDS8CVB2:user/release-keys'
+10-25 17:00:55.696 16150 16150 F DEBUG   : Revision: '4'
+10-25 17:00:55.696 16150 16150 F DEBUG   : ABI: 'arm64'
+10-25 17:00:55.697 16150 16150 F DEBUG   : Timestamp: 2026-10-25 17:00:55+0530
+10-25 17:00:55.697 16150 16150 F DEBUG   : pid: 16129, tid: 16129, name: com.noise.audio  >>> com.noise.audio <<<
+10-25 17:00:55.697 16150 16150 F DEBUG   : uid: 10343
+10-25 17:00:55.697 16150 16150 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2
+10-25 17:00:55.697 16150 16150 F DEBUG   :     x0  0000000000002867  x1  000000002ae500a1  x2  929b81652cfe2baa  x3  00000000000458a7
+10-25 17:00:55.697 16150 16150 F DEBUG   :     x4  000000000000417f  x5  00000000000423a8  x6  000000000472c58d  x7  00000100000001b3
+10-25 17:00:55.697 16150 16150 F DEBUG   :     x8  00000000b2055e5f  x9  0000007a7185eb80  x10 0000000000027ce3  x11 000000000004d935
+10-25 17:00:55.697 16150 16150 F DEBUG   :     x12 000000001200040c  x13 0000000000016984  x14 0000000000027ce1  x15 0000000000027cdd
+10-25 17:00:55.697 16150 16150 F DEBUG   :     x16 0000000000027cc5  x17 0000000000001ae4  x18 0000007aff4b2000  x19 000000000004d935
+10-25 17:00:55.697 16150 16150 F DEBUG   :     x20 0000007ffc0d0f58  x21 000000007e66002c  x22 29a7e37ed827816c  x23 000000004a858585
+10-25 17:00:55.697 16150 16150 F DEBUG   :     x24 00000000b715ac5b  x25 00000000f2e94534  x26 0000000000000ab5  x27 00000000df20bcb3
+10-25 17:00:55.697 16150 16150 F DEBUG   :     x28 000000000000b02d  x29 00000000fc0d0d10
+10-25 17:00:55.697 16150 16150 F DEBUG   :     sp  0000007ffc0d05c0  lr  0000007a6db568a0  pc  0000007a6db57000
+10-25 17:00:55.697 16150 16150 F DEBUG   : 
+10-25 17:00:55.697 16150 16150 F DEBUG   : backtrace:
+10-25 17:00:55.697 16150 16150 F DEBUG   :       #00 pc 000000000003f000  /data/app/com.noise.audio-bIEPCeGYYC625ZEDNE7atg==/split_config.arm64_v8a.apk!libpairipcore.so (offset 0x20000)
+10-25 17:01:09.913 16298 16298 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2 in tid 16298 (com.noise.audio), pid 16298 (com.noise.audio)
+10-25 17:01:09.974 16321 16321 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-25 17:01:09.974 16321 16321 F DEBUG   : Build fingerprint: 'samsung/m30ltedd/m30lte:10/QP1A.190711.020/M305FDDS8CVB2:user/release-keys'
+10-25 17:01:09.974 16321 16321 F DEBUG   : Revision: '4'
+10-25 17:01:09.974 16321 16321 F DEBUG   : ABI: 'arm64'
+10-25 17:01:09.975 16321 16321 F DEBUG   : Timestamp: 2026-10-25 17:01:09+0530
+10-25 17:01:09.975 16321 16321 F DEBUG   : pid: 16298, tid: 16298, name: com.noise.audio  >>> com.noise.audio <<<
+10-25 17:01:09.975 16321 16321 F DEBUG   : uid: 10343
+10-25 17:01:09.975 16321 16321 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2
+10-25 17:01:09.975 16321 16321 F DEBUG   :     x0  0000000000002867  x1  000000002ae500a1  x2  929b81652cfe2baa  x3  00000000000458a7
+10-25 17:01:09.975 16321 16321 F DEBUG   :     x4  000000000000417f  x5  00000000000423a8  x6  000000000472c58d  x7  00000100000001b3
+10-25 17:01:09.975 16321 16321 F DEBUG   :     x8  00000000b2055e5f  x9  0000007a718a3b80  x10 0000000000027ce3  x11 000000000004d935
+10-25 17:01:09.975 16321 16321 F DEBUG   :     x12 000000001200040c  x13 0000000000016984  x14 0000000000027ce1  x15 0000000000027cdd
+10-25 17:01:09.975 16321 16321 F DEBUG   :     x16 0000000000027cc5  x17 0000000000001ae4  x18 0000007aff4b2000  x19 000000000004d935
+10-25 17:01:09.975 16321 16321 F DEBUG   :     x20 0000007ffc0d0f58  x21 000000007e66002c  x22 29a7e37ed827816c  x23 000000004a858585
+10-25 17:01:09.975 16321 16321 F DEBUG   :     x24 00000000b715ac5b  x25 00000000f2e94534  x26 0000000000000ab5  x27 00000000df20bcb3
+10-25 17:01:09.975 16321 16321 F DEBUG   :     x28 000000000000b02d  x29 00000000fc0d0d10
+10-25 17:01:09.975 16321 16321 F DEBUG   :     sp  0000007ffc0d05c0  lr  0000007a6959f8a0  pc  0000007a695a0000
+10-25 17:01:09.975 16321 16321 F DEBUG   : 
+10-25 17:01:09.975 16321 16321 F DEBUG   : backtrace:
+10-25 17:01:09.975 16321 16321 F DEBUG   :       #00 pc 000000000003f000  /data/app/com.noise.audio-bIEPCeGYYC625ZEDNE7atg==/split_config.arm64_v8a.apk!libpairipcore.so (offset 0x20000)
+10-25 17:03:00.997 20409 20409 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2 in tid 20409 (com.noise.audio), pid 20409 (com.noise.audio)
+10-25 17:03:01.109 20432 20432 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-25 17:03:01.109 20432 20432 F DEBUG   : Build fingerprint: 'samsung/m30ltedd/m30lte:10/QP1A.190711.020/M305FDDS8CVB2:user/release-keys'
+10-25 17:03:01.109 20432 20432 F DEBUG   : Revision: '4'
+10-25 17:03:01.109 20432 20432 F DEBUG   : ABI: 'arm64'
+10-25 17:03:01.113 20432 20432 F DEBUG   : Timestamp: 2026-10-25 17:03:01+0530
+10-25 17:03:01.113 20432 20432 F DEBUG   : pid: 20409, tid: 20409, name: com.noise.audio  >>> com.noise.audio <<<
+10-25 17:03:01.113 20432 20432 F DEBUG   : uid: 10344
+10-25 17:03:01.113 20432 20432 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2
+10-25 17:03:01.114 20432 20432 F DEBUG   :     x0  0000000000002867  x1  000000002ae500a1  x2  929b81652cfe2baa  x3  00000000000458a7
+10-25 17:03:01.114 20432 20432 F DEBUG   :     x4  000000000000417f  x5  00000000000423a8  x6  000000000472c58d  x7  00000100000001b3
+10-25 17:03:01.114 20432 20432 F DEBUG   :     x8  00000000b2055e5f  x9  0000007a0c305b80  x10 0000000000027ce3  x11 000000000004d935
+10-25 17:03:01.114 20432 20432 F DEBUG   :     x12 000000001200040c  x13 0000000000016984  x14 0000000000027ce1  x15 0000000000027cdd
+10-25 17:03:01.114 20432 20432 F DEBUG   :     x16 0000000000027cc5  x17 0000000000001ae4  x18 0000007aff4b2000  x19 000000000004d935
+10-25 17:03:01.114 20432 20432 F DEBUG   :     x20 0000007ffc0d0f58  x21 000000007e66002c  x22 29a7e37ed827816c  x23 000000004a858585
+10-25 17:03:01.114 20432 20432 F DEBUG   :     x24 00000000b715ac5b  x25 00000000f2e94534  x26 0000000000000ab5  x27 00000000df20bcb3
+10-25 17:03:01.114 20432 20432 F DEBUG   :     x28 000000000000b02d  x29 00000000fc0d0d10
+10-25 17:03:01.114 20432 20432 F DEBUG   :     sp  0000007ffc0d05c0  lr  0000007a695a28a0  pc  0000007a695a3000
+10-25 17:03:01.115 20432 20432 F DEBUG   : 
+10-25 17:03:01.115 20432 20432 F DEBUG   : backtrace:
+10-25 17:03:01.115 20432 20432 F DEBUG   :       #00 pc 000000000003f000  /data/app/com.noise.audio-21qz2UxZJPdTp9ROIoBGFw==/split_config.arm64_v8a.apk!libpairipcore.so (offset 0x20000)
+10-25 17:03:03.501 20488 20488 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2 in tid 20488 (com.noise.audio), pid 20488 (com.noise.audio)
+10-25 17:03:03.562 20511 20511 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-25 17:03:03.562 20511 20511 F DEBUG   : Build fingerprint: 'samsung/m30ltedd/m30lte:10/QP1A.190711.020/M305FDDS8CVB2:user/release-keys'
+10-25 17:03:03.562 20511 20511 F DEBUG   : Revision: '4'
+10-25 17:03:03.562 20511 20511 F DEBUG   : ABI: 'arm64'
+10-25 17:03:03.563 20511 20511 F DEBUG   : Timestamp: 2026-10-25 17:03:03+0530
+10-25 17:03:03.563 20511 20511 F DEBUG   : pid: 20488, tid: 20488, name: com.noise.audio  >>> com.noise.audio <<<
+10-25 17:03:03.563 20511 20511 F DEBUG   : uid: 10344
+10-25 17:03:03.563 20511 20511 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2
+10-25 17:03:03.563 20511 20511 F DEBUG   :     x0  0000000000002867  x1  000000002ae500a1  x2  929b81652cfe2baa  x3  00000000000458a7
+10-25 17:03:03.563 20511 20511 F DEBUG   :     x4  000000000000417f  x5  00000000000423a8  x6  000000000472c58d  x7  00000100000001b3
+10-25 17:03:03.563 20511 20511 F DEBUG   :     x8  00000000b2055e5f  x9  0000007a69300b80  x10 0000000000027ce3  x11 000000000004d935
+10-25 17:03:03.563 20511 20511 F DEBUG   :     x12 000000001200040c  x13 0000000000016984  x14 0000000000027ce1  x15 0000000000027cdd
+10-25 17:03:03.563 20511 20511 F DEBUG   :     x16 0000000000027cc5  x17 0000000000001ae4  x18 0000007aff4b2000  x19 000000000004d935
+10-25 17:03:03.563 20511 20511 F DEBUG   :     x20 0000007ffc0d0f58  x21 000000007e66002c  x22 29a7e37ed827816c  x23 000000004a858585
+10-25 17:03:03.563 20511 20511 F DEBUG   :     x24 00000000b715ac5b  x25 00000000f2e94534  x26 0000000000000ab5  x27 00000000df20bcb3
+10-25 17:03:03.563 20511 20511 F DEBUG   :     x28 000000000000b02d  x29 00000000fc0d0d10
+10-25 17:03:03.563 20511 20511 F DEBUG   :     sp  0000007ffc0d05c0  lr  0000007a6db648a0  pc  0000007a6db65000
+10-25 17:03:03.564 20511 20511 F DEBUG   : 
+10-25 17:03:03.564 20511 20511 F DEBUG   : backtrace:
+10-25 17:03:03.564 20511 20511 F DEBUG   :       #00 pc 000000000003f000  /data/app/com.noise.audio-21qz2UxZJPdTp9ROIoBGFw==/split_config.arm64_v8a.apk!libpairipcore.so (offset 0x20000)
+10-25 17:03:19.301 20626 20626 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2 in tid 20626 (com.noise.audio), pid 20626 (com.noise.audio)
+10-25 17:03:19.364 20649 20649 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-25 17:03:19.364 20649 20649 F DEBUG   : Build fingerprint: 'samsung/m30ltedd/m30lte:10/QP1A.190711.020/M305FDDS8CVB2:user/release-keys'
+10-25 17:03:19.364 20649 20649 F DEBUG   : Revision: '4'
+10-25 17:03:19.364 20649 20649 F DEBUG   : ABI: 'arm64'
+10-25 17:03:19.366 20649 20649 F DEBUG   : Timestamp: 2026-10-25 17:03:19+0530
+10-25 17:03:19.366 20649 20649 F DEBUG   : pid: 20626, tid: 20626, name: com.noise.audio  >>> com.noise.audio <<<
+10-25 17:03:19.366 20649 20649 F DEBUG   : uid: 10344
+10-25 17:03:19.366 20649 20649 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x929b81652cfe2bc2
+10-25 17:03:19.366 20649 20649 F DEBUG   :     x0  0000000000002867  x1  000000002ae500a1  x2  929b81652cfe2baa  x3  00000000000458a7
+10-25 17:03:19.366 20649 20649 F DEBUG   :     x4  000000000000417f  x5  00000000000423a8  x6  000000000472c58d  x7  00000100000001b3
+10-25 17:03:19.366 20649 20649 F DEBUG   :     x8  00000000b2055e5f  x9  0000007a0c305b80  x10 0000000000027ce3  x11 000000000004d935
+10-25 17:03:19.366 20649 20649 F DEBUG   :     x12 000000001200040c  x13 0000000000016984  x14 0000000000027ce1  x15 0000000000027cdd
+10-25 17:03:19.366 20649 20649 F DEBUG   :     x16 0000000000027cc5  x17 0000000000001ae4  x18 0000007aff4b2000  x19 000000000004d935
+10-25 17:03:19.366 20649 20649 F DEBUG   :     x20 0000007ffc0d0f58  x21 000000007e66002c  x22 29a7e37ed827816c  x23 000000004a858585
+10-25 17:03:19.366 20649 20649 F DEBUG   :     x24 00000000b715ac5b  x25 00000000f2e94534  x26 0000000000000ab5  x27 00000000df20bcb3
+10-25 17:03:19.366 20649 20649 F DEBUG   :     x28 000000000000b02d  x29 00000000fc0d0d10
+10-25 17:03:19.366 20649 20649 F DEBUG   :     sp  0000007ffc0d05c0  lr  0000007a6958d8a0  pc  0000007a6958e000
+10-25 17:03:19.366 20649 20649 F DEBUG   : 
+10-25 17:03:19.366 20649 20649 F DEBUG   : backtrace:
+10-25 17:03:19.366 20649 20649 F DEBUG   :       #00 pc 000000000003f000  /data/app/com.noise.audio-21qz2UxZJPdTp9ROIoBGFw==/split_config.arm64_v8a.apk!libpairipcore.so (offset 0x20000)

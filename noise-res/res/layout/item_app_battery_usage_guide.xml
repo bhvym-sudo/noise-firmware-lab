@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="#ff232726" android:id="@id/tvManufacturer" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ClashDisplayVariableMedium" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvSteps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+</LinearLayout>

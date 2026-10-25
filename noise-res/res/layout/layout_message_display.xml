@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/container" android:background="@drawable/back_alert_nudge" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_weight="3.0" android:paddingHorizontal="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/circleContainer" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_marginVertical="6.0dip">
+        <ImageView android:background="@drawable/back_alert_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/imvAlertIcon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:src="@drawable/ic_anc_off_blue" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:tint="@color/white" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/tvAlert" android:focusable="true" android:focusableInTouchMode="true" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/text_unable_to_connect_to_device" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="1" android:layout_marginHorizontal="8.0dip" style="@style/RobotoMonoRegular" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/closeView" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip">
+        <ImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/dark_circle_grey" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/imvAlertClose" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/ic_clear_grey" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:tint="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

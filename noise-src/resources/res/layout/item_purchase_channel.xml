@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="@dimen/side_margin"
+    android:paddingBottom="@dimen/side_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/side_margin"
+    android:paddingEnd="@dimen/side_margin"
+    android:paddingVertical="@dimen/side_margin">
+    <TextView
+        android:textSize="16sp"
+        android:textColor="#54656d"
+        android:id="@+id/tvChannel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ivRadio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ClashDisplayVariableMedium"/>
+    <ImageView
+        android:id="@+id/ivRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

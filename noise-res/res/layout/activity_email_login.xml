@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main" android:background="#ff5d6262" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@null" android:scaleType="fitStart" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:src="@null" />
+            <com.noise.audio.customviews.NoiseTextView android:textSize="28.0sp" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:text="@string/text_create_your_account_using_your_email" android:textAllCaps="true" />
+            <com.noise.audio.customviews.NoiseTextView android:textSize="20.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/text_enter_your_email_address" android:textAllCaps="true" />
+            <com.noise.audio.customviews.NoiseEditText android:textSize="20.0sp" android:textColor="@color/white" android:textColorHint="#33f1eee9" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="18.0dip" android:hint="@string/text_hint_start_typing" android:inputType="textEmailAddress" android:textAllCaps="true" />
+            <com.noise.audio.customviews.NoiseTextView android:textColor="@color/white" android:background="@drawable/round_corner_continue_button" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:text="@string/text_continue" android:paddingStart="27.0dip" android:paddingEnd="27.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.noise.audio.customviews.NoiseTextView android:textSize="20.0sp" android:textColor="#ff628c92" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/text_or_login_using" android:textAllCaps="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@null" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.noise.audio.customviews.NoiseTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_login_terms_n_condition" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

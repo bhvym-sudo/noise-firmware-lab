@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff42454a" android:id="@id/text_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="true" android:letterSpacing="0.02" style="@style/RobotoMonoRegular" />
+    <LinearLayout android:gravity="center" android:background="@drawable/back_card_v2" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="#ff879399" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+91" style="@style/ClashDisplayVariableMedium" />
+        <EditText android:textSize="20.0sp" android:textColor="@color/text_color_default" android:textColorHint="@color/hint_color_default" android:gravity="center_vertical" android:id="@id/edit_text" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLength="50" android:layout_weight="1.0" android:textCursorDrawable="@drawable/custom_cursor" android:layout_marginStart="4.0dip" android:letterSpacing="-0.01" style="@style/ClashDisplayVariableMedium" />
+    </LinearLayout>
+</LinearLayout>

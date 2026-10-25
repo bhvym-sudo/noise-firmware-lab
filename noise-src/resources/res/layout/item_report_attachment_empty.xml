@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_input_field_16"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_marginEnd="12dp">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_plus"
+        app:tint="#54656d"/>
+</FrameLayout>

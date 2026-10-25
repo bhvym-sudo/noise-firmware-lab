@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_sign_in">登录或注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="active_noise_cancellation">降噪控制</string>
+    <string name="adjust_anc_levels">调整 ANC 级别</string>
+    <string name="all_device_settings">"所有设备
+设置"</string>
+    <string name="all_devices">"所有
+设备"</string>
+    <string name="character_name">qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="character_number">1234567890</string>
+    <string name="continue_with_email">使用邮箱继续</string>
+    <string name="customize">自定义</string>
+    <string name="customizing_left_buds">"自定义
+左耳机"</string>
+    <string name="customizing_right_buds">"自定义
+右耳机"</string>
+    <string name="d_o_b">出生日期</string>
+    <string name="date_of_birth">出生日期</string>
+    <string name="do_not_exit_this_page">请不要退出此页面</string>
+    <string name="enter_correct_dob">请输入正确的出生日期</string>
+    <string name="enter_name">输入姓名</string>
+    <string name="enter_otp">输入验证码</string>
+    <string name="enter_your_date_of_birth">输入您的出生日期</string>
+    <string name="enter_your_mobile_number">输入您的手机号</string>
+    <string name="enter_your_name">输入您的姓名</string>
+    <string name="firmware_update_in_progress">"固件更新
+进行中"</string>
+    <string name="hello_blank_fragment">空白片段</string>
+    <string name="hint_dd_mm_yy">DD/MM/YYYY</string>
+    <string name="in_ear_detection">入耳检测</string>
+    <string name="invalid_email_id">邮箱字段不能为空</string>
+    <string name="invalid_password">密码必须超过5个字符</string>
+    <string name="invalid_username">用户名无效</string>
+    <string name="login_failed">登录失败</string>
+    <string name="low_lag_gaming_mode">低延迟 / 游戏模式</string>
+    <string name="new_software_is_updated">"新软件
+已更新"</string>
+    <string name="one_last_thing">"最后
+一步..."</string>
+    <string name="pairing_buds">耳机 - 将耳机放入盒中并打开盒盖，长按盒子按钮直到灯开始闪烁</string>
+    <string name="pairing_headphones">耳机 - 双击电源按钮以启用配对模式</string>
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码</string>
+    <string name="select_an_action_for_tap_amp_hold">"选择一个
+点击并按住的操作"</string>
+    <string name="setup_msg_adaptive_anc">长按右耳机在 ANC 模式之间切换。</string>
+    <string name="setup_msg_dual_pairing">同时连接两个设备，无缝切换。</string>
+    <string name="setup_msg_moods">体验均衡、无失真的音频，具有深沉低音、清晰中音和明亮高音。</string>
+    <string name="setup_msg_noise_ai">长按左耳机激活 Noise AI 助手。应用需要在前台打开。</string>
+    <string name="setup_msg_noise_ai_mb_open">长按任意一只耳机激活 Noise AI 助手。应用需要在前台打开。</string>
+    <string name="setup_msg_spatial_audio">在耳机任一侧点击四次以激活空间音频。</string>
+    <string name="software_updated">"软件
+已更新"</string>
+    <string name="take_me_home">带我回首页</string>
+    <string name="text_00_34s">00:34S</string>
+    <string name="text_1">1</string>
+    <string name="text_2_dimensional_stereo_sound">2D 立体声</string>
+    <string name="text_40db_adaptive_anc">"-40dB
+自适应 ANC"</string>
+    <string name="text_40db_anc">"-40dB
+ANC"</string>
+    <string name="text_50db_nanc">"-50dB
+ANC"</string>
+    <string name="text_60hrs_playtime">"60小时
+续航"</string>
+    <string name="text__49db_anc">"49dB
+ANC"</string>
+    <string name="text_a_firmware_update_is_available">有可用的固件更新</string>
+    <string name="text_abc_1234_xxxxxx">ABC-1234-XXXXXX</string>
+    <string name="text_about_your_device">关于您的 设备</string>
+    <string name="text_access_needed_for_device_discovery_and_your_device_to_products_in_your_vicinity">需要访问权限以发现设备和连接您附近的产品</string>
+    <string name="text_access_this_feature_from_the_sound_settings_on_the_home_screen">从主屏幕的声音设置中访问此功能。</string>
+    <string name="text_access_your_previous_chats">访问您的历史聊天</string>
+    <string name="text_account_already_exists">账户已存在？</string>
+    <string name="text_action_sign_in">登录或注册</string>
+    <string name="text_action_sign_in_short">登录</string>
+    <string name="text_activate_ai_non_device">"在设备上
+激活 AI"</string>
+    <string name="text_activate_this_feature_by_allowing_permissions">通过允许权限来启用此功能</string>
+    <string name="text_active_noise_cancellation_updated_success">降噪控制更新成功</string>
+    <string name="text_adaptive">自适应</string>
+    <string name="text_add">添加</string>
+    <string name="text_add_a_whole_new_dimension_to_your_sound_hear_it_for_yourself">为您的声音添加全新维度。亲自聆听体验。</string>
+    <string name="text_add_media">添加</string>
+    <string name="text_add_screenshot_recording">添加截图 / 录屏</string>
+    <string name="text_adjust_date">调整日期</string>
+    <string name="text_agree_and_continue">同意并继续</string>
+    <string name="text_ai">AI</string>
+    <string name="text_ai_companion">AI 伙伴</string>
+    <string name="text_ai_error_message">抱歉 %s，我好像出了点问题！请再说一次。</string>
+    <string name="text_ai_header_2">很好，再来一次</string>
+    <string name="text_ai_header_3">太棒了，最后一次</string>
+    <string name="text_ai_help_assistant">AI 帮助助手</string>
+    <string name="text_ai_is_thinking">AI 正在思考</string>
+    <string name="text_ai_summary">AI 摘要</string>
+    <string name="text_ai_transcription">AI 转录</string>
+    <string name="text_all">全部</string>
+    <string name="text_allow">允许</string>
+    <string name="text_allow_access">允许访问</string>
+    <string name="text_alternate_number">备用号码：</string>
+    <string name="text_amazon">AMAZON</string>
+    <string name="text_analysing">正在分析</string>
+    <string name="text_anc">ANC</string>
+    <string name="text_answer_hangup">接听/挂断</string>
+    <string name="text_answer_incoming_calls_with_a_quick_nod">快速双点头接听来电。</string>
+    <string name="text_api_response_failed">API 响应失败</string>
+    <string name="text_app_battery_usage_title">"应用电池
+使用"</string>
+    <string name="text_app_feedback">应用反馈</string>
+    <string name="text_app_language">应用语言</string>
+    <string name="text_app_language_">"应用
+语言"</string>
+    <string name="text_app_language_2">应用语言</string>
+    <string name="text_app_name">Noise 音频</string>
+    <string name="text_app_section">应用</string>
+    <string name="text_app_under_maintenance">应用维护中</string>
+    <string name="text_app_update">"应用
+更新"</string>
+    <string name="text_app_update_2">应用更新</string>
+    <string name="text_app_update_message">检查是否有新功能可用</string>
+    <string name="text_app_update_msg">我们带来了新的内容 ✨，立即更新 Noise Audio 应用以体验最新功能！</string>
+    <string name="text_app_ver">应用版本 %1$s</string>
+    <string name="text_app_version">应用版本 %1$s</string>
+    <string name="text_are_you_sure">您确定吗？</string>
+    <string name="text_are_you_sure_to_delete_from_your_account">您确定要删除您的账户吗？</string>
+    <string name="text_are_you_sure_to_logout_from_your_account">您确定要退出您的账户吗？</string>
+    <string name="text_are_you_sure_to_sign_out_from_your_account">您确定要退出您的账户吗？</string>
+    <string name="text_are_you_sure_you_want_to_remove_this_device">您确定要移除此设备吗？</string>
+    <string name="text_are_you_sure_you_want_to_sign_out">您确定要退出登录吗？</string>
+    <string name="text_ask_anything">随便问</string>
+    <string name="text_asset_download_nfailed">"资源下载
+失败"</string>
+    <string name="text_assistant_2">"助手
+"</string>
+    <string name="text_attach_hint">照片最大 500 KB · 视频最大 2 MB · 最多 3 个文件</string>
+    <string name="text_attachments">附件（可选）</string>
+    <string name="text_audio_ai_running">Audio AI 运行中</string>
+    <string name="text_audio_boost">音频增强</string>
+    <string name="text_audio_boost_desc">与流行的看法相反，Lorem Ipsum 不仅仅是随机文本。</string>
+    <string name="text_audio_boost_disable_confirm_message">音频增强仅针对默认均衡器进行调校。继续自定义将禁用音频增强。</string>
+    <string name="text_audio_boost_disable_confirm_title">已启用音频增强</string>
+    <string name="text_audio_boost_enabled_eq">已启用音频增强</string>
+    <string name="text_audio_boost_message">增强入耳声音，提升聆听体验</string>
+    <string name="text_audio_boost_tuned_compatibility">音频增强已针对兼容性进行调校</string>
+    <string name="text_auto_answer_incoming_call_by_putting_on_your_headphones">戴上耳机时自动接听来电</string>
+    <string name="text_auto_pauses_music_when_you_take_off_your_headphones">取下耳机时音乐会自动暂停</string>
+    <string name="text_available_rewards">可用奖励</string>
+    <string name="text_back">返回</string>
+    <string name="text_back_arrow">返回箭头</string>
+    <string name="text_background_management_description">为确保应用通知、通话、消息和其他功能的稳定连接和性能，请配置以下设置。系统清理可能会中断 Noise Audio 应用的连接并影响设备功能。</string>
+    <string name="text_background_management_title">后台 管理</string>
+    <string name="text_background_protection">后台保护</string>
+    <string name="text_balanced">均衡</string>
+    <string name="text_bass">低音</string>
+    <string name="text_bass_boost">低音增强</string>
+    <string name="text_bass_boost_message">感受更深沉、更强劲的低音节拍</string>
+    <string name="text_bat_auto_huawei_1">在设置中搜索Auto-start Management。</string>
+    <string name="text_bat_auto_huawei_2">找到Noise Audio并关闭应用开关。</string>
+    <string name="text_bat_auto_huawei_3">在Pop-up Manual Management页面，启用Allow Auto-Start。</string>
+    <string name="text_bat_auto_huawei_4">在Pop-up Manual Management页面，启用Allow Associated Start。</string>
+    <string name="text_bat_auto_huawei_5">在Pop-up Manual Management页面，启用Allow Background Activities。</string>
+    <string name="text_bat_auto_meizu_1">在设置中搜索Background Management。</string>
+    <string name="text_bat_auto_meizu_2">找到Noise Audio并设置为Allow background running。</string>
+    <string name="text_bat_auto_miui_1">在设置中搜索Auto-start Management。</string>
+    <string name="text_bat_auto_miui_2">找到Noise Audio并启用应用开关。</string>
+    <string name="text_bat_auto_oneplus_1">在设置中搜索Auto-start Management。</string>
+    <string name="text_bat_auto_oneplus_2">找到Noise Audio，进入其设置，启用Allow full background activity。</string>
+    <string name="text_bat_auto_oneplus_3">找到Noise Audio，进入其设置，启用Allow app auto-start。</string>
+    <string name="text_bat_auto_oppo_1">在设置中搜索Auto-start Management。</string>
+    <string name="text_bat_auto_oppo_2">找到Noise Audio并打开开关。</string>
+    <string name="text_bat_auto_other_1">在设置中搜索Auto-start Management。</string>
+    <string name="text_bat_auto_other_2">找到Noise Audio并启用Auto-start或设置为Allow Background Running。</string>
+    <string name="text_bat_auto_realme_1">在设置中搜索Auto-start Management。</string>
+    <string name="text_bat_auto_realme_2">找到Noise Audio并启用Allow Full Background Activity。</string>
+    <string name="text_bat_auto_realme_3">找到Noise Audio并启用Allow App Auto-Start。</string>
+    <string name="text_bat_auto_redmi_1">在设置中搜索Auto-start Management。</string>
+    <string name="text_bat_auto_redmi_2">找到Noise Audio -> App Info -> 启用Auto-start。</string>
+    <string name="text_bat_auto_samsung_1">在设置中搜索Auto-start Management。</string>
+    <string name="text_bat_auto_samsung_2">找到Noise Audio并打开开关。</string>
+    <string name="text_bat_auto_vivo_1">在设置中搜索Auto-start Management。</string>
+    <string name="text_bat_auto_vivo_2">找到Noise Audio并打开开关。</string>
+    <string name="text_bat_lock_huawei_1">导航按钮：点击菜单键访问最近的应用。</string>
+    <string name="text_bat_lock_huawei_2">导航按钮：在Noise Audio上向下滑动 -> 点击锁定图标。</string>
+    <string name="text_bat_lock_huawei_3">全屏设备：向上滑动并短暂按住。</string>
+    <string name="text_bat_lock_huawei_4">全屏设备：在Noise Audio上向下滑动 -> 点击锁定图标。</string>
+    <string name="text_bat_lock_huawei_5">注意：对于带有Home键的设备（如P10），使用Home键访问最近的应用。</string>
+    <string name="text_bat_lock_meizu_1">向上滑动并短暂按住以打开后台任务。</string>
+    <string name="text_bat_lock_meizu_2">在Noise Audio上向下滑动 -> 出现锁定图标。</string>
+    <string name="text_bat_lock_miui_1">非全屏/全屏（导航按钮）：点击菜单键访问最近的应用。</string>
+    <string name="text_bat_lock_miui_2">非全屏/全屏（导航按钮）：长按Noise Audio -> 点击应用上方的锁定图标。</string>
+    <string name="text_bat_lock_miui_3">全屏设备：从底部向上滑动并短暂按住。</string>
+    <string name="text_bat_lock_miui_4">全屏设备：长按Noise Audio -> 点击锁定图标。</string>
+    <string name="text_bat_lock_oneplus_1">在全屏模式下，从底部向上滑动并按住约1秒。</string>
+    <string name="text_bat_lock_oneplus_2">找到Noise Audio，点击更多（右上角），选择Lock。</string>
+    <string name="text_bat_lock_oneplus_3">锁定图标出现在应用右上角。</string>
+    <string name="text_bat_lock_oppo_1">非全屏/全屏（导航按钮）：点击菜单键打开最近的应用。</string>
+    <string name="text_bat_lock_oppo_2">非全屏/全屏（导航按钮）：在Noise Audio上向下滑动显示锁定图标。</string>
+    <string name="text_bat_lock_oppo_3">全屏设备：向上滑动并短暂按住。</string>
+    <string name="text_bat_lock_oppo_4">全屏设备：点击更多（右上角）-> Lock。</string>
+    <string name="text_bat_lock_other_1">打开最近的应用/后台任务。</string>
+    <string name="text_bat_lock_other_2">找到Noise Audio并锁定应用以防止被清除。</string>
+    <string name="text_bat_lock_realme_1">向上滑动（或点击多任务按钮）。</string>
+    <string name="text_bat_lock_realme_2">找到Noise Audio，点击更多（右上角）-> Lock。</string>
+    <string name="text_bat_lock_realme_3">锁定图标出现表示成功。</string>
+    <string name="text_bat_lock_redmi_1">向上滑动（或点击多任务按钮）。</string>
+    <string name="text_bat_lock_redmi_2">长按Noise Audio -> 选择Lock Noise Audio。</string>
+    <string name="text_bat_lock_redmi_3">锁定图标出现在右上角。</string>
+    <string name="text_bat_lock_samsung_1">点击屏幕底部的菜单键访问最近的应用。</string>
+    <string name="text_bat_lock_samsung_2">点击Noise Audio图标，从弹出菜单中选择Lock this application。</string>
+    <string name="text_bat_lock_samsung_3">注意：如果启用了\"One-Hand Operation Plus\"，从屏幕底部缓慢向上滑动访问最近的应用。</string>
+    <string name="text_bat_lock_vivo_1">非全屏/全屏（导航按钮）：点击菜单键访问最近的应用。</string>
+    <string name="text_bat_lock_vivo_2">非全屏/全屏（导航按钮）：在Noise Audio上向下滑动显示锁定图标。</string>
+    <string name="text_bat_lock_vivo_3">全屏设备：向上滑动并短暂按住。</string>
+    <string name="text_bat_lock_vivo_4">全屏设备：在Noise Audio上向下滑动显示锁定图标。</string>
+    <string name="text_bat_mfr_huawei">HUAWEI / HONOR</string>
+    <string name="text_bat_mfr_meizu">MEIZU (Flyme)</string>
+    <string name="text_bat_mfr_miui">MIUI</string>
+    <string name="text_bat_mfr_motorola">Motorola</string>
+    <string name="text_bat_mfr_oneplus">OnePlus</string>
+    <string name="text_bat_mfr_oppo">OPPO</string>
+    <string name="text_bat_mfr_other">其他型号</string>
+    <string name="text_bat_mfr_pixel">Pixel</string>
+    <string name="text_bat_mfr_realme">realme</string>
+    <string name="text_bat_mfr_redmi">Redmi</string>
+    <string name="text_bat_mfr_samsung">Samsung</string>
+    <string name="text_bat_mfr_vivo">vivo / iQOO</string>
+    <string name="text_bat_usage_huawei_1">在设置中搜索\"Battery\"。</string>
+    <string name="text_bat_usage_huawei_2">找到Noise Audio并关闭\"Auto-Manage\"。</string>
+    <string name="text_bat_usage_miui_1">在设置中搜索Power Saving and Battery > Settings > Apply Smart Power Saving。</string>
+    <string name="text_bat_usage_miui_2">找到Noise Audio并在后台配置中选择\"Unlimited\"。</string>
+    <string name="text_bat_usage_motorola_1">打开Settings > Battery > Battery Manager和Battery Saver。</string>
+    <string name="text_bat_usage_motorola_2">确保两个开关都已关闭。</string>
+    <string name="text_bat_usage_motorola_3">前往Battery > Power Saving Settings > App Power Management。</string>
+    <string name="text_bat_usage_motorola_4">找到Noise Audio，禁用Auto Optimisation，并选择No Restrictions。</string>
+    <string name="text_bat_usage_oneplus_1">在设置中搜索\"Battery\"并找到Battery Saver Mode。</string>
+    <string name="text_bat_usage_oneplus_2">找到Noise Audio并关闭Battery Saver mode开关。</string>
+    <string name="text_bat_usage_oppo_1">在设置中搜索Battery > Application Power Management。</string>
+    <string name="text_bat_usage_oppo_2">找到Noise Audio并启用Allow wake-up foreground。</string>
+    <string name="text_bat_usage_oppo_3">找到Noise Audio并启用Allow full background behaviour。</string>
+    <string name="text_bat_usage_other_1">在设置中搜索\"Battery\"。</string>
+    <string name="text_bat_usage_other_2">找到Noise Audio并禁用所有与电池使用相关的电源管理功能。</string>
+    <string name="text_bat_usage_pixel_1">打开Settings > Battery > Battery Usage。</string>
+    <string name="text_bat_usage_pixel_2">在应用列表中找到Noise Audio并启用Allow Background Usage。</string>
+    <string name="text_bat_usage_realme_1">搜索Battery > Power Saving Settings > App Power Management。</string>
+    <string name="text_bat_usage_realme_2">找到Noise Audio，禁用Auto Optimisation，并选择No Restrictions。</string>
+    <string name="text_bat_usage_redmi_1">在设置中搜索Battery Saver &amp; Battery。</string>
+    <string name="text_bat_usage_redmi_2">在应用列表中找到Noise Audio -> App Info -> Battery Saver Policy -> 选择No Restrictions。</string>
+    <string name="text_bat_usage_samsung_1">在设置中搜索\"Battery\"。</string>
+    <string name="text_bat_usage_samsung_2">点击Battery，然后找到并选择Optimise Battery Usage。</string>
+    <string name="text_bat_usage_samsung_3">找到Noise Audio并关闭开关。</string>
+    <string name="text_bat_usage_vivo_1">在设置中搜索Battery > Background power consumption management。</string>
+    <string name="text_bat_usage_vivo_2">找到Noise Audio并打开开关（右侧）。</string>
+    <string name="text_battery_info_not_available">无法获取电池信息</string>
+    <string name="text_battery_low_please_charge_to_at_least_20">电池电量低，请至少充电至 20%</string>
+    <string name="text_bg_allow_auto_start">允许自动启动</string>
+    <string name="text_bg_allow_auto_start_desc">设备重启或系统清理后自动启动应用</string>
+    <string name="text_bg_always_there_notification">常驻通知</string>
+    <string name="text_bg_always_there_notification_desc">在系统通知栏始终显示 Noise Audio 通知</string>
+    <string name="text_bg_app_battery_usage">应用电池使用</string>
+    <string name="text_bg_app_battery_usage_desc">防止应用被系统省电设置意外清理。</string>
+    <string name="text_bg_lock_recent_app">锁定最近应用</string>
+    <string name="text_bg_lock_recent_app_desc">保持应用在后台运行</string>
+    <string name="text_bg_lock_recent_app_hint_toast">在最近的应用中锁定 Noise Audio 以保持其运行。</string>
+    <string name="text_bg_notifications">通知</string>
+    <string name="text_bg_notifications_desc">允许 Noise Audio 读取其他应用通知</string>
+    <string name="text_bh0_2046_xxxxxxx">BH0-2046-XXXXXXX</string>
+    <string name="text_bluetooth_disabled">"蓝牙
+已关闭"</string>
+    <string name="text_bluetooth_disabled_">"蓝牙
+已关闭"</string>
+    <string name="text_bluetooth_required">"需要
+蓝牙"</string>
+    <string name="text_bluetooth_turn_on_request">请打开蓝牙</string>
+    <string name="text_boost_high_message">最大音量。推荐在嘈杂环境中使用</string>
+    <string name="text_boost_low_message">最低放大。推荐在安静环境中使用</string>
+    <string name="text_boost_medium_message">均衡放大。推荐获得最佳体验</string>
+    <string name="text_boost_message">增强入耳声音，提升聆听体验</string>
+    <string name="text_boost_message_2">增强您的音频，获得更响亮、更丰富的声音</string>
+    <string name="text_both_buds_are_critically_low">耳机电量极低</string>
+    <string name="text_both_buds_battery_low">两只耳机电量均低。请立即充电。</string>
+    <string name="text_bt">BT</string>
+    <string name="text_bt_disconnected">蓝牙已断开</string>
+    <string name="text_bt_is_disabled_on_your_device_enable_to_proceed">您的设备上 BT 已禁用。请启用以继续</string>
+    <string name="text_bt_message">长按充电盒按钮使设备可被发现</string>
+    <string name="text_bud_not_detected_step_1">确保%s耳机正确放置在充电盒中。</string>
+    <string name="text_bud_not_detected_step_2">清洁耳机和充电盒上的充电触点。</string>
+    <string name="text_bud_not_detected_step_3">确保充电盒电量至少为20%%。</string>
+    <string name="text_bud_not_detected_step_4">在配对过程中保持盖子打开。</string>
+    <string name="text_bud_not_detected_step_5">如果问题仍然存在，请执行恢复出厂设置。</string>
+    <string name="text_bud_not_detected_title">未检测到%s耳机</string>
+    <string name="text_button_controls">按钮控制</string>
+    <string name="text_call_answer">接听电话</string>
+    <string name="text_call_control">通话控制</string>
+    <string name="text_call_hangup">挂断电话</string>
+    <string name="text_call_mute">静音通话</string>
+    <string name="text_call_reject">拒绝来电</string>
+    <string name="text_call_support">联系支持</string>
+    <string name="text_call_us">致电我们</string>
+    <string name="text_camera">相机</string>
+    <string name="text_can_t_find_your_device">找不到您的设备？</string>
+    <string name="text_can_t_find_your_device_nsee_here">"找不到您的设备？
+请查看这里"</string>
+    <string name="text_can_t_find_your_device_see_here">"找不到您的设备？
+请查看这里"</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_cant_find_your_device">找不到您的设备？</string>
+    <string name="text_case_battery_critically_low">充电盒电量严重不足。请立即充电。</string>
+    <string name="text_change_eq_to_default">您当前的均衡器不支持音频增强。请切换均衡器以启用。</string>
+    <string name="text_change_song">切换歌曲</string>
+    <string name="text_change_volume">调节音量</string>
+    <string name="text_changer">更改</string>
+    <string name="text_charge_case">充电盒</string>
+    <string name="text_charge_earbuds">给耳机充电</string>
+    <string name="text_charge_your_device">为您的设备充电</string>
+    <string name="text_charging_2">充电</string>
+    <string name="text_charging_your_buds_2">"为您的耳机
+充电"</string>
+    <string name="text_chat_history">聊天记录</string>
+    <string name="text_chat_history_caps">聊天记录</string>
+    <string name="text_chat_limit_reached">聊天已达到限制</string>
+    <string name="text_check_bt_connected_devices">检查当前已连接的蓝牙设备</string>
+    <string name="text_check_your_internet_connection">请检查您的互联网连接。</string>
+    <string name="text_choose_file">选择文件</string>
+    <string name="text_choose_from">选择来源</string>
+    <string name="text_choose_reward">选择奖励</string>
+    <string name="text_claim_now">立即领取</string>
+    <string name="text_claim_reward">领取奖励</string>
+    <string name="text_classical">古典</string>
+    <string name="text_click_here">点击这里</string>
+    <string name="text_click_on_the_play_button_to_locate_your_headphones">点击播放按钮定位您的耳机</string>
+    <string name="text_close">关闭</string>
+    <string name="text_close_and_reopen_case">"请关闭并重新打开充电盒
+以验证固件更新"</string>
+    <string name="text_club">CLUB</string>
+    <string name="text_comfort">舒适</string>
+    <string name="text_coming_soon">即将推出</string>
+    <string name="text_complete_profile">完成个人资料</string>
+    <string name="text_connect">连接</string>
+    <string name="text_connect_to_device">连接到设备</string>
+    <string name="text_connect_with_2_devices_at_the_same_time">同时连接两个设备</string>
+    <string name="text_connect_with_2_devices_nat_the_same_time">"同时连接
+2个设备"</string>
+    <string name="text_connect_with_two_devices_at_a_time">同时连接两个设备</string>
+    <string name="text_connected">已连接</string>
+    <string name="text_connected_devices_caps">已连接设备</string>
+    <string name="text_connected_to">已连接到</string>
+    <string name="text_connected_via_ble">已通过BLE连接</string>
+    <string name="text_connected_via_bt">已通过BT连接</string>
+    <string name="text_connecting_caps">连接中</string>
+    <string name="text_connecting_dot">连接中...</string>
+    <string name="text_connection_timed_out">连接超时</string>
+    <string name="text_contact_us">联系我们</string>
+    <string name="text_continue">继续</string>
+    <string name="text_continue_as_guest">以访客身份继续</string>
+    <string name="text_continue_editing_caps">继续编辑</string>
+    <string name="text_continue_with_email">"使用邮箱
+继续"</string>
+    <string name="text_continue_with_phone_no">"使用手机号
+继续"</string>
+    <string name="text_control_your_music_from_notifications">从通知中控制音乐</string>
+    <string name="text_controls">控制</string>
+    <string name="text_controls_caps">控制</string>
+    <string name="text_controls_features_subtitle">自定义您的设备控制</string>
+    <string name="text_copied">已复制到剪贴板</string>
+    <string name="text_copy_caps">复制</string>
+    <string name="text_create_summary_hint">为您的转录创建摘要！</string>
+    <string name="text_create_your_account_using_your_email">使用您的邮箱创建账户</string>
+    <string name="text_credit_reset_days">%1$d 天</string>
+    <string name="text_credit_reset_in">额度将在 %1$s 后重置</string>
+    <string name="text_credits_consumed_body">本次会话转录所使用的额度将被视为已消耗</string>
+    <string name="text_credits_exhausted_title">本周的额度已全部用完！</string>
+    <string name="text_credits_replenish_prefix">额度将于以下时间补充</string>
+    <string name="text_crop">裁剪</string>
+    <string name="text_current_device">当前设备</string>
+    <string name="text_current_version">当前版本</string>
+    <string name="text_currently_connected">当前 已连接</string>
+    <string name="text_custom">自定义</string>
+    <string name="text_custom_touch_gestures">自定义触控手势</string>
+    <string name="text_customisable_product_control">"可自定义
+产品控制"</string>
+    <string name="text_customise_touch_controls">自定义触控</string>
+    <string name="text_customise_your_device_controls">自定义您的设备控制</string>
+    <string name="text_customize_touch_gestures_for_effortless_earphone_control">自定义触控手势，轻松控制耳机。</string>
+    <string name="text_cut_out_all_the_noise">"隔绝
+所有噪音"</string>
+    <string name="text_cut_out_the_disruptions">"消除
+干扰"</string>
+    <string name="text_date">日期</string>
+    <string name="text_date_of_birth">出生日期</string>
+    <string name="text_date_of_birth_2">出生日期</string>
+    <string name="text_dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="text_decline_calls">拒绝来电</string>
+    <string name="text_dedicated_assistance_for_your_noise_audio_experience">为您的 Noise Audio 体验提供专属支持。</string>
+    <string name="text_default">默认</string>
+    <string name="text_delete">删除</string>
+    <string name="text_delete_account">删除账户</string>
+    <string name="text_delete_message">删除您的账户将使设备与应用断开连接，并重置所有数据和设置。</string>
+    <string name="text_delete_thread">确定要删除此线程吗？</string>
+    <string name="text_delete_transcription">您确定要删除此转录吗？</string>
+    <string name="text_delete_transcription_confirm">您确定要删除吗？</string>
+    <string name="text_delete_transcription_confirm_2">您确定要删除所选项目吗？</string>
+    <string name="text_delete_transcriptions_plural">您确定要删除 %1$d 条转录吗？</string>
+    <string name="text_description">描述</string>
+    <string name="text_description_hint">请分享您的问题详情</string>
+    <string name="text_description_label">描述*</string>
+    <string name="text_device">设备</string>
+    <string name="text_device_failed_to_connect">"设备
+连接失败"</string>
+    <string name="text_device_failed_to_pair">设备配对 失败</string>
+    <string name="text_device_found">已找到设备</string>
+    <string name="text_device_has_been_removed">设备已被移除</string>
+    <string name="text_device_name">设备名称</string>
+    <string name="text_device_name_here">设备名称</string>
+    <string name="text_device_not_connected">设备未连接</string>
+    <string name="text_device_not_found">未找到设备</string>
+    <string name="text_device_nsettings">设置</string>
+    <string name="text_device_section">设备</string>
+    <string name="text_device_still_not_connecting">设备仍然无法连接？</string>
+    <string name="text_device_update">"设备
+更新"</string>
+    <string name="text_device_warranty">设备保修</string>
+    <string name="text_devices_found">找到 %d 个设备</string>
+    <string name="text_didnt_find_yours">没找到您的设备？</string>
+    <string name="text_disable_all_customizations_and_custom_touch_controls">禁用所有自定义和触控操作</string>
+    <string name="text_discard_changes_title">放弃更改？</string>
+    <string name="text_disconnected">已断开连接</string>
+    <string name="text_disconnected_2">已断开连接</string>
+    <string name="text_discover_message">您的设备将对附近的蓝牙设备可见</string>
+    <string name="text_discoverability">可发现性</string>
+    <string name="text_dismiss">关闭</string>
+    <string name="text_do_not_press_any_buttons_on_headphones">请勿按下耳机上的任何按钮</string>
+    <string name="text_dob">出生日期</string>
+    <string name="text_dob_updated_caps">生日已更新</string>
+    <string name="text_document_pdf">document.pdf</string>
+    <string name="text_don_t_have_an_invoice">没有发票？</string>
+    <string name="text_don_t_show_again">不再显示</string>
+    <string name="text_done">完成</string>
+    <string name="text_double_press_power_button_to_make_device_discoverable">双击电源按钮使设备可被发现</string>
+    <string name="text_double_tap_and_hold">双击并按住</string>
+    <string name="text_double_tap_and_hold_2">双击并按住</string>
+    <string name="text_double_tap_on_anc_button_to_switch_between_anc_modes">"双击 ANC 按钮
+切换 ANC 模式。"</string>
+    <string name="text_double_tap_on_anc_button_toggle_spatial_audio_on_off">"双击 ANC 按钮开启/关闭
+空间音频"</string>
+    <string name="text_download_user_manual">下载用户手册</string>
+    <string name="text_downloading">下载中</string>
+    <string name="text_downloading_2">下载中-</string>
+    <string name="text_downloading_firmware">正在下载固件</string>
+    <string name="text_downloading_nassets">"正在下载
+资源"</string>
+    <string name="text_dual_pairing">双设备配对</string>
+    <string name="text_dual_pairing_buds_off">启用以允许同时连接 2 台设备。</string>
+    <string name="text_dual_pairing_buds_on">您的耳塞可以同时连接 2 台设备。</string>
+    <string name="text_dual_pairing_cap">双设备配对</string>
+    <string name="text_dual_pairing_headphones_off">启用以允许同时连接 2 台设备。</string>
+    <string name="text_dual_pairing_headphones_on">您的耳机可以同时连接 2 台设备。</string>
+    <string name="text_dynamic">动感</string>
+    <string name="text_edit">编辑</string>
+    <string name="text_edit_caps">编辑</string>
+    <string name="text_edit_confirm_body">编辑将使此转录与其音频分离。编辑后，您将无法在查看文本的同时播放音频。</string>
+    <string name="text_edit_confirm_title">您确定要编辑此转录吗？</string>
+    <string name="text_edit_details">编辑详情</string>
+    <string name="text_edit_profile">编辑资料</string>
+    <string name="text_eg_my_buds">例如：MY BUDS</string>
+    <string name="text_eg_zephyr">例如.ZEPHYR</string>
+    <string name="text_electronic">电子</string>
+    <string name="text_elevate_your_listening_experience">"提升您的
+聆听体验"</string>
+    <string name="text_email_address">电子邮箱地址</string>
+    <string name="text_email_login_label">邮箱登录</string>
+    <string name="text_enable_bt">启用蓝牙</string>
+    <string name="text_enable_location">启用位置</string>
+    <string name="text_enabled">已启用</string>
+    <string name="text_enables_music_playback_amp_calls_through_head_gestures">通过头部手势控制音乐播放和通话。</string>
+    <string name="text_enables_music_playback_calls_through_head_gestures">通过头部手势控制音乐播放和通话。</string>
+    <string name="text_enhance_sound_description">新的 EQ 预设以及更多个性化声音控制。</string>
+    <string name="text_enhanced_sound">增强音效</string>
+    <string name="text_ensure_the_app_stays_open_in_nthe_background_to_activate_ai">要在设备上激活 AI 助手，应用必须保持打开。激活后，您可以退出应用。</string>
+    <string name="text_ensure_your_headphones_are_sufficiently_charged_powered_on_and_within_9_meters_of_your_mobile_device">请确保耳机电量充足、已开启，并在手机9米范围内。</string>
+    <string name="text_enter_a_device_name">输入设备名称</string>
+    <string name="text_enter_name">输入姓名</string>
+    <string name="text_enter_your_email">输入您的邮箱</string>
+    <string name="text_enter_your_email_address">输入您的邮箱地址</string>
+    <string name="text_eq_control">EQ 控制</string>
+    <string name="text_equaliser">均衡器</string>
+    <string name="text_equalizer">均衡器</string>
+    <string name="text_equalizer_caps">均衡器</string>
+    <string name="text_equalizer_updated_success">均衡器更新成功</string>
+    <string name="text_error">错误</string>
+    <string name="text_exit_note_title">您确定要在不保存的情况下退出此笔记吗？</string>
+    <string name="text_experience">体验</string>
+    <string name="text_experience_npure_audio_nyour_way">"体验
+纯净音频，
+随心所欲"</string>
+    <string name="text_experience_the_immersion_with_a_demo">通过演示体验沉浸感</string>
+    <string name="text_expertly_tuned_sound">"专业
+调校
+音质"</string>
+    <string name="text_export_pdf_caps">导出为 PDF</string>
+    <string name="text_extend_sound_volume">扩展音量</string>
+    <string name="text_failed">失败</string>
+    <string name="text_failed_1">请确保耳机已充电、已开启，并且在此设备 9 米范围内。</string>
+    <string name="text_failed_2">打开充电盒，并保持耳机在盒内。</string>
+    <string name="text_failed_3">按住充电盒上的配对按钮 3 秒，直到指示灯开始闪烁</string>
+    <string name="text_failed_to_prepare_file">准备文件失败</string>
+    <string name="text_faqs">常见问题</string>
+    <string name="text_feature_request">功能请求</string>
+    <string name="text_feedback">反馈</string>
+    <string name="text_file_size_not_more_than_5_mb">文件大小不能超过 5 mb</string>
+    <string name="text_find_my_buds_can_only_locate_earbuds_when_they_re_not_in_use">Find My Buds 只能在耳机未使用时定位。</string>
+    <string name="text_find_my_device">查找我的设备</string>
+    <string name="text_find_my_device_cap">"查找我的
+设备"</string>
+    <string name="text_find_my_earbuds">"查找我的
+耳机"</string>
+    <string name="text_find_my_earbuds_description">"点击播放会触发声音。
+在点击播放前请确保设备未被使用。"</string>
+    <string name="text_find_my_earbuds_sub_title">"点击您想要查找的
+耳机的播放按钮。"</string>
+    <string name="text_find_my_earbuds_title">查找我的耳机</string>
+    <string name="text_find_my_headphones">查找我的耳机</string>
+    <string name="text_firmware_is_up_to_date">"固件
+已是最新版本"</string>
+    <string name="text_firmware_message">检查最新设备更新</string>
+    <string name="text_firmware_test">Firmware 测试</string>
+    <string name="text_firmware_test_sub">选择文件并开始</string>
+    <string name="text_firmware_update">固件更新</string>
+    <string name="text_firmware_update_">"固件
+更新"</string>
+    <string name="text_firmware_update_2">固件更新</string>
+    <string name="text_firmware_update_complete">固件更新完成</string>
+    <string name="text_firmware_update_description">轻松更新固件以获得更好的电池性能和未来功能。</string>
+    <string name="text_firmware_update_nfailed">"固件更新
+失败"</string>
+    <string name="text_firmware_update_timed_out">"固件更新
+超时"</string>
+    <string name="text_firmware_updated">"固件
+已更新"</string>
+    <string name="text_firmware_updated_2">固件已更新</string>
+    <string name="text_fixed">固定</string>
+    <string name="text_flat">FLAT</string>
+    <string name="text_flipkart">FLIPKART</string>
+    <string name="text_focus_mode">专注模式</string>
+    <string name="text_focus_mode_is_enabled_please_disable_it_to_continue">专注模式已启用，请先关闭后继续。</string>
+    <string name="text_follow_the_steps_from_the_video_below">按照下面视频中的步骤操作</string>
+    <string name="text_for_any_other_query">其他问题</string>
+    <string name="text_forget_device">忘记设备</string>
+    <string name="text_forget_this_device">忘记此设备</string>
+    <string name="text_found_it">找到了</string>
+    <string name="text_frequently_asked_questions">常见问题</string>
+    <string name="text_gallery">图库</string>
+    <string name="text_gaming_mode">游戏模式</string>
+    <string name="text_gaming_mode_message">为游戏玩家打造的低延迟音频</string>
+    <string name="text_gaming_mode_message_tuned">为游戏玩家打造的低延迟音频。由 Noise Labs 调校</string>
+    <string name="text_generating_data">正在生成数据...</string>
+    <string name="text_genie">精灵</string>
+    <string name="text_get_help">获取帮助</string>
+    <string name="text_get_help_for_product_issues">获取产品问题帮助</string>
+    <string name="text_get_your_earbuds_ready_to_pair">"让您的耳机
+准备好配对"</string>
+    <string name="text_get_your_headphones_ready_to_pair">"让您的耳机
+准备好配对"</string>
+    <string name="text_ghost_mode">幽灵模式</string>
+    <string name="text_go_to_chat_history">查看聊天记录</string>
+    <string name="text_go_to_settings">前往设置</string>
+    <string name="text_gonoise">GONOISE</string>
+    <string name="text_got_it">知道了</string>
+    <string name="text_grant_notification_permissions">授予通知权限</string>
+    <string name="text_guest_logout">继续操作即表示您同意退出访客模式。请注意，您需要重新登录才能访问应用。</string>
+    <string name="text_head_tracking">头部追踪</string>
+    <string name="text_headphones_on_let_s_try">戴上耳机了吗？让我们试试</string>
+    <string name="text_hear_every_detail">聆听每个细节</string>
+    <string name="text_hello_ai">你好 AI</string>
+    <string name="text_help_luna_understand_your_voice">帮助 Noise AI 了解您的声音</string>
+    <string name="text_help_support">帮助与支持</string>
+    <string name="text_help_support_title">"帮助 &amp;
+支持"</string>
+    <string name="text_helps_discover_and_pair_with_nearby_devices_and_to_stream_audio_from_your_device_to_your_product">帮助发现和配对附近的设备，并从您的设备向产品传输音频</string>
+    <string name="text_here_are_some_gestures_nto_look_for">"以下是一些
+可用手势"</string>
+    <string name="text_hi_i_m">你好，我是</string>
+    <string name="text_high_cap">高</string>
+    <string name="text_hint_eg_zephyr">例如.ZEPHYR</string>
+    <string name="text_hint_start_typing">开始输入...</string>
+    <string name="text_home">首页</string>
+    <string name="text_how_may_i_assist_you">我可以如何帮助你</string>
+    <string name="text_how_to_wear">如何佩戴</string>
+    <string name="text_hyphen">-</string>
+    <string name="text_i_agree">我同意</string>
+    <string name="text_i_agree_with_noisefit_terms">我同意 Noise Audio 的条款和条件，并确认 Noise Audio 的隐私政策。</string>
+    <string name="text_i_have_read_and_accept_the_terms_of_service_and_privacy_policy">我已阅读并接受服务条款和隐私政策</string>
+    <string name="text_i_have_read_and_accept_the_terms_of_service_privacy_policy">"我已阅读并接受服务条款
+和隐私政策"</string>
+    <string name="text_if_the_issue_persists_enable_pairing_mode_press_the_power_button_twice_in_quick_succession">如果问题仍然存在，请启用配对模式：快速按两次电源按钮。</string>
+    <string name="text_improved_stability">稳定性提升</string>
+    <string name="text_improved_stability_description">更快、更稳定的蓝牙连接，实现无缝配对。</string>
+    <string name="text_in_ear_detection">入耳检测</string>
+    <string name="text_in_ear_detection_success">设置保存成功</string>
+    <string name="text_in_review">审核中</string>
+    <string name="text_incorrect_serial_number">序列号错误</string>
+    <string name="text_info">信息</string>
+    <string name="text_installing_firmware">正在安装固件</string>
+    <string name="text_invalid_email_id">无效的邮箱地址</string>
+    <string name="text_invalid_order_date">无效的订单日期</string>
+    <string name="text_invalid_password">密码必须超过5个字符</string>
+    <string name="text_invalid_phone_no">请输入有效的手机号</string>
+    <string name="text_invalid_serial_number">无效的序列号</string>
+    <string name="text_invalid_username">用户名无效</string>
+    <string name="text_ipx5_water_resistant">"IPX5
+防水"</string>
+    <string name="text_issue_reported_success">问题报告成功！</string>
+    <string name="text_issue_reported_successfully">问题已成功报告</string>
+    <string name="text_it_makes_the_audio_come_alive_from_ever_corner">让音频从每个角落鲜活起来</string>
+    <string name="text_it_makes_the_audio_come_nalive_from_ever_corner">"让音频从
+每个角落鲜活起来"</string>
+    <string name="text_item_selected_count">已选择 %1$d 项</string>
+    <string name="text_jazz">JAZZ</string>
+    <string name="text_join_noise_audio_n">"加入
+NOISE AUDIO"</string>
+    <string name="text_keep_battery_more_than_50_before_starting_the_update">开始更新前请保持电量在50%以上</string>
+    <string name="text_keep_earbuds_in_case_with_lid_open">将耳机放在盒子中并保持盖子打开</string>
+    <string name="text_keep_earbuds_in_case_with_lid_open_do_not_exit_app_keep_the_buds_on_charge_do_not_exit_this_page">"• 将耳机放入充电盒并保持盖子打开
+• 不要退出应用
+• 保持耳机充电
+• 不要退出此页面！"</string>
+    <string name="text_keep_listening_all_day">"持续
+聆听，
+全天候"</string>
+    <string name="text_keep_pressing_on_mode_switch_button_to_switch_between_different_anc_modes">持续按模式切换按钮以切换不同 ANC 模式</string>
+    <string name="text_keep_tapping_on_mode_switch_button_to_switch_between_different_anc_modes">"持续点击模式切换按钮
+在不同 ANC 模式之间切换"</string>
+    <string name="text_l">L</string>
+    <string name="text_language_message">设置您偏好的应用语言</string>
+    <string name="text_learn_how_to_activate_ai_on_your_device">了解如何在您的设备上激活 AI</string>
+    <string name="text_learn_how_to_activate_voice_ai_from_your_device">了解如何从您的设备激活语音 AI</string>
+    <string name="text_learn_more">了解更多</string>
+    <string name="text_learn_more_about_noise_tws">"了解更多
+Noise TWS"</string>
+    <string name="text_learn_more_about_your_device">了解更多关于您的设备</string>
+    <string name="text_left">左</string>
+    <string name="text_left_and_back">左和后</string>
+    <string name="text_left_bud_battery_low">左耳机电量低。请立即充电。</string>
+    <string name="text_left_bud_is_critically_low">左耳机电量极低</string>
+    <string name="text_left_bud_not_detected">未检测到左耳机。<u>故障排除。</u></string>
+    <string name="text_left_right">左-右</string>
+    <string name="text_limit_reached">已达到限制</string>
+    <string name="text_listen_to_sound_at_its_finest_crystal_clear_vocals">聆听极致音质。清晰的人声和丰富细腻的乐器声展现每一个细节，带来更深沉的低音、更清晰的中音和更柔和的高音，打造沉浸式音频体验。</string>
+    <string name="text_listen_to_sound_at_its_finest_crystal_clear_vocals_and_rich_detailed">聆听极致音质。清晰的人声和丰富细腻的乐器声展现每一个细节，带来更深沉的低音、更清晰的中音和更柔和的高音，打造沉浸式音频体验。</string>
+    <string name="text_listen_to_sound_at_its_finest_crystal_clear_vocals_and_rich_detailed_instrumentals_bring_out_every_nuance_delivering_deeper_bass_cleaner_mids_softer_highs_for_an_immersive_audio_experience_">聆听极致音质。清晰的人声和丰富细腻的乐器声展现每一个细节，带来更深沉的低音、更清晰的中音、更柔和的高音，打造沉浸式音频体验。</string>
+    <string name="text_listening">正在聆听</string>
+    <string name="text_listening_dot">正在聆听…</string>
+    <string name="text_locate_headphones">几秒钟内找到丢失的耳机</string>
+    <string name="text_locate_your_lost_device_in_seconds">几秒内找到丢失的设备</string>
+    <string name="text_locate_your_lost_earbuds">"几秒钟内
+找到丢失的耳机"</string>
+    <string name="text_locate_your_lost_headphones_in_seconds">几秒钟内找到丢失的耳机</string>
+    <string name="text_location">位置</string>
+    <string name="text_location_access_disabled">位置访问已禁用</string>
+    <string name="text_location_access_required">"需要
+位置访问"</string>
+    <string name="text_location_access_required_subtitle">Noise AI 需要位置访问权限才能准确响应基于位置的查询。</string>
+    <string name="text_location_access_required_title">需要位置访问权限</string>
+    <string name="text_location_disabled_subtitle">Noise AI 目前将根据您上次已知的位置进行响应。请在您的设备上启用位置以启用基于实时位置的响应。</string>
+    <string name="text_location_disabled_title">位置已禁用</string>
+    <string name="text_location_is_disabled_on_your_device_enable_to_proceed">您的设备上位置已禁用。请启用以继续</string>
+    <string name="text_location_permission_required">需要位置权限</string>
+    <string name="text_locks_controls_for_focused_listening">锁定控制以专注聆听</string>
+    <string name="text_locks_controls_for_focused_uninterrupted_listening">锁定控制，专注不间断聆听</string>
+    <string name="text_login_failed">登录失败</string>
+    <string name="text_login_terms_n_condition">点击\"继续\"即表示您同意我们的隐私政策和服务条款。</string>
+    <string name="text_login_to_continue">登录以继续</string>
+    <string name="text_login_to_register">登录以注册</string>
+    <string name="text_login_with">使用以下方式登录</string>
+    <string name="text_logout">退出登录</string>
+    <string name="text_logs">日志</string>
+    <string name="text_long_press_charging_case_button_to_make_device_discoverable">长按充电盒按钮以使设备可被发现</string>
+    <string name="text_long_press_on_power_button_to_turn_device_on_off">"长按电源按钮
+开启/关闭设备"</string>
+    <string name="text_look_at_the_back_of_the_box_to_find_the_serial_number_shown_in_the_above_format">查看包装盒背面以找到上述格式显示的序列号</string>
+    <string name="text_low">低</string>
+    <string name="text_low_cap">低</string>
+    <string name="text_mail_support">邮件支持</string>
+    <string name="text_mail_us">发送邮件给我们</string>
+    <string name="text_make_sure_the_headphones_are_not_connected_to_any_other_nearby_device_or_application">确保耳机未连接到附近的其他设备或应用。</string>
+    <string name="text_manage_permissions">管理权限</string>
+    <string name="text_manage_permissions_subtitle">请授予必要的权限以继续使用该应用。</string>
+    <string name="text_manage_permissions_title">"管理
+权限"</string>
+    <string name="text_max">最大</string>
+    <string name="text_max_attachments_reached">最多允许 3 个附件</string>
+    <string name="text_max_message">自定义按钮控制，轻松操控</string>
+    <string name="text_may_take_1_2_mins_do_not_exit">可能需要 1–2 分钟，请不要退出此页面</string>
+    <string name="text_mb2_noise">长按右耳机在 ANC 模式之间切换</string>
+    <string name="text_mb2_welcome_message">"纯净音质。
+大师匠心打造。"</string>
+    <string name="text_media_control">媒体控制</string>
+    <string name="text_medium_cap">中</string>
+    <string name="text_meet">"认识
+%1$s"</string>
+    <string name="text_meet_2">"欢迎使用你的新设备
+%1$s"</string>
+    <string name="text_meet_device">"认识
+%1$s"</string>
+    <string name="text_menu">菜单</string>
+    <string name="text_message_perm_location">用于扫描附近的 Noise 设备，并启用 Noise AI 以获得个性化推荐。</string>
+    <string name="text_mic_permission_message">使用 Audio AI 需要麦克风权限</string>
+    <string name="text_mic_permission_required">需要麦克风权限</string>
+    <string name="text_microphone_ai">Noise AI 音频助手需要麦克风权限才能激活</string>
+    <string name="text_microphone_disabled">麦克风已禁用</string>
+    <string name="text_mid">中</string>
+    <string name="text_mid_2">中音</string>
+    <string name="text_mobile_number">手机号码</string>
+    <string name="text_mode">模式</string>
+    <string name="text_modify_your_device_controls">修改您的设备控制</string>
+    <string name="text_motion_control">动作控制</string>
+    <string name="text_motion_control_tips">动作控制提示</string>
+    <string name="text_motion_ges_message">通过简单的头部动作控制您的媒体和通话</string>
+    <string name="text_motion_gesture">运动手势</string>
+    <string name="text_motion_gesture_message">免提控制您的设备</string>
+    <string name="text_motion_ncontrol">"动作
+控制"</string>
+    <string name="text_motion_ngestures">"运动
+手势"</string>
+    <string name="text_move_your_head_to_the_right_and_back_twice_to_skip_to_the_next_track">向右转头并回来两次以跳至下一曲</string>
+    <string name="text_music_control_2">"音乐
+控制"</string>
+    <string name="text_music_control_header">音乐控制</string>
+    <string name="text_music_controls_3">音乐控制</string>
+    <string name="text_music_that_lasts_all_your_moods_and_lets_you_tailor_your_experience_extended_play_and_custom_touch_controls_to_make_every_action_seamless">音乐陪伴您的每一种心情，并让您自定义体验。</string>
+    <string name="text_music_that_outlasts_all_your_moods_extended_play_and_custom_touch_controls_elevate_the_experience_making_every_action_seamless_">超越您所有情绪的音乐。延长播放和自定义触控操作提升体验，让每个动作都流畅自如。</string>
+    <string name="text_my_devices">我的设备</string>
+    <string name="text_my_profile">"我的
+资料"</string>
+    <string name="text_my_profile_">我的资料</string>
+    <string name="text_my_title">我的标题</string>
+    <string name="text_my_title_bottom">我的底部标题</string>
+    <string name="text_my_title_middle">我的中间标题</string>
+    <string name="text_my_title_top">我的顶部标题</string>
+    <string name="text_name">姓名</string>
+    <string name="text_name_updated_caps">姓名已更新</string>
+    <string name="text_need_help">需要帮助？</string>
+    <string name="text_need_more_help">需要更多帮助？</string>
+    <string name="text_need_more_help_caps"><u>需要更多帮助？</u></string>
+    <string name="text_new">新建</string>
+    <string name="text_new_device_detected">检测到新设备</string>
+    <string name="text_new_version">新版本</string>
+    <string name="text_next">下一步</string>
+    <string name="text_next_music">下一首</string>
+    <string name="text_no">否</string>
+    <string name="text_no_chat_thread_found">未找到聊天记录</string>
+    <string name="text_no_data_available">暂无数据。</string>
+    <string name="text_no_device_found">未找到设备</string>
+    <string name="text_no_device_message">请检查您的设备是否处于可发现状态，然后再次搜索</string>
+    <string name="text_no_device_tip_1">将您的设备放在手机附近。</string>
+    <string name="text_no_device_tip_2">确保您的设备已充满电。</string>
+    <string name="text_no_device_tip_3">将耳塞放在充电盒中并打开盖子。</string>
+    <string name="text_no_device_tip_4">按住配对按钮直到 LED 开始闪烁。</string>
+    <string name="text_no_file_selected">未选择文件</string>
+    <string name="text_no_internet">没有网络</string>
+    <string name="text_no_internet_connection">没有互联网连接</string>
+    <string name="text_no_internet_connection_try_again">无互联网连接，请稍后再试。</string>
+    <string name="text_no_results_found">未找到结果</string>
+    <string name="text_no_summary">暂无可用摘要</string>
+    <string name="text_no_transcription_found">未找到转录</string>
+    <string name="text_noise_ai_consent_body">"Noise AI 使用您的输入来生成回复并存储聊天记录。为提升性能，交互内容可能会被安全分析。
+
+继续之前，请接受我们的 %1$s 和 %2$s。"</string>
+    <string name="text_noise_ai_is_running">Noise AI 正在运行</string>
+    <string name="text_noise_app_not_needed">"无需Noise Audio应用
+只需通过BT连接即可播放"</string>
+    <string name="text_noise_app_not_needed_connected">"无需Noise Audio应用
+您的设备已连接并准备好播放"</string>
+    <string name="text_noise_audio_app_only_supports_master_buds_nother_noise_earbuds_do_not_need_an_app">"Noise Audio 应用仅支持 Master Buds。
+其他 Noise 耳机不需要应用程序。"</string>
+    <string name="text_noise_audio_app_only_supports_master_series_nother_noise_earbuds_do_not_need_an_app">"Noise Audio 应用仅支持 Master 系列。
+其他 Noise 耳机无需应用。"</string>
+    <string name="text_noise_audio_product_tips">Noise 音频产品提示</string>
+    <string name="text_noise_cancel">ANC</string>
+    <string name="text_noise_cancellation">降噪</string>
+    <string name="text_noise_control">降噪控制</string>
+    <string name="text_noise_control_2">"降噪
+控制"</string>
+    <string name="text_noise_control_3">降噪控制</string>
+    <string name="text_noise_essential">Noise Essential</string>
+    <string name="text_noisefit_is_currently_under_maintenance">Noise Audio 当前正在维护</string>
+    <string name="text_noisefit_update">Noise Audio 更新</string>
+    <string name="text_noisemaker">Noisemaker</string>
+    <string name="text_none">无</string>
+    <string name="text_not_now">稍后</string>
+    <string name="text_notification_disabled">通知权限已被禁用。请启用通知权限以使通知生效。</string>
+    <string name="text_off">关闭</string>
+    <string name="text_offline_store">线下商店</string>
+    <string name="text_ok">确定</string>
+    <string name="text_okay">好的</string>
+    <string name="text_on">开启</string>
+    <string name="text_on_device_ai">设备端 AI</string>
+    <string name="text_onboad_alt_buds_o_h1">"零
+操作
+控制"</string>
+    <string name="text_onboad_alt_buds_o_h2">聆听每个细节</string>
+    <string name="text_onboad_alt_buds_o_h3">随时待命</string>
+    <string name="text_onboad_alt_buds_o_h4">全天聆听不间断</string>
+    <string name="text_onboad_alt_buds_o_m1">定制您的体验。自定义触控操作，让每个动作都流畅自然—调节音量、跳过曲目，只需轻轻一触。</string>
+    <string name="text_onboad_alt_buds_o_m2">享受极致音质。清澈如水晶的人声和丰富细腻的乐器演绎，让每个细节栩栩如生，提供更深沉的低音、更纯净的中音和更柔和的高音，带来沉浸式音频体验。</string>
+    <string name="text_onboad_alt_buds_o_m3">无论雨、汗还是阳光，您的耳机始终受保护。随身携带，无忧无虑。</string>
+    <string name="text_onboad_alt_buds_o_m4">"享受长达30+小时*的电池续航，畅听每个播放列表。不间断的聆听、长时间通话和全天表现 — 让音乐随您走遍每个地方。
+*包括充电盒"</string>
+    <string name="text_onboad_alt_buds_o_m4_new">"享受长达 35+ 小时的电池续航*，畅听每个播放列表。不间断聆听、长时间通话和全天性能 — 让音乐陪伴你走到任何地方。
+*含充电盒"</string>
+    <string name="text_onboard_clips_m4">"享受长达 28+ 小时的电池续航*，畅听每个播放列表。不间断聆听、长时间通话和全天性能 — 让音乐陪伴你走到任何地方。
+*含充电盒"</string>
+    <string name="text_onboard_tws_buds_m4">"享受长达 45+ 小时的电池续航*，畅听每个播放列表。不间断聆听、长时间通话和全天性能 — 让音乐陪伴你走到任何地方。
+*含充电盒"</string>
+    <string name="text_one_device_found">找到 1 个设备</string>
+    <string name="text_only_left_bud_connected">仅左耳机已连接</string>
+    <string name="text_only_right_bud_connected">仅右耳机已连接</string>
+    <string name="text_or">或</string>
+    <string name="text_or_login_using">或使用以下方式登录</string>
+    <string name="text_order_date">订单日期</string>
+    <string name="text_other">其他</string>
+    <string name="text_owner_s_guide">用户指南</string>
+    <string name="text_pair">配对</string>
+    <string name="text_pairing">配对</string>
+    <string name="text_pairing_dots">配对中...</string>
+    <string name="text_pairing_failed_tip_1">确保您的耳机已充电、开机并且在此设备9米范围内。</string>
+    <string name="text_pairing_failed_tip_2">打开充电盒，将耳机留在里面</string>
+    <string name="text_pairing_failed_tip_3">按住充电盒上的配对按钮，直到指示灯开始闪烁</string>
+    <string name="text_pairing_mode">配对模式</string>
+    <string name="text_pause_caps">暂停</string>
+    <string name="text_pdf">PDF</string>
+    <string name="text_perm_bluetooth">蓝牙</string>
+    <string name="text_perm_bluetooth_desc">帮助发现、配对和同步您的音频设备与应用。</string>
+    <string name="text_perm_camera">相机</string>
+    <string name="text_perm_camera_desc">设置实时头像并分享保修发票。</string>
+    <string name="text_perm_disabled_section">已禁用</string>
+    <string name="text_perm_enabled_section">已启用</string>
+    <string name="text_perm_location">位置</string>
+    <string name="text_perm_location_desc">启用附近设备的发现。</string>
+    <string name="text_perm_message_bt">帮助发现、配对并将音频设备与应用和手机系统同步。</string>
+    <string name="text_perm_microphone">麦克风</string>
+    <string name="text_perm_microphone_desc">允许您与Noise AI语音助手进行交互。</string>
+    <string name="text_perm_photos_videos">照片和视频</string>
+    <string name="text_perm_photos_videos_desc">允许您设置头像、上传截图以获取支持并分享发票。</string>
+    <string name="text_perm_read_notifications">读取通知</string>
+    <string name="text_perm_read_notifications_desc">允许您直接从应用控制音乐播放。</string>
+    <string name="text_perm_send_notifications">发送通知</string>
+    <string name="text_perm_send_notifications_desc">及时了解重要的固件和应用更新。</string>
+    <string name="text_permission_denial_bluetooth">音频应用需要您手机上的蓝牙权限来搜索并连接设备。</string>
+    <string name="text_permission_denial_location">配对设备需要位置权限。请前往设置并启用所需权限。</string>
+    <string name="text_permission_denial_location_message">配对设备需要位置权限</string>
+    <string name="text_permission_denial_microphone">需要麦克风权限。请前往设置并启用该权限。</string>
+    <string name="text_permission_denial_near_by_device_bluetooth">音频应用需要您手机上的附近设备权限来搜索并连接设备。</string>
+    <string name="text_permission_rejected">权限被拒绝</string>
+    <string name="text_permission_required">需要权限</string>
+    <string name="text_permissions_required">"需要
+权限"</string>
+    <string name="text_personalize_luna">个性化</string>
+    <string name="text_personalize_nyour_buds">"个性化
+您的耳机"</string>
+    <string name="text_personalize_sound_with_custom_eq_control_settings">使用自定义 EQ 控制设置个性化音效。</string>
+    <string name="text_personalize_your_buds">个性化您的耳机</string>
+    <string name="text_personalize_your_listening_experience">个性化您的聆听体验</string>
+    <string name="text_phone_call_2">"电话
+通话"</string>
+    <string name="text_phone_calls">电话</string>
+    <string name="text_photo_deleted">个人资料照片已删除</string>
+    <string name="text_photo_updated_caps">个人资料照片已更新</string>
+    <string name="text_place_buds_and_connect_type_c">将耳机放入充电盒并合上盖子。使用随附的 Type-C 数据线将充电盒连接到充电器。</string>
+    <string name="text_place_clips_and_connect_type_c">将耳夹放入充电盒并合上盖子。使用随附的Type-C线将充电盒连接至充电器。</string>
+    <string name="text_place_earpieces_and_connect_type_c">将耳机放入充电盒并合上盖子。使用随附的Type-C线将充电盒连接至充电器。</string>
+    <string name="text_place_the_buds_in_the_case_and_connect_type_c">将耳机放入充电盒并合上盖子。使用随附的 Type-C 数据线将充电盒连接到充电器。</string>
+    <string name="text_place_the_clips_in_the_case_and_connect_type_c">将耳夹放入充电盒并合上盖子。使用随附的Type-C线将充电盒连接至充电器。</string>
+    <string name="text_place_the_earbuds_in_the_case_and_close_the_lid">将耳机放入充电盒并关闭盖子。</string>
+    <string name="text_place_the_earpieces_in_the_case_and_connect_type_c">将耳机放入充电盒并合上盖子。使用随附的Type-C线将充电盒连接至充电器。</string>
+    <string name="text_place_your_buds_in_the_case_with_the_lid_open">请将耳机放入盒中并打开盒盖</string>
+    <string name="text_place_your_earbuds_in_the_case">将耳机放入充电盒并按住配对按钮2秒</string>
+    <string name="text_play_caps">播放</string>
+    <string name="text_play_pause">播放/暂停</string>
+    <string name="text_play_pause_your_fav_music_with_a_quick_nod">快速点头即可播放或暂停音乐。</string>
+    <string name="text_please_accept_the_t_cs_and_privacy_notice_to_proceed">请接受条款与隐私声明以继续</string>
+    <string name="text_please_check_back_again_later">请稍后再查看</string>
+    <string name="text_please_check_i_have_read_and_accept_the_terms_of_service_and_privacy_policy">请确认您已阅读并接受服务条款和隐私政策</string>
+    <string name="text_please_choose_file">请选择文件</string>
+    <string name="text_please_enter_the_4_digit_otp_sent_to">请输入发送给您的 4 位 OTP</string>
+    <string name="text_please_enter_your_name">请输入您的姓名</string>
+    <string name="text_please_fill_otp">请输入验证码</string>
+    <string name="text_please_select_image_less_then_1mb">请选择小于1MB的图片</string>
+    <string name="text_please_select_order_date">请选择订单日期</string>
+    <string name="text_please_select_purchase_channel">请选择购买渠道</string>
+    <string name="text_please_upload_invoice">请上传发票</string>
+    <string name="text_please_upload_only_screenshots_of_your_posted_review_other_images_won_t_be_eligible_for_rewards">请仅上传您已发布评论的截图——其他图片不符合奖励资格。</string>
+    <string name="text_please_wait">请稍候</string>
+    <string name="text_please_wait_for_the_timer_to_reset">请等待计时器重置</string>
+    <string name="text_pop">流行</string>
+    <string name="text_power">电源</string>
+    <string name="text_power_controls">"电源
+控制"</string>
+    <string name="text_power_on_off">开/关机</string>
+    <string name="text_prem_required_message">我们需要使用您手机的 Bluetooth 和位置信息的权限，以便发现附近的产品</string>
+    <string name="text_premium_sound">"高级
+音效"</string>
+    <string name="text_press_and_hold">按住</string>
+    <string name="text_press_and_hold_center_button">按住中间按钮</string>
+    <string name="text_press_and_hold_the_and_button_for_5_seconds_simultaneously_to_reset_the_device">同时按住 + 和 – 按钮 5 秒以重置设备</string>
+    <string name="text_press_four_times">四按</string>
+    <string name="text_press_once">单按</string>
+    <string name="text_press_tap_and_hold_2">双按并按住</string>
+    <string name="text_press_the_button_below">按下下方按钮</string>
+    <string name="text_press_thrice_2">三按</string>
+    <string name="text_press_twice">双按</string>
+    <string name="text_previous_music">上一首</string>
+    <string name="text_priority_support">优先支持：</string>
+    <string name="text_privacy_policy">隐私政策</string>
+    <string name="text_proceed">继续</string>
+    <string name="text_processing_media">正在处理媒体…</string>
+    <string name="text_product_guide">"产品
+指南"</string>
+    <string name="text_product_guide_2">产品指南</string>
+    <string name="text_product_guide_new">产品指南</string>
+    <string name="text_product_tips">产品提示</string>
+    <string name="text_product_tips_2">产品提示</string>
+    <string name="text_profile_updated_caps">个人资料已更新</string>
+    <string name="text_profuct_guide">下载您的产品用户手册</string>
+    <string name="text_prompt_email">邮箱</string>
+    <string name="text_prompt_password">密码</string>
+    <string name="text_purchase_channel">购买渠道</string>
+    <string name="text_purchase_date_cannot_be_later_than_your_pairing_date">购买日期不能晚于配对日期</string>
+    <string name="text_pure_audio">纯净音频，</string>
+    <string name="text_quick_nod">快速双点头</string>
+    <string name="text_rain_sweat_or_shine_your_earbuds_stay_protected">无论雨水、汗水还是阳光，您的耳机都能保持安全。随心携带，无需顾虑</string>
+    <string name="text_rate_and_earn">评价并赚取</string>
+    <string name="text_rate_message">为您的体验评分并获得奖励</string>
+    <string name="text_rate_nand_earn">"评价
+并赚取"</string>
+    <string name="text_rate_us_on_your_purchase_marketplace_share_the_screenshot_in_noisefit_app_and_get_a_chance_to_win_exclusive_vouchers">在购买平台上给我们评分，在 NoiseFit 应用中分享截图，有机会赢取专属优惠券！</string>
+    <string name="text_read_resume_your_previous_chats">查看或继续之前的聊天</string>
+    <string name="text_ready_for_anything">随时准备</string>
+    <string name="text_recent_app_logs_note">*最近的应用日志将与开发者共享</string>
+    <string name="text_reconnect">重新连接</string>
+    <string name="text_reconnecting">重新连接中...</string>
+    <string name="text_record_caps">录制</string>
+    <string name="text_record_your_thoughts_with_a_single_tap">轻触一下即可记录您的想法</string>
+    <string name="text_redeem_offer">兑换优惠</string>
+    <string name="text_refresh">刷新</string>
+    <string name="text_register_warranty">注册保修</string>
+    <string name="text_registered_e_mail">注册邮箱</string>
+    <string name="text_registered_name">注册姓名</string>
+    <string name="text_registration_date">注册日期</string>
+    <string name="text_reject_calls">拒绝来电</string>
+    <string name="text_reject_incoming_calls_with_a_quick_left_right_head_movement">快速左右摇头拒接来电。</string>
+    <string name="text_remind_later">稍后提醒</string>
+    <string name="text_remind_me_later">稍后提醒我</string>
+    <string name="text_remove_device">您确定要移除此设备吗？</string>
+    <string name="text_report_a_bug">报告错误</string>
+    <string name="text_report_an_issue">报告问题</string>
+    <string name="text_request_a_feature">请求新功能</string>
+    <string name="text_request_failed">请求失败</string>
+    <string name="text_resend_code">重新发送验证码</string>
+    <string name="text_resend_code_in">重新发送验证码倒计时</string>
+    <string name="text_resend_code_in_00_34s">00:34S 后重新发送验证码</string>
+    <string name="text_reset">RESET</string>
+    <string name="text_reset_all">全部重置</string>
+    <string name="text_reset_device">重置设备</string>
+    <string name="text_restart_caps">重新开始</string>
+    <string name="text_restart_note_title">您确定要重新开始此笔记吗？</string>
+    <string name="text_resume_caps">继续</string>
+    <string name="text_retry">重试</string>
+    <string name="text_retry_connecting">重新连接</string>
+    <string name="text_retry_pairing">重试配对</string>
+    <string name="text_retrying">正在重试</string>
+    <string name="text_review_nuploaded">"评价
+已上传"</string>
+    <string name="text_review_typically_takes_24_48_hours">审核通常需要24-48小时</string>
+    <string name="text_reward_generated">奖励已生成</string>
+    <string name="text_rewards_nadded">"奖励
+已添加"</string>
+    <string name="text_rewards_nunlocked">"奖励
+已解锁"</string>
+    <string name="text_right">右</string>
+    <string name="text_right_and_back">右和后</string>
+    <string name="text_right_bud_battery_low">右耳机电量低。请立即充电。</string>
+    <string name="text_right_bud_is_critically_low">右耳机电量极低</string>
+    <string name="text_right_bud_not_detected">未检测到右耳机。<u>故障排除。</u></string>
+    <string name="text_rock">ROCK</string>
+    <string name="text_save">保存</string>
+    <string name="text_save_adjustments">保存调整</string>
+    <string name="text_save_changes">保存更改</string>
+    <string name="text_saved_successfully">保存成功</string>
+    <string name="text_scan_again">重新扫描</string>
+    <string name="text_scanning">扫描中...</string>
+    <string name="text_scanning_uppercase">扫描中</string>
+    <string name="text_seamlessly_connect_with_two_devices_at_a_time">同时无缝连接两台设备</string>
+    <string name="text_search">搜索</string>
+    <string name="text_search_again">重新搜索</string>
+    <string name="text_search_caps">搜索</string>
+    <string name="text_search_transcriptions">搜索转录</string>
+    <string name="text_select">选择</string>
+    <string name="text_select_an_action">选择操作</string>
+    <string name="text_select_an_action_for_double_tap">"为双击
+选择操作"</string>
+    <string name="text_select_an_action_for_single_tap">"为单击
+选择操作"</string>
+    <string name="text_select_an_action_for_triple_tap">"为三击
+选择操作"</string>
+    <string name="text_select_an_option">选择一个选项</string>
+    <string name="text_select_channel">选择渠道</string>
+    <string name="text_select_device">选择设备</string>
+    <string name="text_select_device_category">选择设备类别</string>
+    <string name="text_select_media">选择媒体</string>
+    <string name="text_select_your_device">选择您的设备</string>
+    <string name="text_selected_count">已选择 %1$d 项</string>
+    <string name="text_selected_file">已选择: %1$s</string>
+    <string name="text_serial_number">序列号</string>
+    <string name="text_serial_number_is_not_valid">序列号无效</string>
+    <string name="text_set_up_a_new_device">设置其他设备</string>
+    <string name="text_set_up_your_device">设置您的设备</string>
+    <string name="text_setting_up">正在设置</string>
+    <string name="text_settings">设置</string>
+    <string name="text_setup_this_device">设置此设备</string>
+    <string name="text_shake_your_head_to_the_left_and_back_twice_to_return_to_the_previous_track">向左并向后摇头两次以返回上一首。</string>
+    <string name="text_shake_your_head_to_the_right_and_back_twice_to_skip_to_the_next_track">向右并向后摇头两次以跳到下一首。</string>
+    <string name="text_shall_we_switch_the_app_to_french_too">是否也将应用切换为法语？</string>
+    <string name="text_share_caps">分享</string>
+    <string name="text_shop_now">立即购买</string>
+    <string name="text_sidetone">侧音</string>
+    <string name="text_sidetone_message">通话时听到自己的声音，以自然音量说话</string>
+    <string name="text_sign_in_create_account">登录 / 创建账户</string>
+    <string name="text_sign_out">退出登录</string>
+    <string name="text_signal_strength">信号强度</string>
+    <string name="text_signing_out_will_log_you_in_as_a_guest">退出登录后将以访客身份登录</string>
+    <string name="text_silence_perfected">静谧，完美呈现</string>
+    <string name="text_single_bud_anc_disable_message">要在单耳模式下启用ANC，请关闭In-ear detection</string>
+    <string name="text_single_press_power_button_to_pause_and_play_music">"单按电源按钮
+暂停和播放音乐"</string>
+    <string name="text_single_press_the_power_button_of_the_headphone_to_play_pause">单击耳机电源按钮播放/暂停</string>
+    <string name="text_skip">跳过</string>
+    <string name="text_some_ideas_to_get_you_started">一些入门创意</string>
+    <string name="text_something_went_wrong">出现错误!!</string>
+    <string name="text_sound">声音</string>
+    <string name="text_sound_caps">声音</string>
+    <string name="text_sound_features_subtitle">个性化您的聆听体验</string>
+    <string name="text_spatial_audio">空间音频</string>
+    <string name="text_spatial_audio_2">"空间
+音频"</string>
+    <string name="text_spatial_audio_3">空间音频</string>
+    <string name="text_spatial_audio_cannot_be_used_with_anc_on">开启 ANC 时无法使用空间音频</string>
+    <string name="text_spatial_disable_anc">请关闭ANC以体验Spatial Audio</string>
+    <string name="text_spatial_fixed">音频保持固定位置。最适合坐着时使用</string>
+    <string name="text_spatial_head_tracking">音频跟随您的头部移动以保持最佳位置</string>
+    <string name="text_spatial_message">随您移动的声音，呈现动态逼真的音频</string>
+    <string name="text_spatial_message_2">使用空间音频增强内容深度。</string>
+    <string name="text_spatial_message_3">为您的声音添加全新维度。亲自聆听体验。</string>
+    <string name="text_spatial_message_tuned">动态逼真的音频。由 Noise Labs 调校</string>
+    <string name="text_speak">说话</string>
+    <string name="text_speak_anytime">随时说话</string>
+    <string name="text_speak_now">现在说话</string>
+    <string name="text_start">开始</string>
+    <string name="text_start_a_new_chat">开始新的聊天</string>
+    <string name="text_start_a_new_transcription">开始新的转录</string>
+    <string name="text_start_audio_ai">开始</string>
+    <string name="text_start_caps">开始</string>
+    <string name="text_start_recording_hint">开始录制以创建转录和摘要</string>
+    <string name="text_start_typing">开始输入...</string>
+    <string name="text_step_into_any_environment_whether_it_s_a_bustling_street">无论身处繁忙的街道还是拥挤的咖啡馆，让世界的喧嚣消失。自适应 ANC 为您工作，让您专注于重要的事情。</string>
+    <string name="text_step_into_any_environment_whether_it_s_a_bustling_street_or_a_crowded_caf_and_let_the_world_fade_away_adaptive_anc_does_the_work_so_you_can_focus_on_what_matters">无论是在繁忙的街道还是拥挤的咖啡馆，进入任何环境，让世界渐渐远去。自适应 ANC 为您完成这一切，让您专注于重要的事情。</string>
+    <string name="text_stereo">立体声</string>
+    <string name="text_stop_caps">停止</string>
+    <string name="text_stop_transcription_subtitle">您的转写内容将被保存，本次会话中用于转写所消耗的额度将被视为已使用</string>
+    <string name="text_stop_transcription_title">您确定要退出吗？</string>
+    <string name="text_subject">主题</string>
+    <string name="text_subject_hint">简要说明您的问题</string>
+    <string name="text_subject_label">主题*</string>
+    <string name="text_submit">提交</string>
+    <string name="text_submit_your_ideas_for_new_features">提交您对新功能的想法</string>
+    <string name="text_success">成功</string>
+    <string name="text_summarize_caps">生成摘要</string>
+    <string name="text_summarizing_caps">正在生成摘要</string>
+    <string name="text_support">支持</string>
+    <string name="text_support_email_subject">Noise Audio 应用支持</string>
+    <string name="text_support_number_1">02268056280</string>
+    <string name="text_support_number_2">02268056040</string>
+    <string name="text_supported_file_types_npdf_jpg_png_up_to_5mb">"支持的文件类型:
+PDF,JPG,PNG。最大 5mb"</string>
+    <string name="text_swift_call_mode">快速通话模式</string>
+    <string name="text_swift_call_mode_message">佩戴设备时自动接听来电</string>
+    <string name="text_switch_anc_modes">切换 ANC 模式</string>
+    <string name="text_switch_modes">切换模式</string>
+    <string name="text_tab_summarise">摘要</string>
+    <string name="text_tab_transcription">转录</string>
+    <string name="text_tailor_your_experience_customise_touch_controls">定制您的体验。自定义触控操作，让每个动作都流畅——调节音量、切换曲目，一触即达。</string>
+    <string name="text_tailor_your_experience_customise_touch_controls_to_make_every">定制您的体验。自定义触控操作，让每个动作都流畅——调节音量、切换曲目，一触即达。</string>
+    <string name="text_take_a_photo">拍照</string>
+    <string name="text_take_me_back">带我返回</string>
+    <string name="text_take_me_to_appstore">带我去 Play 商店</string>
+    <string name="text_tap_and_hold">长按</string>
+    <string name="text_tap_and_hold_2">长按</string>
+    <string name="text_tap_and_hold_the_and_button_for_5_seconds_simultaneously_to_reset_the_device">"同时按住 + 和 – 按钮 5 秒钟
+重置设备"</string>
+    <string name="text_tap_and_hold_to_increase_or_decrease_volume_l_vol_down_r_vol_up">"长按可增大或减小音量。
+L：减小音量 | R：增大音量"</string>
+    <string name="text_tap_four">点击四次</string>
+    <string name="text_tap_four_times">点击四次</string>
+    <string name="text_tap_four_times_to_enable_or_disable_audio_boost">在任一耳机上点击四次以启用/禁用音频增强</string>
+    <string name="text_tap_four_times_to_enable_or_disable_spatial_audio">点击四次启用或禁用空间音频</string>
+    <string name="text_tap_four_times_to_toggle_spatial_audio_on_or_off">点击四次开启或关闭空间音频</string>
+    <string name="text_tap_four_times_to_wake_voice_assistant">四击任一耳机以唤醒手机的语音助手</string>
+    <string name="text_tap_hold">长按</string>
+    <string name="text_tap_hold_2">长按</string>
+    <string name="text_tap_hold_for_3s_to_play_next_or_previous_track">"长按3秒播放上一曲或下一曲
+左: 上一曲 | 右: 下一曲"</string>
+    <string name="text_tap_hold_on_either_clip_to_reject_incoming_calls">长按任一夹子拒接来电</string>
+    <string name="text_tap_hold_on_the_earbud_to_switch_between_anc_modes">"长按耳机切换
+ANC 模式。"</string>
+    <string name="text_tap_hold_to_enable_or_disable_gaming_mode">长按任一耳机以启用/禁用游戏模式</string>
+    <string name="text_tap_hold_to_reject_incoming_calls">长按拒接来电</string>
+    <string name="text_tap_once">单击</string>
+    <string name="text_tap_once_to_answer_hangup_calls">单击接听来电/挂断通话</string>
+    <string name="text_tap_once_to_increase_or_decrease_volume_l_vol_down_r_vol_up">"单击调节音量
+左:音量减 | 右:音量加"</string>
+    <string name="text_tap_one">单击</string>
+    <string name="text_tap_thrice">三击</string>
+    <string name="text_tap_thrice_2">三击</string>
+    <string name="text_tap_thrice_to_change_tracks_l_prev_r_next">"点击三次切换曲目。
+L：上一曲 | R：下一曲"</string>
+    <string name="text_tap_thrice_to_play_next_or_previous_song_l_vol_up_r_vol_down">三击播放上一首或下一首歌曲</string>
+    <string name="text_tap_thrice_to_play_or_pause_the_music">三击播放或暂停音乐</string>
+    <string name="text_tap_thrice_to_reject_incoming_calls">三击拒接来电</string>
+    <string name="text_tap_to_grant_mic_permission">点击授予麦克风权限</string>
+    <string name="text_tap_to_speak">点击说话</string>
+    <string name="text_tap_to_start_audio_ai">点击启动 Audio AI</string>
+    <string name="text_tap_twice">双击</string>
+    <string name="text_tap_twice_2">双击</string>
+    <string name="text_tap_twice_on_mode_switch_button_to_toggle_between_spatial_audio_music_mode">"双击模式切换按钮在
+空间音频和音乐模式之间切换"</string>
+    <string name="text_tap_twice_to_answer_calls_or_end_ongoing_calls">双击接听来电或结束通话</string>
+    <string name="text_tap_twice_to_answer_hangup_calls">双击接听/挂断电话</string>
+    <string name="text_tap_twice_to_answer_incoming_or_hangup_ongoing_calls">点按两次接听来电或挂断通话中的电话</string>
+    <string name="text_tap_twice_to_increase_or_decrease_volume">"双击调节音量
+左: 音量加 | 右: 音量减"</string>
+    <string name="text_tap_twice_to_play_or_pause_the_music">点按两次播放或暂停音乐</string>
+    <string name="text_tap_twice_to_play_or_pause_the_song">双击播放或暂停歌曲</string>
+    <string name="text_tap_twice_to_reject_incoming_calls">双击拒接来电</string>
+    <string name="text_tap_volume_and_on_the_earbud_to_switch_between_anc_modes">"点击耳机上的音量+和-
+切换 ANC 模式。"</string>
+    <string name="text_tap_volume_or_on_the_headphone_to_increase_or_decrease_the_volume">"点击耳机上的 VOLUME + 或 - 
+增大或减小音量"</string>
+    <string name="text_terms_and_condition">条款和隐私政策</string>
+    <string name="text_terms_and_conditions">条款和条件</string>
+    <string name="text_terms_and_policies">条款与政策</string>
+    <string name="text_terms_of_service">服务条款</string>
+    <string name="text_terms_of_services">服务条款</string>
+    <string name="text_terms_policies">"条款与
+政策"</string>
+    <string name="text_terms_privacy_policy">我已阅读并接受条款 &amp; 条件和隐私政策</string>
+    <string name="text_the_app_is_upto_date">应用已是最新版本</string>
+    <string name="text_the_case_light_turns_orange_when_charging_and_turns_to_white_when_fully_charged">充电时充电盒灯变为橙色，充满电后变为白色</string>
+    <string name="text_this_action_can_not_be_modified">此操作无法修改</string>
+    <string name="text_this_is">这是</string>
+    <string name="text_time_left_format">剩余 %1$s</string>
+    <string name="text_title_activity_login">登录页面</string>
+    <string name="text_title_activity_login2">登录页面2</string>
+    <string name="text_title_nosie_control">降噪控制</string>
+    <string name="text_today">今天</string>
+    <string name="text_toggle_anc_modes">切换 ANC 模式</string>
+    <string name="text_toggle_spatial_audio">切换空间音频</string>
+    <string name="text_touch_control_2">按键控制</string>
+    <string name="text_touch_controls">"触控
+控制"</string>
+    <string name="text_touch_gesture_message">自定义触控手势轻松控制</string>
+    <string name="text_touch_gesture_message_2">自定义设备的触控手势控制以获得个性化体验。触控操作目前已关闭。</string>
+    <string name="text_touch_gesture_message_3">自定义手势轻松控制。</string>
+    <string name="text_touch_gesture_message_4">自定义按键控制，轻松操控</string>
+    <string name="text_touch_gestures">触控手势</string>
+    <string name="text_touch_gestures_camelcase">触控手势</string>
+    <string name="text_transcribe_your_meetings_discussions_at_single_tap">一键转录你的会议/讨论</string>
+    <string name="text_transcription_history_caps">转录历史</string>
+    <string name="text_transcriptions_caps">转录</string>
+    <string name="text_transferring_firmware">正在传输固件</string>
+    <string name="text_transparency">通透模式</string>
+    <string name="text_treble">高音</string>
+    <string name="text_try_again">重试</string>
+    <string name="text_try_the_demo_again">再次尝试演示</string>
+    <string name="text_try_the_different_settings_below">尝试以下不同设置</string>
+    <string name="text_turn_it_back_on_from_the_bluetooth_section_in_your_device_settings">请在设备设置中的蓝牙部分重新开启</string>
+    <string name="text_tws_earphones">TWS 耳机</string>
+    <string name="text_uh_oh_looks_like_we_have_an_api_response_failure">糟糕！看起来 API 响应失败了！</string>
+    <string name="text_unable_to_connect_to_device">无法连接到设备</string>
+    <string name="text_unable_to_find_device">"无法找到
+您的设备"</string>
+    <string name="text_unable_to_find_device2">无法找到您的设备？</string>
+    <string name="text_unable_to_open_settings">无法打开设置。</string>
+    <string name="text_understood">明白了</string>
+    <string name="text_unsupported_device_info">"通过 BLE 连接
+准备播放 -
+不需要 Noise Audio 应用"</string>
+    <string name="text_unsupported_device_info_not_connected">"连接并播放 -
+不需要 Noise Audio 应用"</string>
+    <string name="text_update_app">更新应用</string>
+    <string name="text_update_available">"软件
+更新"</string>
+    <string name="text_update_available_2">软件更新</string>
+    <string name="text_update_available_label">有可用更新</string>
+    <string name="text_update_complete">更新完成</string>
+    <string name="text_update_device">更新设备</string>
+    <string name="text_update_firmware">更新固件</string>
+    <string name="text_update_now">立即更新</string>
+    <string name="text_update_now_to_enhance_your_experience">立即更新以提升您的体验</string>
+    <string name="text_update_profile">更新资料</string>
+    <string name="text_upgrade_your_experience">升级您的体验</string>
+    <string name="text_upload">上传</string>
+    <string name="text_upload_confirmation">上传确认</string>
+    <string name="text_upload_from_file">从文件上传</string>
+    <string name="text_upload_from_gallery">从图库上传</string>
+    <string name="text_upload_hint">最多上传 3 个媒体文件，总大小不超过 20 MB，格式为 JPEG/JPG/PNG/HEIC/MP4</string>
+    <string name="text_upload_invoice">上传发票</string>
+    <string name="text_upload_invoice_instead">改为上传发票</string>
+    <string name="text_upload_screenshot">上传截图</string>
+    <string name="text_upload_your_review">上传您的评价</string>
+    <string name="text_upto_date">已是最新</string>
+    <string name="text_use_noise_ai">使用 NOISE AI</string>
+    <string name="text_use_the_code_below_to_redeem_the_offer_value">使用以下代码兑换优惠价值</string>
+    <string name="text_user_details">用户信息</string>
+    <string name="text_valid_for">有效期 :</string>
+    <string name="text_verification_failed">"验证
+失败"</string>
+    <string name="text_verify_with_otp_n">"使用
+OTP 验证"</string>
+    <string name="text_verify_your_identity">"验证您的
+身份"</string>
+    <string name="text_verifying_nreview">"验证
+评价"</string>
+    <string name="text_version">版本 %1$s</string>
+    <string name="text_view_coupon">查看优惠券</string>
+    <string name="text_view_now">立即查看</string>
+    <string name="text_vocal">人声</string>
+    <string name="text_voice_assistant">语音助手</string>
+    <string name="text_volume_control">音量控制</string>
+    <string name="text_volume_down">音量降低</string>
+    <string name="text_volume_up">音量增加</string>
+    <string name="text_warranty">保修</string>
+    <string name="text_warranty_message">注册您的设备以获得保修覆盖</string>
+    <string name="text_warranty_status">保修状态</string>
+    <string name="text_we_ve_sent_a_code_to_jatin_grappus_com">我们已向 JATIN@GRAPPUS.COM 发送验证码</string>
+    <string name="text_wear_buds_to_unlock_full_controls">佩戴耳机以解锁全部控制</string>
+    <string name="text_wear_detection">佩戴检测</string>
+    <string name="text_wear_detection_message">取下设备时自动暂停音乐</string>
+    <string name="text_website">网站</string>
+    <string name="text_welcome">欢迎！</string>
+    <string name="text_what_s_new">更新内容</string>
+    <string name="text_when_charging_the_case_light_glows_orange_turns_white_when_fully_charged">充电时充电盒灯呈橙色，充满电后变为白色</string>
+    <string name="text_wrong_client_time">客户端时间错误</string>
+    <string name="text_wrong_date_desc">"您手机的日期不正确！请调整时钟后重试 
+
+您手机的日期和时间为：%1$s"</string>
+    <string name="text_wrong_time">时间错误</string>
+    <string name="text_yes">是</string>
+    <string name="text_yes_caps">是</string>
+    <string name="text_yes_forget_device">是的，忘记设备</string>
+    <string name="text_yesterday">昨天</string>
+    <string name="text_you_already_have_a_noisefit_account_with_do_you_want_to_login_to_your_existing_account">您已经使用 %1$s 拥有一个 Noise 账户。是否登录现有账户？</string>
+    <string name="text_you_re_all_set">一切就绪</string>
+    <string name="text_you_re_now_using_ver_value">您当前使用的版本为 %1$s</string>
+    <string name="text_your_app_is_upto_date">您的应用已是最新版本</string>
+    <string name="text_your_coupon_has_been_added_under_my_vouchers">*您的优惠券已添加到“我的优惠券”</string>
+    <string name="text_your_device_is_in_french">您的设备语言为法语</string>
+    <string name="text_your_device_is_low_on_charge">您的设备电量不足</string>
+    <string name="text_your_e_mail">您的邮箱</string>
+    <string name="text_your_feedback_unlocks_perks">您的反馈将解锁更多奖励！</string>
+    <string name="text_your_name">你的名字</string>
+    <string name="text_your_number">你的号码</string>
+    <string name="text_your_own_ai_buddy_to_answer_your_questions">属于你的 AI 助手，回答你的问题</string>
+    <string name="text_your_reward_has_been_added_to_noise_coins">*您的奖励已作为 Noise Coins 添加</string>
+    <string name="text_your_way">你的方式</string>
+    <string name="text_zero_effort_control">轻松控制</string>
+    <string name="title_activity_login2">登录页面2</string>
+    <string name="title_adaptive_anc">自适应 ANC</string>
+    <string name="title_ai_assistant">AI 助手</string>
+    <string name="title_dual_pairing">双重配对</string>
+    <string name="title_premium_sound">高级音效</string>
+    <string name="title_spatial_audio">空间音频</string>
+    <string name="touch_gestures_customization">触控手势自定义</string>
+    <string name="ucrop_crop">裁剪</string>
+    <string name="ucrop_label_edit_photo">裁剪</string>
+    <string name="ucrop_label_original">原始比例</string>
+    <string name="ucrop_menu_crop">裁剪</string>
+    <string name="ucrop_rotate">旋转</string>
+    <string name="ucrop_scale">缩放</string>
+    <string name="update_firmware">更新固件</string>
+    <string name="updating_firmware">正在更新固件</string>
+    <string name="voice_assistant">语音助手</string>
+    <string name="we_ve_sent_a_code_to">我们已发送验证码到</string>
+    <string name="welcome">欢迎！</string>
+    <string name="whats_new">更新内容</string>
+    <string name="your_email">您的邮箱</string>
+    <string name="your_name">您的姓名</string>
+</resources>

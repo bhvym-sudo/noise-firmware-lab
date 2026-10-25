@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/nav_home_fragment_content" android:layout_width="0.0dip" android:layout_height="0.0dip" app:defaultNavHost="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navGraph="@navigation/home_navigation" />
+    <com.noise.audio.ui.common.FloatingBottomNavView android:id="@id/floating_bottom_nav" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <include android:id="@id/progressBarM" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/default_loader" />
+</androidx.constraintlayout.widget.ConstraintLayout>

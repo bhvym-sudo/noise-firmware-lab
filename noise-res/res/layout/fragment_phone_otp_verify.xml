@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/constraintLayout6" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.noise.audio.customviews.NoiseLoginTitleBar android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ff4c5252" android:id="@id/tvSentTo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/we_ve_sent_a_code_to" android:textAllCaps="true" style="@style/RobotoMonoRegular" />
+                </LinearLayout>
+                <com.noise.audio.customviews.NoiseOTPBox android:id="@id/password_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="vertical" android:id="@id/constraintLayout6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.noise.audio.customviews.NoiseContinueButton android:id="@id/btn_continue" android:layout_width="fill_parent" android:layout_height="wrap_content" app:enabled="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff42454a" android:id="@id/text_resend_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:hint="@string/text_resend_code_in" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintEnd_toStartOf="@id/text_timer" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/btn_continue" style="@style/RobotoMonoRegular" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff648391" android:id="@id/text_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="@id/text_resend_code" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toEndOf="@id/text_resend_code" app:layout_constraintTop_toTopOf="@id/text_resend_code" style="@style/RobotoMonoRegular" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/default_loader" />
+</androidx.constraintlayout.widget.ConstraintLayout>

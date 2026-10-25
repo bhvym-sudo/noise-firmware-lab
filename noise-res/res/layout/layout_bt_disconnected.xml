@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/root" android:background="@drawable/round_dark_14_2" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="28.0dip" android:paddingStart="6.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imvBtIcon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@null" />
+    <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/tvBtStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_bt_disconnected" android:layout_marginStart="6.0dip" style="@style/RobotoMonoRegular" />
+</LinearLayout>

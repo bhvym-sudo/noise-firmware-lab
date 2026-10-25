@@ -1,0 +1,74 @@
+[
+  {
+    "firmware_id": 2,
+    "version_name": "2.0.2",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/buds_max/OTA_SM_709_test_git9861e1d_20251208.bin",
+    "file": "OTA_SM_709_test_git9861e1d_20251208.bin",
+    "bytes": 1368160,
+    "sha256": "7b356f9b0d57801e6ec6c4d4adae87287c8299810ed6b855db85e32fda15e28f",
+    "content_type": "application/octet-stream",
+    "headers": {
+      "Content-Type": "application/octet-stream",
+      "Content-Length": "1368160",
+      "Connection": "close",
+      "Accept-Ranges": "bytes",
+      "Date": "Sun, 25 Oct 2026 11:49:16 GMT",
+      "Server": "AmazonS3",
+      "Last-Modified": "Fri, 27 Mar 2026 12:05:08 GMT",
+      "ETag": "\"5de6abdbf0fe3bf8d2ea10ab360fdace\"",
+      "x-amz-server-side-encryption": "AES256",
+      "X-Cache": "Miss from cloudfront",
+      "Via": "1.1 7ed0f11cd9e6d93d10fc13ad67472fba.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop": "DEL51-P3",
+      "X-Amz-Cf-Id": "5zoM7LS6VK3vtulg-EvDoN_Y8lOGjy2dWzUMR42koROpaC21PG0MKw=="
+    }
+  },
+  {
+    "firmware_id": 3,
+    "version_name": "V1.0.0.3",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/master_buds2/Mater_Buds_2_BT_OTA_N02_V1.0.0.3_date.bin",
+    "file": "Mater_Buds_2_BT_OTA_N02_V1.0.0.3_date.bin",
+    "bytes": 1959622,
+    "sha256": "7eb4eb8a926eee64dec89961648a52d9d6adc6459d423c5afdd5d188a07048a3",
+    "content_type": "application/octet-stream",
+    "headers": {
+      "Content-Type": "application/octet-stream",
+      "Content-Length": "1959622",
+      "Connection": "close",
+      "Accept-Ranges": "bytes",
+      "Date": "Sun, 25 Oct 2026 11:49:16 GMT",
+      "Server": "AmazonS3",
+      "Last-Modified": "Tue, 12 May 2026 11:21:04 GMT",
+      "ETag": "\"ea87ea98b44986fe4d0141fe9fcd8d7e\"",
+      "x-amz-server-side-encryption": "AES256",
+      "X-Cache": "Miss from cloudfront",
+      "Via": "1.1 ba3b49bb8e3b79790364c0eb5cd21ab8.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop": "DEL51-P3",
+      "X-Amz-Cf-Id": "Pp02Ldua87NVQq1uhgC4Ud7j5p5BbuTrauI5s32FZHtXYsAFv54p9g=="
+    }
+  },
+  {
+    "firmware_id": 4,
+    "version_name": "V3.1.0.25",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/bridgeport/Master_Buds_Open_EAR_OTA_V3.1.0.25.bin",
+    "file": "Master_Buds_Open_EAR_OTA_V3.1.0.25.bin",
+    "bytes": 1107298,
+    "sha256": "e2e18ab28f0932a7283b13ed9962d21370cc804d508274a74f394b73ac49973c",
+    "content_type": "application/macbinary",
+    "headers": {
+      "Content-Type": "application/macbinary",
+      "Content-Length": "1107298",
+      "Connection": "close",
+      "Accept-Ranges": "bytes",
+      "Date": "Sun, 25 Oct 2026 11:49:18 GMT",
+      "Server": "AmazonS3",
+      "Last-Modified": "Tue, 15 Sep 2026 08:13:35 GMT",
+      "ETag": "\"396be3846a2fa084851613a34b9f20e5\"",
+      "x-amz-server-side-encryption": "AES256",
+      "X-Cache": "Miss from cloudfront",
+      "Via": "1.1 943a49ea95ae39357321330a79b9bbda.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop": "DEL51-P3",
+      "X-Amz-Cf-Id": "hevUdUmUdLRvP9rV6kXIoMA5ulc2G0_B6RlbulRBPv1axNRo6fU4gg=="
+    }
+  }
+]
