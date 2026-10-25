@@ -70,5 +70,70 @@
       "X-Amz-Cf-Pop": "DEL51-P3",
       "X-Amz-Cf-Id": "hevUdUmUdLRvP9rV6kXIoMA5ulc2G0_B6RlbulRBPv1axNRo6fU4gg=="
     }
+  },
+  {
+    "firmware_id": 5,
+    "device_type": "alt_ows",
+    "model": "ALT Buds Open",
+    "version_name": "V0.0.0.49",
+    "version": 49,
+    "url_field": "url",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/alt_ows/V64.6.0.49_XH70_OWS_apk_ota.bin",
+    "file": "V64.6.0.49_XH70_OWS_apk_ota.bin",
+    "bytes": 711857,
+    "sha256": "6e9383836791b36791555976970459f83a5af69ebc8adf012deff2e90f889a5e",
+    "content_type": "application/macbinary"
+  },
+  {
+    "firmware_id": 6,
+    "device_type": "alt_clip",
+    "model": "ALT Clip",
+    "version_name": "V0.0.0.43",
+    "version": 43,
+    "url_field": "url",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/alt_clip/V63.6.0.43_OC32B_CLIP_apk_ota.bin",
+    "file": "V63.6.0.43_OC32B_CLIP_apk_ota.bin",
+    "bytes": 711073,
+    "sha256": "3b7d00dfd51fe693d93cb14e87393f9a75f7afa47eccb3dc2e1406c756b21c63",
+    "content_type": "application/macbinary"
+  },
+  {
+    "firmware_id": 7,
+    "device_type": "alt_buds_s",
+    "model": "ALT Buds(S)",
+    "version_name": "V0.0.2.4",
+    "version": 24,
+    "url_field": "url",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/alt_buds_s/024-ALT_Buds(S).ufw",
+    "file": "024-ALT_Buds_S_.ufw",
+    "bytes": 2007104,
+    "sha256": "8eceee31a3e59b43d4b363b50e714672d09f06ff36b45a7bbd26674647e07d8d",
+    "content_type": "application/x-www-form-urlencoded"
+  },
+  {
+    "firmware_id": 8,
+    "device_type": "alt_buds",
+    "model": "ALT Buds",
+    "version_name": "V0.0.2.1",
+    "version": 21,
+    "url_field": "url",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/alt_buds/021-ALT_Buds.ufw",
+    "file": "021-ALT_Buds.ufw",
+    "bytes": 2230880,
+    "sha256": "4a37a72d1312ffc67455a4a0f1c2711a4354128bbd2cda692285b3a1f8816c03",
+    "content_type": "application/x-www-form-urlencoded"
+  },
+  {
+    "firmware_id": 8,
+    "device_type": "alt_buds",
+    "model": "ALT Buds",
+    "version_name": "V0.0.2.5",
+    "version": 25,
+    "url_field": "url",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/alt_buds/025-ALT_Buds.ufw",
+    "file": "025-ALT_Buds.ufw",
+    "bytes": 2231392,
+    "sha256": "82a539cab5d2d9347d6b7338d579a8036361cd0528e14e6af66740502743bd9f",
+    "content_type": "application/x-www-form-urlencoded"
   }
 ]

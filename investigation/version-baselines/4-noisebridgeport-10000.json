@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "data": {
+    "version": 31025,
+    "version_name": "V3.1.0.25",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/bridgeport/Master_Buds_Open_EAR_OTA_V3.1.0.25.bin",
+    "description_chinese": null,
+    "description_english": "BLUETOOTH CONNECTION OPTIMIZATION",
+    "instructions": [
+      "1. Place your buds in the case with the lid open",
+      "2. Ensure the buds are charged to at least 20%",
+      "3. Do not exit the app and try to go back from this screen",
+      "4. Do not close the lid during the update"
+    ],
+    "image_url": null,
+    "touch_url": null,
+    "hr_url": null,
+    "app_version": null,
+    "forceUpdate": false,
+    "firmware_id": 4,
+    "video": "https://youtu.be/wsDmGcduxRU",
+    "v_id": "wsDmGcduxRU"
+  },
+  "message": "Successfully executed",
+  "time": "1792940272934"
+}

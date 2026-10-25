@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "data": {
+    "version": 1003,
+    "version_name": "V1.0.0.3",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/master_buds2/Mater_Buds_2_BT_OTA_N02_V1.0.0.3_date.bin",
+    "description_chinese": null,
+    "description_english": "9 SEGMENTS CUSTOM EQ, PERFORMANCE IMPROVEMENTS",
+    "instructions": [
+      "\u2022 Place your buds in the case with the lid open",
+      "\u2022 Ensure the buds are charged to at least 20%"
+    ],
+    "image_url": null,
+    "touch_url": null,
+    "hr_url": null,
+    "app_version": null,
+    "forceUpdate": false,
+    "firmware_id": 3,
+    "video": "https://youtu.be/wsDmGcduxRU",
+    "v_id": "wsDmGcduxRU"
+  },
+  "message": "Successfully executed",
+  "time": "1792940263084"
+}

@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "data": {
+    "version": 202,
+    "version_name": "2.0.2",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/buds_max/OTA_SM_709_test_git9861e1d_20251208.bin",
+    "description_chinese": null,
+    "description_english": "9 CUSTOM EQ SEGMENTS,CUSTOMIZE BUTTON CONTROLS",
+    "instructions": [
+      "\u2022 Do not press any buttons on the headphones during the update",
+      "\u2022 Ensure your headphones are charged to at least 20%"
+    ],
+    "image_url": null,
+    "touch_url": null,
+    "hr_url": null,
+    "app_version": null,
+    "forceUpdate": false,
+    "firmware_id": 2,
+    "video": "https://youtu.be/wsDmGcduxRU",
+    "v_id": "wsDmGcduxRU"
+  },
+  "message": "Successfully executed",
+  "time": "1792940258985"
+}

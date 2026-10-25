@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "data": {
+    "version": 49,
+    "version_name": "V0.0.0.49",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/alt_ows/V64.6.0.49_XH70_OWS_apk_ota.bin",
+    "description_chinese": null,
+    "description_english": "PERFORMANCE OPTIMIZATION",
+    "instructions": [
+      "\u2022 Do not press any buttons on the headphones during the update",
+      "\u2022 Ensure your headphones are charged to at least 20%"
+    ],
+    "image_url": null,
+    "touch_url": null,
+    "hr_url": null,
+    "app_version": null,
+    "forceUpdate": false,
+    "firmware_id": 5,
+    "video": "https://youtu.be/wsDmGcduxRU",
+    "v_id": "wsDmGcduxRU"
+  },
+  "message": "Successfully executed",
+  "time": "1792940441675"
+}

@@ -11,3 +11,11 @@ The guest registration flow exists separately: POST /user_detail/audio/guest/dev
 The returned files were downloaded to ../firmware-downloads/. manifest.json records exact URLs, byte counts, hashes, and response headers. These files are for the models identified by the API. None is established as compatible with Air Buds Pro 4.
 
 Raw API results are in firmware-*-100.json. The original installed Noise app was not modified. Noise Firmware Lab is a separate diagnostic launcher that sends the same request with selectable simulated model and version values.
+
+## Follow-up: controlled version baseline tests
+
+Testing identical models at codes 1, 10, 100, 200, 1000, and 10000 exposed firmware for four additional models. ALT Buds Open offers version 49 and ALT Clip offers version 43 for baseline 1/10, but not 100/200. ALT Buds(S) offers version 24. ALT Buds offers version 21 for baseline 1 and version 25 for baseline 10; selection therefore cannot be explained solely as returning a single global latest version above the input code. Master Buds 2 returns null at baseline 1/10 but version 1003 at 100/200/1000. Master Buds Max and Master Buds Open work at baseline 1 too.
+
+Eight unique firmware files for seven model IDs are now downloaded and verified against saved sizes/SHA-256 hashes. Master Buds (nile, ID 1) remains null across all tested codes. Additional nile tests: 2,3,4,5,11,12,20,101,1001,1002,1003,1004,1010,1020,1100,1200,2000,100000,1000000. Raw results remain under version-baselines/. No claim is made that all existing firmware has been enumerated.
+
+The downloader now tests baselines 1, 10, 100 by default and supports repeated --version options. It preserves .ufw files as .ufw rather than renaming proprietary firmware containers to .bin.

@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "data": {
+    "version": 24,
+    "version_name": "V0.0.2.4",
+    "url": "https://firmwares-cdn.gonoise.com/production/noise_audio/alt_buds_s/024-ALT_Buds(S).ufw",
+    "description_chinese": null,
+    "description_english": "9 BAND EQ, CONNECTION OPTIMIZATION",
+    "instructions": [
+      "\u2022 Do not press any buttons on the headphones during the update",
+      "\u2022 Ensure your headphones are charged to at least 20%"
+    ],
+    "image_url": null,
+    "touch_url": null,
+    "hr_url": null,
+    "app_version": null,
+    "forceUpdate": false,
+    "firmware_id": 7,
+    "video": "https://youtu.be/wsDmGcduxRU",
+    "v_id": "wsDmGcduxRU"
+  },
+  "message": "Successfully executed",
+  "time": "1792940446381"
+}
